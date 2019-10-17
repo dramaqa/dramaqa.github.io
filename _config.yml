@@ -10,8 +10,8 @@ favicon:                              # Icon displayed in the tab
 
 # Header and footer text
 header_text: DramaQA for Video Story Understanding                                           # Change Blog header text
-header_feature_image: assets/img/pexels/triangular.jpeg
-footer_text: >
+header_feature_image: assets/img/background.png
+footer_text:
   <a href="https://bi.snu.ac.kr">BioIntelligence Lab</a> <br>
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 

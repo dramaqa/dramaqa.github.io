@@ -6,9 +6,9 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 ---
 
 <div class="challenge content-container">
-  <h1 class = "content-title">
+  <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Challenge 2019
-  </h1>
+  </h1> <br />
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
       1. Overview
@@ -18,20 +18,15 @@ feature-img: "assets/img/pexels/circuit.jpeg"
       <br />
       DramaQA is a large-scale video QA dataset based on a Korean popular TV show, “Ohhaeyoung Again.” This dataset contains four levels of QA on difficulty and multi-level character-centered story descriptions. We are expecting this challenge could be a starting point to evaluate hierarchical story understanding.
       <br />
-      <br />
-      * 1234 video clips (scenes), 938,743 images (shots)
-      <br />
-      *	15,000 question-answer pairs
-      <br />
-      &nbsp;&nbsp; (or 15,000 questions, 11,394,203 ground truth answers)
-      <br />
-      *	3.4 questions on average per video clips
-      <br />
-      *	5 ground truth answers per questions
-      <br />
-      *	3 plausible (but likely incorrect) answers per question
+      <ul style="line-height:2em">
+        <li> 1234 video clips (scenes), 938,743 images (shots) </li>
+      	<li> 15,000 question-answer pairs (or 15,000 questions, 11,394,203 ground truth answers) </li>
+        <li> 3.4 questions on average per video clips </li>
+      	<li> 5 ground truth answers per questions </li>
+      	<li> 3 plausible (but likely incorrect) answers per question </li>
+      </ul>
     </p>
-  </div>
+  </div> <br />
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
@@ -57,7 +52,7 @@ feature-img: "assets/img/pexels/circuit.jpeg"
         </tr>        
       </table>
     </div>
-  </div>
+  </div> <br />
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
@@ -66,18 +61,18 @@ feature-img: "assets/img/pexels/circuit.jpeg"
     <p class="content-item">
       Top three winning teams will receive 1,500,000 won in cash!
     </p>
-  </div>
+  </div> <br />
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
       4. Challenge Guidelines
     </h2>
-    <p class="content-item">
-      1. <a id="link" href="/dataset/overview ">Dataset Description</a> <br>
-      2. Starter Code <br>
-      3. Evaluation Server <br>
-      4. Leaderboard
-    </p>
+    <ul class="content-item" style="line-height:2em">
+      <li> <a id="link" href="/dataset/overview ">Dataset Description</a> </li>
+      <li> Starter Code </li>
+      <li> Evaluation Server </li>
+      <li> Leaderboard </li>
+     </ul>
   </div>
   
 </div>

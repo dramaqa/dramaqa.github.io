@@ -1,23 +1,31 @@
-- name: Kyungwoon On
+- name: Kyoungwoon On
   affiliation: Seoul National University
-  src: /assets/img/people/people_kwon.jpg
+  src: /assets/img/people/kwon.jpeg
 
-- name: Kyunghwa Park
+- name: Kyungwha Park
   affiliation: Seoul National University
-  src: /assets/img/people/people_khpark.jpg
+  src: /assets/img/people/khpark.jpeg
 
 - name: Seongho Choi
   affiliation: Seoul National University
-  src: /assets/img/people/people_shchoi.jpg
+  src: /assets/img/people/shchoi.jpeg
+
+- name: Yujung Heo
+  affiliation: Seoul National University
+  src: /assets/img/people/yjheo.jpeg
 
 - name: Gicheon Kang
   affiliation: Seoul National University
-  src: /assets/img/people/people_gckang.jpg
+  src: /assets/img/people/gckang.jpeg
 
 - name: Ahjeong Seo
   affiliation: Seoul National University
-  src: /assets/img/people/people_ajseo.jpg
+  src: /assets/img/people/ajseo.jpeg
 
-- name: Byungtak Zhang
+- name: Minsu Lee
   affiliation: Seoul National University
-  src: /assets/img/people/people_btzhang.jpg
+  src: /assets/img/people/mslee.jpeg
+
+- name: Byongtak Zhang
+  affiliation: Seoul National University
+  src: /assets/img/people/btzhang.jpeg

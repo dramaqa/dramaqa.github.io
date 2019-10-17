@@ -6,13 +6,13 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 ---
 
 <div class="download content-container">
-  <h1 class = "content-title">
+  <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Dataset Download
-  </h1>
-  <p class = "content-item">
+  </h1> <br />
+  <p class = "content-item" style="TEXT-ALIGN: center">
     To download DramaQA dataset, you need to fill out this <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a> first.
     When you fill out the form, you need to <a id="download_link" href="/assets/dramaqa_download_agreement.docx">submit</a> dataset download agreement file in pdf format. After that, we will give you an ID for access by email.
-  </p>
+  </p> <br />
   <div class = "content-subcontainer">
     <h2 class="content-subtitle">
       1. Annotation Format
@@ -55,7 +55,7 @@ feature-img: "assets/img/pexels/circuit.jpeg"
         {% endhighlight %}
       </div>
     </div>
-  </div>
+  </div> <br />
   <div class = "content-subcontainer">
     <h2 class="content-subtitle">
       2. Descriptions
@@ -63,7 +63,7 @@ feature-img: "assets/img/pexels/circuit.jpeg"
     <p class="content-item">
       Story descriptions is composed with natural language, and it contains stories in video clips.
     </p>
-  </div>
+  </div> <br />
   <div class = "content-subcontainer">
     <h2 class="content-subtitle">
       3. Subtitles
@@ -71,7 +71,7 @@ feature-img: "assets/img/pexels/circuit.jpeg"
     <p class="content-item">
       The subtitles are preprocessed into a single JSON file with video names as keys. Each element contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech).
     </p>
-  </div>
+  </div> <br />
   <div class = "content-subcontainer">
     <h2 class="content-subtitle">
       4. Sequences of Image Frames in Video Clips
@@ -79,7 +79,7 @@ feature-img: "assets/img/pexels/circuit.jpeg"
     <p class="content-item">
       Lengths of Video Scene clips are 1 to 5 minutes in average, and there are short clips which contains one scene clips.A length of each short clips is 1 to 50 seconds. we extracted image files at 3 frames per second(FPS).
     </p>
-  </div>
+  </div> <br />
   <div class = "content-subcontainer">
       <h2 class="content-subtitle">
         5. Question & Answer
@@ -87,7 +87,7 @@ feature-img: "assets/img/pexels/circuit.jpeg"
       <p class="content-item">
         In this Q&A dataset, there is only one correct answer. Each data is composed of one question and five candidate answers.
       </p>
-   </div>
+   </div> <br />
    <div class = "content-subcontainer">
        <h2 class="content-subtitle">
          6. Question Level
