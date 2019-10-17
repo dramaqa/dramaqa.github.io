@@ -9,6 +9,7 @@ feature-img: "assets/img/background.png"
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Dataset Description
   </h1> <br />
+  
   <div class="content-item">
     <h2 class = "content-subtitle">
       Multi-level Description
@@ -34,6 +35,4 @@ feature-img: "assets/img/background.png"
     </h2>
     <p class = "content-item">
       It consists of 8.5K QA pairs from 2.8K video clips, spanning over 36 hours of video. We are expecting this challenge could be a starting point to evaluate hierarchical story understanding.
-    </p>    
-  </div>
-</div>
+    </p>  
