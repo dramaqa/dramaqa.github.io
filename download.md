@@ -5,8 +5,6 @@ permalink: /Download
 feature-img: "assets/img/pexels/circuit.jpeg"
 ---
 
-<link rel="stylesheet" href="/assets/css/dataset.css">
-
 <div class="download content-container">
   <h1 class = "content-title">
     DramaQA Dataset Download

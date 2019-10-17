@@ -1,9 +1,8 @@
 ---
 layout: home
-title: DramaQA Story
 permalink: /
+title: About
 feature-img: "assets/img/pexels/circuit.jpeg"
-tags: [About, Archive]
 ---
 
 <link rel="stylesheet" href="/assets/css/member.css">
@@ -14,7 +13,7 @@ tags: [About, Archive]
     DramaQA for Video Story Understanding
   </h1>
   <p class="content-item">
-  Video Question and Answering (VideoQA) is an emerging benchmark task to measure the levels of machine intelligence for video understanding. While several previous studies have suggested datasets for the VideoQA task, they did not consider story-level understanding, resulting in a lack of variance in the degree of question difficulty and coherent story-centric description.
+  Video Question and Answering (Video QA) is an emerging benchmark task to measure the levels of machine intelligence for video understanding. While several previous studies have suggested datasets for the VideoQA task, they did not consider story-level understanding, resulting in a lack of variance in the degree of question difficulty and coherent story-centric description.
   <br />
   DramaQA is a large-scale video QA dataset based on a Korean popular TV show, “Ohhaeyoung Again.” This dataset contains four levels of QA on difficulty and multi-level character-centered story descriptions.
   We are expecting this challenge could be a starting point to evaluate hierarchical story understanding.

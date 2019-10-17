@@ -98,16 +98,17 @@
   }
 }
 
-@media screen and (max-width: $break) {
+@media screen {
   .site-header {
     img.avatar {
       margin-top: -7px;
-      width: auto;
+      width: 15%;
+      height: auto;
     }
 
-    .site-title {
-      margin-top: 7px;
-    }
+    //.site-title {
+    //  margin-top: 7px;
+    //}
   }
 
   nav {
