@@ -2,10 +2,8 @@
 layout: page
 title: Overview
 permalink: /Overview
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/background.png"
 ---
-
-<link rel="stylesheet" href="/assets/css/dataset.css">
 
 <div class="overview content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">

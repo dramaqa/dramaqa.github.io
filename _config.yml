@@ -6,11 +6,11 @@ url: "https://dramaqa.github.io"
 title: DramaQA                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/logo.png                         # Empty for no avatar in navbar
-favicon:                              # Icon displayed in the tab
+favicon: assets/favicon.ico                         # Icon displayed in the tab
 
 # Header and footer text
 header_text: DramaQA for Video Story Understanding                                           # Change Blog header text
-header_feature_image: assets/img/background.png
+header_feature_image: assets/img/title_img.png
 footer_text:
   <a href="https://bi.snu.ac.kr">BioIntelligence Lab</a> <br>
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>

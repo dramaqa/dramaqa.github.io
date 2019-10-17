@@ -2,7 +2,7 @@
 layout: page
 title: Download
 permalink: /Download
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/background.png"
 ---
 
 <div class="download content-container">

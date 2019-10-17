@@ -2,7 +2,6 @@
 layout: home
 permalink: /
 title: About
-feature-img: "assets/img/pexels/circuit.jpeg"
 ---
 
 <link rel="stylesheet" href="/assets/css/member.css">

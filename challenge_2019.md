@@ -2,7 +2,7 @@
 layout: page
 title: Challenge 2019
 permalink: /challenge/2019/
-feature-img: "assets/img/pexels/circuit.jpeg"
+feature-img: "assets/img/background.png"
 ---
 
 <div class="challenge content-container">
