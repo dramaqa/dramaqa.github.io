@@ -101,7 +101,8 @@
 @media screen and (max-width: $break) {
   .site-header {
     img.avatar {
-      margin-top: -7px
+      margin-top: -7px;
+      width: auto;
     }
 
     .site-title {
