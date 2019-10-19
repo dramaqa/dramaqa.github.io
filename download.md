@@ -67,8 +67,8 @@ feature-img: "assets/img/background.png"
         1. Annotations (Q&A, question level, etc)
       </h2>
       <p class="description">
-        In Annotations files, there are QAs and question levels and other useful information. Each QA is composed of one question and five candidate answers that only one answer is correct.<br>
-        For Question level, it <br> <br>
+        In annotations files, there are QAs and question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.<br>
+        In case of question level, there are two types : memory capacity level and logical complexity level. Both of the level types can have a value from 1 to 4.<br> <br>
         Each of files contains following entries:
       </p>
         <table style="font-size: 19px">
@@ -100,7 +100,7 @@ feature-img: "assets/img/background.png"
           <tr>
             <td>q_level_mem</td>
             <td>int</td>
-            <td>memory capacity level, values are from 2 to 3</td>
+            <td>memory capacity level, values are from 1 to 4</td>
           </tr>
           <tr>
             <td>q_level_logic</td>
@@ -149,7 +149,8 @@ feature-img: "assets/img/background.png"
         2. Descriptions
       </h2>
       <p class="description">
-        Story descriptions is composed with natural language, and it contains stories in video clips.
+        Story description files contains stories of video clips in natural language. <br>
+        Each of files contains following entries:
       </p>
       <table style="font-size: 19px">
         <tr>
@@ -181,7 +182,9 @@ feature-img: "assets/img/background.png"
         3. Scripts (Subtitles)
       </h2>
       <p class="description">
-        The subtitles are preprocessed into a single JSON file with video names as keys. Each element contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech).
+        Each of scripts files, which is same with subtitle, is preprocessed into a single JSON file which have video names as keys. 
+        This JSON file contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech).
+        Each of files contains following entries:
       </p>
       <table style="font-size: 19px">
           <tr>
@@ -232,7 +235,8 @@ feature-img: "assets/img/background.png"
         4. Image Frames in Video Clips
       </h2>
       <p class="description">
-        Lengths of Video Scene clips are 1 to 5 minutes in average, and there are short clips which contains one scene clips.A length of each short clips is 1 to 50 seconds. we extracted image files at 3 frames per second(FPS).
+        Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
+        A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
       </p>
     </div>
       
