@@ -12,7 +12,6 @@ feature-img: "assets/img/background.png"
   th, td {
     padding: 10px;
     text-align: center;
-    font-size: 18px;
   }
   thead tr {
     background-color: #ffffff;
@@ -40,7 +39,7 @@ feature-img: "assets/img/background.png"
   <div class = "content-subcontainer">
     <div class="content-item">
       Each of files contains 3 json files, each denotes a split of DramaQA dataset:
-      <table> 
+      <table style="font-size: 19px"> 
         <tr>
           <th style="width: 200px">files</th>
           <th style="width: 100px">#data</th>
@@ -72,7 +71,7 @@ feature-img: "assets/img/background.png"
         For Question level, it <br> <br>
         Each of files contains following entries:
       </p>
-        <table>
+        <table style="font-size: 19px">
           <tr>
             <th style="width: 200px">key</th>
             <th style="width: 200px">type</th>
@@ -152,7 +151,7 @@ feature-img: "assets/img/background.png"
       <p class="description">
         Story descriptions is composed with natural language, and it contains stories in video clips.
       </p>
-      <table>
+      <table style="font-size: 19px">
         <tr>
           <th style="width: 100px">key</th>
           <th style="width: 200px">type</th>
@@ -184,7 +183,7 @@ feature-img: "assets/img/background.png"
       <p class="description">
         The subtitles are preprocessed into a single JSON file with video names as keys. Each element contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech).
       </p>
-      <table>
+      <table style="font-size: 19px">
           <tr>
             <th style="width: 200px">key</th>
             <th style="width: 300px">type</th>
