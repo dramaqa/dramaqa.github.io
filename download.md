@@ -38,7 +38,9 @@ feature-img: "assets/img/background.png"
   
   <div class = "content-subcontainer">
     <div class="content-item">
+      <p class = "content-description">
       Each of files contains 3 json files, each denotes a split of DramaQA dataset:
+      </p>
       <table style="font-size: 19px"> 
         <tr>
           <th style="width: 200px">files</th>
@@ -128,7 +130,9 @@ feature-img: "assets/img/background.png"
             <td>contained shots</td>
           </tr>                
         </table> <br />
-        Here is a json example : <br> <br>
+        <p class = "json-description">
+          Here is a json example : <br> <br>
+        </p>
         {% highlight json  %}
             {
               "qid" : 5832,
@@ -169,7 +173,9 @@ feature-img: "assets/img/background.png"
           <td>story descriptions</td>
         </tr>
       </table>
-      Here is a json example : <br> <br>
+      <p class = "json-description">
+        Here is a json example : <br> <br>
+      </p>
         {% highlight json  %}
               {
                 "vid" : "s01e01_02_000",
@@ -218,7 +224,9 @@ feature-img: "assets/img/background.png"
             <td>each element of subtitles</td>
           </tr> 
         </table>
-        Here is a json example : <br> <br>
+        <p class = "json-description">
+          Here is a json example : <br> <br>
+        </p>
           {% highlight json  %}
                 {
                   "vid" : "s01e01_02_000",
