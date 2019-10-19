@@ -42,9 +42,9 @@ feature-img: "assets/img/background.png"
       Each of files contains 3 json files, each denotes a split of DramaQA dataset:
       <table> 
         <tr>
-          <th width=200>files</th>
-          <th width=100>#data</th>
-          <th width=300>Usage</th>
+          <th width=200px>files</th>
+          <th width=100px>#data</th>
+          <th width=300px>Usage</th>
         </tr>
         <tr>
           <td>*_train_set.json</td>
