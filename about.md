@@ -68,7 +68,7 @@ title: About
 
 <div class="contact content-container" style="TEXT-ALIGN: center">
   <h1 class = "content-title">
-    contact
+    Contact
   </h1> <br />
   
   <div class = "content-subcontainer">
