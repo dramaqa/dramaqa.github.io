@@ -74,9 +74,9 @@ feature-img: "assets/img/background.png"
       </p>
         <table>
           <tr>
-            <th width=200px>key</th>
-            <th width=200px>type</th>
-            <th width=600px>description</th>
+            <th style="width: 200px">key</th>
+            <th style="width: 200px">type</th>
+            <th style="width: 600px">description</th>
           </tr>
           <tr>
             <td>qid</td>
@@ -154,9 +154,9 @@ feature-img: "assets/img/background.png"
       </p>
       <table>
         <tr>
-          <th width=100px>key</th>
-          <th width=200px>type</th>
-          <th width=300px>description</th>
+          <th style="width: 100px">key</th>
+          <th style="width: 200px">type</th>
+          <th style="width: 300px">description</th>
         </tr>
         <tr>
           <td>vid</td>
@@ -186,9 +186,9 @@ feature-img: "assets/img/background.png"
       </p>
       <table>
           <tr>
-            <th width=200px>key</th>
-            <th width=300px>type</th>
-            <th width=600px>descriptions</th>
+            <th style="width: 200px">key</th>
+            <th style="width: 300px">type</th>
+            <th style="width: 600px">descriptions</th>
           </tr>
           <tr>
             <td>vid</td>
