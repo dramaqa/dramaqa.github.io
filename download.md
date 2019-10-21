@@ -34,7 +34,7 @@ feature-img: "assets/img/background.png"
   <p class = "content-item">
     To download DramaQA dataset, you need to fill out dataset download agreement <a id="download_link" href="/assets/dramaqa_download_agreement.docx">file</a> in pdf format with your own signature. <br>
     When you submit your agreement file, you need to fill out this <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a>. After that, we will give you an ID for access by email.
-  </p>
+  </p> <br /> <br />
   <div class = "content-subcontainer">
     <div class="content-item">
       <p class = "content-description">
@@ -62,7 +62,7 @@ feature-img: "assets/img/background.png"
             </tr>   
           </table>      
       </p>
-    </div> <br /> <br />
+    </div> <br />
     <div class = "content-item">
       <h2 class="content-subtitle">
         1. Annotations (Q&A, question level, etc)
