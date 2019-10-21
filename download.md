@@ -31,7 +31,7 @@ feature-img: "assets/img/background.png"
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Dataset Download
   </h1> <br />
-  <p class = "content-item">
+  <p class = "content-item" style="TEXT-ALIGN: center">
     To download DramaQA dataset, you need to fill out dataset download agreement <a id="download_link" href="/assets/dramaqa_download_agreement.docx">file</a> in pdf format with your own signature. <br>
     When you submit your agreement file, you need to fill out this <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a>. After that, we will give you an ID for access by email.
   </p> <br /> <br /> <br />
