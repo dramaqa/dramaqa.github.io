@@ -4,7 +4,7 @@ title: Download
 permalink: /Download
 feature-img: "assets/img/background.png"
 ---
-
+<!DOCTYPE html>
 <style>
   table {
     width: 100%
