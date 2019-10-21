@@ -38,7 +38,7 @@ feature-img: "assets/img/background.png"
     <div class="content-item">
       <p class = "content-description" style="TEXT-ALIGN: center">
           Each of files contains 3 json files, each denotes a split of DramaQA dataset:
-          <table style="font-size: 19px; TEXT-ALIGN: center"> 
+          <table style="font-size: 19px; width: 60%; margin: auto; TEXT-ALIGN: center"> 
             <tr>
               <th style="width: 200px">files</th>
               <th style="width: 100px">#data</th>
