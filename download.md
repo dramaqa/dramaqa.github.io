@@ -39,30 +39,30 @@ feature-img: "assets/img/background.png"
   <div class = "content-subcontainer">
     <div class="content-item">
       <p class = "content-description" style="TEXT-ALIGN: center">
-      Each of files contains 3 json files, each denotes a split of DramaQA dataset:
+          Each of files contains 3 json files, each denotes a split of DramaQA dataset:
+          <table style="font-size: 19px; TEXT-ALIGN: center"> 
+            <tr>
+              <th style="width: 200px">files</th>
+              <th style="width: 100px">#data</th>
+              <th stype="width: 300px">Usage</th>
+            </tr>
+            <tr>
+              <td>*_train_set.json</td>
+              <td>8,000</td>
+              <td>Model training</td>
+            </tr>
+            <tr>
+              <td>*_val_set.json</td>
+              <td>1,000</td>
+              <td>Hyperparmeter tuning</td>
+            </tr>
+            <tr>
+              <td>*_test_set.json</td>
+              <td>1,000</td>
+              <td>Model testing</td>
+            </tr>   
+          </table>      
       </p>
-      <table style="font-size: 19px; TEXT-ALIGN: center"> 
-        <tr>
-          <th style="width: 200px">files</th>
-          <th style="width: 100px">#data</th>
-          <th stype="width: 300px">Usage</th>
-        </tr>
-        <tr>
-          <td>*_train_set.json</td>
-          <td>8,000</td>
-          <td>Model training</td>
-        </tr>
-        <tr>
-          <td>*_val_set.json</td>
-          <td>1,000</td>
-          <td>Hyperparmeter tuning</td>
-        </tr>
-        <tr>
-          <td>*_test_set.json</td>
-          <td>1,000</td>
-          <td>Model testing</td>
-        </tr>   
-      </table>
     </div>
     <div class = "content-item">
       <h2 class="content-subtitle">
