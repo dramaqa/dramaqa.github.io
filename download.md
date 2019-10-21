@@ -210,12 +210,12 @@ feature-img: "assets/img/background.png"
           </tr>
           <tr>
             <td>st</td>
-            <td></td>
+            <td>string</td>
             <td>utterance start time</td>
           </tr>
           <tr>
             <td>et</td>
-            <td></td>
+            <td>string</td>
             <td>utterance end time</td>
           </tr>
           <tr>
@@ -231,8 +231,8 @@ feature-img: "assets/img/background.png"
                 {
                   "vid" : "s01e01_02_000",
                   "script" : {
-                       "st" : 00:00:00;000,
-                       "et" : 00:00:00;000,
+                       "st" : "00:00:00;000",
+                       "et" : "00:24:32;000",
                        "utter" : "I like you."
                   }
                 }
@@ -240,7 +240,66 @@ feature-img: "assets/img/background.png"
     </div> <br /> <br />
     <div class="content-item">
       <h2 class="content-subtitle">
-        4. Image Frames in Video Clips
+        4. Image Frames Annotations
+      </h2>
+      <p class="description">
+        This file includes information about shots which compose one scene. You can know start time and end time of each shots.
+      </p>
+      <table style="font-size: 19px">
+          <tr>
+            <th style="width: 200px">key</th>
+            <th style="width: 300px">type</th>
+            <th style="width: 600px">descriptions</th>
+          </tr>
+          <tr>
+            <td>registed_name</td>
+            <td>string</td>
+            <td>video file name</td>
+          </tr>
+          <tr>
+            <td>file_name</td>
+            <td>string</td>
+            <td>video file name</td>
+          </tr>        
+          <tr>
+            <td>shot_results</td>
+            <td>list of dictionary</td>
+            <td>each of a dictionary contains information of each shots</td>
+          </tr>        
+          <tr>
+            <td>shot_id</td>
+            <td>int</td>
+            <td>video shot id</td>
+          </tr>        
+          <tr>
+            <td>start_time</td>
+            <td>string</td>
+            <td>video shot start time</td>
+          </tr>       
+          <tr>
+            <td>end_time</td>
+            <td>string</td>
+            <td>video shot end time</td>
+          </tr>             
+      </table>
+      <p class = "json-description">
+        Here is a json example : <br> <br>
+      </p>
+        {% highlight json  %}
+            {
+              "registed_name" : "AnotherMissOh01.mp4",
+              "file_name" : "AnotherMissOh01.mp4",
+              "shot_results" : {
+                   "shot_id" : "SHOT_0000000000",
+                   "start_time" : "00:00:00;000",
+                   "end_time" : "00:00:01;24"
+              }
+            }
+         {% endhighlight %}      
+    </div>
+    <div class="content-item">
+      <h2 class="content-subtitle">
+        5. Image Frames in Video Clips
       </h2>
       <p class="description">
         Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
