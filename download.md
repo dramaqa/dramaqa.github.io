@@ -296,7 +296,7 @@ feature-img: "assets/img/background.png"
               }
             }
          {% endhighlight %}      
-    </div>
+    </div> <br /> <br />
     <div class="content-item">
       <h2 class="content-subtitle">
         5. Image Frames in Video Clips
@@ -306,7 +306,5 @@ feature-img: "assets/img/background.png"
         A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
       </p>
     </div>
-      
   </div> <br />
-  
 </div>
