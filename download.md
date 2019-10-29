@@ -32,7 +32,7 @@ feature-img: "assets/img/background.png"
   </h1> <br />
   <p class = "content-item" style="TEXT-ALIGN: center">
     To download DramaQA dataset, you need to fill out this <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a> first.
-    When you fill out the form, you need to <a id="download_link" href="/assets/dramaqa_download_agreement.docx">submit</a> dataset download agreement file in pdf format. After that, we will give you an ID for access by email.
+    When you fill out the form, you need to <a id="download_link" href="/assets/dramaqa_download_agreement.docx">submit</a> dataset download agreement file in pdf format. After that, we will give you an ID for access by e-mail.
   </p> <br /> <br />
   
   
@@ -43,23 +43,23 @@ feature-img: "assets/img/background.png"
       </p>
       <table style="font-size: 19px"> 
         <tr>
-          <th style="width: 200px">files</th>
+          <th style="width: 300px">files</th>
           <th style="width: 100px">#data</th>
           <th stype="width: 300px">Usage</th>
         </tr>
         <tr>
-          <td>*_train_set.json</td>
-          <td>8,000</td>
+          <td>AnotherMissOhQA_train_set.json</td>
+          <td>12,761</td>
           <td>Model training</td>
         </tr>
         <tr>
-          <td>*_val_set.json</td>
-          <td>1,000</td>
+          <td>AnotherMissOhQA_val_set.json</td>
+          <td>1,500</td>
           <td>Hyperparmeter tuning</td>
         </tr>
         <tr>
-          <td>*_test_set.json</td>
-          <td>1,000</td>
+          <td>AnotherMissOhQA_test_set.json</td>
+          <td>1,500</td>
           <td>Model testing</td>
         </tr>   
       </table>
@@ -115,77 +115,38 @@ feature-img: "assets/img/background.png"
             <td>question</td>
           </tr>
           <tr>
-            <td>true_ans</td>
-            <td>string</td>
-            <td>true answer</td>
+            <td>correct_idx</td>
+            <td>int</td>
+            <td>index of correct answer among candidates (1~5)</td>
           </tr>
           <tr>
-            <td>false_ans</td>
+            <td>answers</td>
             <td>list of string</td>
-            <td>false answers</td>
-          </tr>
-          <tr>
-            <td>shot_contained</td>
-            <td>list of integer<br>(shot num)</td>
-            <td>contained shots</td>
-          </tr>                
+            <td>list of candidate answers</td>
+          </tr>       
         </table> <br />
         <p class = "json-description">
           Here is a json example : <br> <br>
         </p>
         {% highlight json  %}
             {
-              "qid" : 5832,
-              "vid" : "s01e01_02_000",
-              "videoType" : "shot",
-              "description" : "Chandler and Monica are going ...",
-              "q_level_mem" : 2,
-              "q_level_logic" : 4,
-              "que" : "What are you?"
-              "true_ans" : "I'm fine."
-              "false_ans" : ["She's not alone", "I am Ironman", ...]
-              "shot_contained" : [112, 113, 114, 115]
+              “correct_idx”: 3, 
+              “description”: “Dokyung is sitting on the chair.  
+                              Dokyung texted a message to Haeyoung1. Haeyoung1 made surprised Dokyung.“, 
+              “answers”: [“Dokyung texted the message to mom.“, “Dokyung texted the message to dad.“, “Dokyung texted the message to Haeyoung1.“, ” Dokyung texted the message to sister.“, “Dokyung texted the message to brother.“], 
+              “que”: “What did Dokyung do in his home?“, 
+              “shot_contained”: [48, 115], 
+              “q_level_logic”: 3, 
+              “vid”: “AnotherMissOh16_002_0000", 
+              “q_level_mem”: 3, 
+              “qid”: 3707, 
+              “videoType”: “scene”
             }
          {% endhighlight %}
     </div> <br /> <br />
     <div class="content-item">
       <h2 class="content-subtitle">
-        2. Descriptions
-      </h2>
-      <p class="description">
-        Story description files contains stories of video clips in natural language. <br>
-        Each of files contains following entries:
-      </p>
-      <table style="font-size: 19px">
-        <tr>
-          <th style="width: 100px">key</th>
-          <th style="width: 200px">type</th>
-          <th style="width: 300px">description</th>
-        </tr>
-        <tr>
-          <td>vid</td>
-          <td>string</td>
-          <td>video clip id</td>
-        </tr>
-        <tr>
-          <td>desc</td>
-          <td>list of string</td>
-          <td>story descriptions</td>
-        </tr>
-      </table>
-      <p class = "json-description">
-        Here is a json example : <br> <br>
-      </p>
-        {% highlight json  %}
-              {
-                "vid" : "s01e01_02_000",
-                "desc" : "["I'm a boy", "you're a girl", …]"
-              }
-         {% endhighlight %}
-    </div> <br /> <br />
-    <div class="content-item">
-      <h2 class="content-subtitle">
-        3. Scripts (Subtitles)
+        2. Scripts (Subtitles)
       </h2>
       <p class="description">
         Each of scripts files, which is same with subtitle, is preprocessed into a single JSON file which have video names as keys. 
@@ -195,13 +156,13 @@ feature-img: "assets/img/background.png"
       <table style="font-size: 19px">
           <tr>
             <th style="width: 200px">key</th>
-            <th style="width: 300px">type</th>
-            <th style="width: 600px">descriptions</th>
+            <th style="width: 500px">type</th>
+            <th style="width: 1000px">descriptions</th>
           </tr>
           <tr>
             <td>vid</td>
-            <td>string</td>
-            <td>video clip id</td>
+            <td>list of string</td>
+            <td>list of vid where subtitles appear</td>
           </tr>
           <tr>
             <td>script</td>
@@ -210,13 +171,13 @@ feature-img: "assets/img/background.png"
           </tr>
           <tr>
             <td>st</td>
-            <td></td>
-            <td>utterance start time</td>
+            <td>float</td>
+            <td>utterance start time. It consists of seconds and milliseconds.</td>
           </tr>
           <tr>
             <td>et</td>
-            <td></td>
-            <td>utterance end time</td>
+            <td>float</td>
+            <td>utterance end time. It consists of seconds and milliseconds.</td>
           </tr>
           <tr>
             <td>utter</td>
@@ -229,18 +190,17 @@ feature-img: "assets/img/background.png"
         </p>
           {% highlight json  %}
                 {
-                  "vid" : "s01e01_02_000",
-                  "script" : {
-                       "st" : 00:00:00;000,
-                       "et" : 00:00:00;000,
-                       "utter" : "I like you."
-                  }
+                  “script”: {
+                    “et”: “193.940”, 
+                    “st”: “192.250”, 
+                    “utter”: “You shouldn’t feel empty, but relieved!“},
+                     “vid”: [“AnotherMissOh01_001_0088", “AnotherMissOh01_001_0089”]
                 }
            {% endhighlight %}
     </div> <br /> <br />
     <div class="content-item">
       <h2 class="content-subtitle">
-        4. Image Frames in Video Clips
+        3. Shot Section Information
       </h2>
       <p class="description">
         Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
