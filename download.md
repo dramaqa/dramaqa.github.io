@@ -62,7 +62,7 @@ feature-img: "assets/img/background.png"
             </tr>   
           </table>
       </p>
-    </div><br /><br />
+    </div><br />
     <div class = "content-item">
       <h2 class="content-subtitle">
         1. Annotations (Q&A, question level, etc)
@@ -170,12 +170,12 @@ feature-img: "assets/img/background.png"
           </tr>
           <tr>
             <td>st</td>
-            <td>float</td>
+            <td>string</td>
             <td>utterance start time. It consists of seconds and milliseconds.</td>
           </tr>
           <tr>
             <td>et</td>
-            <td>float</td>
+            <td>string</td>
             <td>utterance end time. It consists of seconds and milliseconds.</td>
           </tr>
           <tr>
