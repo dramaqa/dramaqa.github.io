@@ -94,7 +94,13 @@ feature-img: "assets/img/background.png"
          </ul>
       <li class ="a"> 13,034 Multi-level Descriptions </li>
     </ul> <br/>
-    <div class="content-item">
+    <p class = "content-item">
+    <b>Table of Contents</b>
+      <li class ="b"><a id="link" href="#dataset-1 ">Image Frames in Video Clips</a></li>
+      <li class ="b"><a id="link" href="#dataset-2 ">Annotations (Q&A, question level, etc)</a></li>
+      <li class ="b"><a id="link" href="#dataset-3 ">Scripts (Subtitles)</a></li>
+    </p> <br/>
+    <div class="content-item" id="dataset-1">
       <h3 class="content-subtitle">
         1) Image Frames in Video Clips
       </h3>
@@ -103,7 +109,7 @@ feature-img: "assets/img/background.png"
         A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
       </p>
     </div> <br />
-    <div class = "content-item">
+    <div class = "content-item"  id="dataset-2">
       <h3 class="content-subtitle">
         2) Annotations (Q&A, question level, etc)
       </h3>
@@ -184,8 +190,8 @@ feature-img: "assets/img/background.png"
             }
           {% endhighlight %}
          </pre>
-     </div> <br />  
-     <div class="content-item">
+     </div> <br />
+     <div class="content-item" id="dataset-3">
       <h3 class="content-subtitle">
         3) Scripts (Subtitles)
       </h3>
