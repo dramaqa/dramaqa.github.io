@@ -147,7 +147,7 @@ feature-img: "assets/img/background.png"
         In annotations files, there are questions, answers, question levels, descriptions and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.
         <br/>
         In case of question level, there are two types : memory capacity level and logical complexity level. 
-        <br/>
+        <br/><br/>
         Each of files contains following entries:
       </p>
         <table style="font-size: 19px">
@@ -278,5 +278,3 @@ feature-img: "assets/img/background.png"
           {% endhighlight %}
         </pre>
     </div>
-  </div>
-</div>
