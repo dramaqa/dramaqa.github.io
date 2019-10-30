@@ -14,7 +14,9 @@ feature-img: "assets/img/background.png"
       1. Overview
     </h2>
     <p class="content-item">
-      DramaQA challenge is a large-scale video QA task based on a Korean popular TV show, “Another Miss Oh”. Given a video clip and a natural language question about the clip, the task is to choose an accurate natural language answer. The questions selectively target different level of difficulties, namely, the level of understanding. Also, multi-level character-centered story descriptions are provided. We are expecting this challenge could be a starting point to evaluate human-level video story understanding.
+      DramaQA challenge is a large-scale video QA task based on a Korean popular TV show, “Another Miss Oh”. Given a video clip and a natural language question about the clip, the task is to choose an accurate natural language answer. The questions selectively target different level of difficulties, namely, the level of understanding. 
+      <br />
+      Also, multi-level character-centered story descriptions are provided. We are expecting this challenge could be a starting point to evaluate human-level video story understanding.
       <br />
     </p>
   </div> <br />

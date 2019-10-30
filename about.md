@@ -71,5 +71,5 @@ title: About
   </h1> <br />
   
   <div class = "content-subcontainer">
-    <a id="link" href="mailto:videoturingtest@gmail.com">videoturingtest@gmail.com</a>
+    <a id="link" href="mailto:dramaqa.challenge@gmail.com">videoturingtest@gmail.com</a>
   </div>
