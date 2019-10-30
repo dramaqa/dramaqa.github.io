@@ -111,8 +111,7 @@ feature-img: "assets/img/background.png"
         1) Image Frames in Video Clips
       </h3>
       <p class="description">
-        Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
-        A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
+        AnotherMissOh_images.zip contains image frames of each video clips. The image frames in a scene are saved in {episodeName/sceneNum} folder, and the image frames in a shot are saved in {episodeName/sceneNum/shotNum} folder (e.g., AnotherMissOh01/002/0003 folder for 3rd shot in 2nd scene in episode 1). The image frames are captured at 3 frames per second (FPS). In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network.
       </p>
     </div> <br />
     <div class = "content-item"  id="dataset-2">
@@ -145,8 +144,9 @@ feature-img: "assets/img/background.png"
           </table>
       </p>
       <p class="description">
-        In annotations files, there are QAs and question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.
-        In case of question level, there are two types : memory capacity level and logical complexity level. Both of the level types can have a value from 1 to 4.
+        In annotations files, there are questions, answers, question levels, descriptions and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.
+        <br/>
+        In case of question level, there are two types : memory capacity level and logical complexity level. 
         <br/>
         Each of files contains following entries:
       </p>
@@ -164,7 +164,7 @@ feature-img: "assets/img/background.png"
           <tr>
             <td>vid</td>
             <td>string</td>
-            <td>video clip id: episodeName_sceneNum_shotNum</td>
+            <td>video clip id: episodeName_sceneNum_shotNum<br/>(for scene-level video vid, episodeName_sceneNum_0000 is used.)</td>
           </tr>
           <tr>
             <td>videoType</td>
@@ -179,7 +179,7 @@ feature-img: "assets/img/background.png"
           <tr>
             <td>q_level_mem</td>
             <td>int</td>
-            <td>memory capacity level, values are from 1 to 4</td>
+            <td>memory capacity level, values are from 2 to 3</td>
           </tr>
           <tr>
             <td>q_level_logic</td>
@@ -227,13 +227,8 @@ feature-img: "assets/img/background.png"
       <h3 class="content-subtitle">
         3) Scripts (Subtitles)
       </h3>
-      <p class="pre-description" style="text-align: center">
-        AnotherMissOhQA_subtitles.json
-      </p>
       <p class="description">
-        Each of scripts files, which is same with subtitle, is preprocessed into a single JSON file which have video names as keys. This JSON file contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech). 
-        <br/>
-        Each of files contains following entries:
+        AnotherMissOh_QA.zip contains 3 json files, each denotes a split of DramaQA dataset:
       </p>
       <table style="font-size: 19px">
           <tr>
@@ -268,7 +263,7 @@ feature-img: "assets/img/background.png"
           </tr> 
         </table>
         <p class = "json-description">
-          Here is a json example : 
+          AnotherMissOhQA_subtitles.json contains subtitles of video clips which have vid as keys. Here is a json example : 
         </p>
         <pre>
           {% highlight json %}
