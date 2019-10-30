@@ -99,7 +99,7 @@ feature-img: "assets/img/background.png"
       <li class ="b"><a id="link" href="#dataset-1 ">Image Frames in Video Clips</a></li>
       <li class ="b"><a id="link" href="#dataset-2 ">Annotations (Q&A, question level, etc)</a></li>
       <li class ="b"><a id="link" href="#dataset-3 ">Scripts (Subtitles)</a></li>
-    </p> <br/>
+    </p> <br/> <br/>
     <div class="content-item" id="dataset-1">
       <h3 class="content-subtitle">
         1) Image Frames in Video Clips
@@ -113,9 +113,35 @@ feature-img: "assets/img/background.png"
       <h3 class="content-subtitle">
         2) Annotations (Q&A, question level, etc)
       </h3>
+      <p class = "pre-description">
+          AnotherMissOh_QA.zip contains 3 json files, each denotes a split of DramaQA dataset:
+          <table style="font-size: 19px"> 
+            <tr>
+              <th style="width: 300px">files</th>
+              <th style="width: 100px">#data</th>
+              <th stype="width: 300px">Usage</th>
+            </tr>
+            <tr>
+              <td>AnotherMissOhQA_train_set.json</td>
+              <td>12,761</td>
+              <td>Model training</td>
+            </tr>
+            <tr>
+              <td>AnotherMissOhQA_val_set.json</td>
+              <td>1,500</td>
+              <td>Hyperparmeter tuning</td>
+            </tr>
+            <tr>
+              <td>AnotherMissOhQA_test_set.json</td>
+              <td>1,500</td>
+              <td>Model testing</td>
+            </tr>   
+          </table>
+      </p>
       <p class="description">
-        In annotations files, there are QAs and question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.<br>
-        In case of question level, there are two types : memory capacity level and logical complexity level. Both of the level types can have a value from 1 to 4.<br> <br>
+        In annotations files, there are QAs and question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.
+        In case of question level, there are two types : memory capacity level and logical complexity level. Both of the level types can have a value from 1 to 4.
+        <br/>
         Each of files contains following entries:
       </p>
         <table style="font-size: 19px">
@@ -132,7 +158,7 @@ feature-img: "assets/img/background.png"
           <tr>
             <td>vid</td>
             <td>string</td>
-            <td>video clip id</td>
+            <td>video clip id: episodeName_sceneNum_shotNum</td>
           </tr>
           <tr>
             <td>videoType</td>
@@ -195,9 +221,12 @@ feature-img: "assets/img/background.png"
       <h3 class="content-subtitle">
         3) Scripts (Subtitles)
       </h3>
+      <p class="pre-description" style="text-align: center">
+        AnotherMissOhQA_subtitles.json
+      </p>
       <p class="description">
-        Each of scripts files, which is same with subtitle, is preprocessed into a single JSON file which have video names as keys. 
-        This JSON file contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech).
+        Each of scripts files, which is same with subtitle, is preprocessed into a single JSON file which have video names as keys. This JSON file contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech). 
+        <br/>
         Each of files contains following entries:
       </p>
       <table style="font-size: 19px">
