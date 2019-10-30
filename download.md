@@ -33,9 +33,9 @@ feature-img: "assets/img/background.png"
   </h1> <br /> <br />
   <p class = "content-item">
     To download DramaQA dataset, please fill out dataset download agreement <a id="download_link" href="/assets/dramaqa_download_agreement.docx">file</a> in pdf format with your own signature.
-    <br/><br/>
-    You will be required to fill out this <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a> with your agreement file 
-    <br/><br/>
+    <br/>
+    You will be required to fill out this <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a> with your agreement file. 
+    <br/>
     The download link for the dataset will be sent to you in around a week if your form is valid. Please do not share the dataset with others.
   </p>
 </div>
