@@ -18,7 +18,7 @@ feature-img: "assets/img/background.png"
       <br />
       Also, multi-level character-centered story descriptions are provided. We are expecting this challenge could be a starting point to evaluate human-level video story understanding.
       <br /><br />
-      The DramaQA train, validation, and test sets are available on the download page. Answers on the training and validation sets are publicly available but answers for test sets are not provided to challenge participants.
+      The DramaQA train, validation, and test sets are available on the <a id="link" href="/Download ">download</a> page. Answers on the training and validation sets are publicly available but answers for test sets are not provided to challenge participants.
     </p>
   </div> <br />
 
@@ -64,8 +64,7 @@ feature-img: "assets/img/background.png"
     <ul class="content-item" style="line-height:2em">
       <li> <a id="link" href="/Description ">Dataset Description</a> </li>
       <li> Starter Code </li>
-      <li> Evaluation Server </li>
-      <li> Leaderboard </li>
+      <li> Evaluation(Leaderboard) </li>
      </ul>
   </div>
   
