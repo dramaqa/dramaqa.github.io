@@ -59,14 +59,14 @@ feature-img: "assets/img/background.png"
       </ul>
   </div>
   
-  <div class=""content-subcontainer>
+  <div class="content-subcontainer">
     <h2 class = "content-subtitle">
       2. Dataset Specification
     </h2>
     <ul class = "content-item" style="line-height:2em">
       <li class ="a"> 9,649 video clips (scenes: 317 / shots: 9332) </li>
       <li class ="a"> 15,760 question-answer pairs with multi-level difficulties </li>
-        <ul class = "content-subitem" sytle"line-height:1.5em">
+        <ul class = "content-subitem" style"line-height:1.5em">
           <li class ="b"> 5 multiple choice Q&A </li>
           <li class ="b"> Four levels of difficulty for the questions </li>
           <li class ="c"> Lv1: 7,991 / Lv2: 4,116 / Lv3: 1,833 / Lv4: 1,820 </li>
