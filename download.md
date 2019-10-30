@@ -196,7 +196,7 @@ feature-img: "assets/img/background.png"
                         "vid": ["AnotherMissOh01_001_0088", "AnotherMissOh01_001_0089"]
                         }
                 }
-           {% endhighlight %}
+          {% endhighlight %}
     </div> <br /> <br />
     <div class="content-item">
       <h2 class="content-subtitle">
