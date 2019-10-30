@@ -85,7 +85,9 @@ feature-img: "assets/img/background.png"
       2. Dataset Specification
     </h2>
     <ul class = "content-item" style="line-height:2em">
-      <li class ="a"> 9,649 video clips (scenes: 317 / shots: 9332) </li>
+      <li class ="a"> 9,649 video clips </li>
+      <li class ="b"> 317 scenes </li>
+      <li class ="b"> 9,332 shots </li>
       <li class ="a"> 15,760 question-answer pairs with multi-level difficulties </li>
         <ul class = "content-subitem" style="line-height:1.5em">
           <li class ="b" type="circle"> 5 multiple choice Q&A </li>
