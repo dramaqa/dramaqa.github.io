@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DramaQA Challenge
+title: Challenge
 permalink: /Challenge
 feature-img: "assets/img/background.png"
 ---

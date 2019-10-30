@@ -1,7 +1,7 @@
 ---
 layout: page
-title: DramaQA Dataset Description
-permalink: /Description
+title: Dataset
+permalink: /Dataset
 feature-img: "assets/img/background.png"
 ---
 
