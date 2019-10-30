@@ -93,7 +93,7 @@ feature-img: "assets/img/background.png"
           <li class ="c" type="square"> Lv1: 7,991  /  Lv2: 4,116  /  Lv3: 1,833  /  Lv4: 1,820 </li>
          </ul>
       <li class ="a"> 13,034 Multi-level Descriptions </li>
-    </ul>
+    </ul> <br/>
     <div class="content-item">
       <h3 class="content-subtitle">
         1) Image Frames in Video Clips
@@ -102,7 +102,7 @@ feature-img: "assets/img/background.png"
         Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
         A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
       </p>
-    </div> <br /> <br />
+    </div> <br />
     <div class = "content-item">
       <h3 class="content-subtitle">
         2) Annotations (Q&A, question level, etc)
@@ -184,7 +184,7 @@ feature-img: "assets/img/background.png"
             }
           {% endhighlight %}
          </pre>
-     </div> <br /> <br />  
+     </div> <br />  
      <div class="content-item">
       <h3 class="content-subtitle">
         3) Scripts (Subtitles)
