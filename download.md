@@ -129,17 +129,17 @@ feature-img: "assets/img/background.png"
         </p>
         {% highlight json  %}
             {
-              “correct_idx”: 3, 
-              “description”: “Dokyung is sitting on the chair.  
-                              Dokyung texted a message to Haeyoung1. Haeyoung1 made surprised Dokyung.“, 
-              “answers”: [“Dokyung texted the message to mom.“, “Dokyung texted the message to dad.“, “Dokyung texted the message to Haeyoung1.“, ” Dokyung texted the message to sister.“, “Dokyung texted the message to brother.“], 
-              “que”: “What did Dokyung do in his home?“, 
-              “shot_contained”: [48, 115], 
-              “q_level_logic”: 3, 
-              “vid”: “AnotherMissOh16_002_0000”, 
-              “q_level_mem”: 3, 
-              “qid”: 3707, 
-              “videoType”: “scene”
+              "correct_idx": 3, 
+              "description": "Dokyung is sitting on the chair.  
+                              Dokyung texted a message to Haeyoung1. Haeyoung1 made surprised Dokyung.", 
+              "answers": ["Dokyung texted the message to mom.", "Dokyung texted the message to dad.", "Dokyung texted the message to Haeyoung1.", "Dokyung texted the message to sister.", "Dokyung texted the message to brother."], 
+              "que": "What did Dokyung do in his home?", 
+              "shot_contained": [48, 115], 
+              "q_level_logic": 3, 
+              "vid": "AnotherMissOh16_002_0000", 
+              "q_level_mem": 3, 
+              "qid": 3707, 
+              "videoType": "scene"
             }
          {% endhighlight %}
     </div> <br /> <br />
