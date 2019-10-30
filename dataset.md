@@ -21,6 +21,9 @@ feature-img: "assets/img/background.png"
   .c{
     margin-left: 2.5em;
   }
+  div.content-item{
+    margin-left: 0.5em;
+  }
   
   table {
     width: 100%
@@ -91,11 +94,18 @@ feature-img: "assets/img/background.png"
          </ul>
       <li class ="a"> 13,034 Multi-level Descriptions </li>
     </ul>
-  </div> <br /> <br />
-  
-  <div class = "content-subcontainer">
+    <div class="content-item">
       <h2 class="content-subtitle">
-        3. Annotations (Q&A, question level, etc)
+        1) Image Frames in Video Clips
+      </h2>
+      <p class="description">
+        Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
+        A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
+      </p>
+    </div> <br /> <br />
+    <div class = "content-item">
+      <h2 class="content-subtitle">
+        2) Annotations (Q&A, question level, etc)
       </h2>
       <p class="description">
         In annotations files, there are QAs and question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.<br>
@@ -174,12 +184,10 @@ feature-img: "assets/img/background.png"
             }
           {% endhighlight %}
          </pre>
-  </div> <br /> <br />
-  
-  
-  <div class="content-subcontainer">
+     </div> <br /> <br />  
+     <div class="content-item">
       <h2 class="content-subtitle">
-        2. Scripts (Subtitles)
+        3) Scripts (Subtitles)
       </h2>
       <p class="description">
         Each of scripts files, which is same with subtitle, is preprocessed into a single JSON file which have video names as keys. 
@@ -233,85 +241,6 @@ feature-img: "assets/img/background.png"
             }
           {% endhighlight %}
         </pre>
-  </div> <br /> <br />
-  
-  
-  <div class="content-subcontainer">
-      <h2 class="content-subtitle">
-        3. Shot Section Information
-      </h2>
-      <p class="description">
-        This file includes information about shots which compose one scene. You can know start time and end time of each shots.
-      </p>
-      <table style="font-size: 19px">
-          <tr>
-            <th style="width: 200px">key</th>
-            <th style="width: 300px">type</th>
-            <th style="width: 600px">descriptions</th>
-          </tr>
-          <tr>
-            <td>registed_name</td>
-            <td>string</td>
-            <td>video file name</td>
-          </tr>
-          <tr>
-            <td>file_name</td>
-            <td>string</td>
-            <td>video file name</td>
-          </tr>        
-          <tr>
-            <td>shot_results</td>
-            <td>list of dictionary</td>
-            <td>each of a dictionary contains information of each shots</td>
-          </tr>        
-          <tr>
-            <td>shot_id</td>
-            <td>int</td>
-            <td>video shot id</td>
-          </tr>        
-          <tr>
-            <td>start_time</td>
-            <td>string</td>
-            <td>video shot start time</td>
-          </tr>       
-          <tr>
-            <td>end_time</td>
-            <td>string</td>
-            <td>video shot end time</td>
-          </tr>             
-      </table>
-      <p class = "json-description">
-        Here is a json example : 
-      </p>
-      <pre>
-        {% highlight json %}
-          {
-            "registed_name": "AnotherMissOh01.mp4",
-            "file_name": "AnotherMissOh01.mp4",
-            "shot_results": {
-              "shot_id" : "SHOT_0000000000",
-              "start_time" : "00:00:00;000",
-              "end_time" : "00:00:01;24"
-              }
-          }
-        {% endhighlight %}    
-      </pre>   
-  </div> <br /> <br />
-  
-  
-  <div class="content-subcontainer">
-      <h2 class="content-subtitle">
-        4. Image Frames in Video Clips
-      </h2>
-      <p class="description">
-        Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
-        A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
-      </p>
+    </div>
   </div>
-</div>
-  
-  
-</div>
-    
-    
 </div>
