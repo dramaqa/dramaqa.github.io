@@ -15,6 +15,12 @@ feature-img: "assets/img/background.png"
   li.a {
     margin-left: 0.5em;
   }
+  .b{
+    margin-left: 1em;
+  }
+  .c{
+    margin-left: 1.5em;
+  }
 </style>
     
     
@@ -23,7 +29,7 @@ feature-img: "assets/img/background.png"
     DramaQA Dataset Description
   </h1> <br />
   
-  <div class="content-item">
+  <div class="content-subcontainer">
     <h2 class = "content-subtitle">
       1. Overview
     </h2>
@@ -51,6 +57,21 @@ feature-img: "assets/img/background.png"
         <li class ="a"> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
         <li class ="a"> Lv 4: MC (scene-level video), LC (reason for causality). </li>
       </ul>
+  </div>
+  
+  <div class=""content-subcontainer>
+    <h2 class = "content-subtitle">
+      2. Dataset Specification
+    </h2>
+    <ul class = "content-item" style="line-height:1.5em">
+      <li class ="a"> 9,649 video clips (scenes: 317 / shots: 9332) </li>
+      <li class ="a"> 15,760 question-answer pairs with multi-level difficulties </li>
+        <ul class = "content-subitem" sytle"line-height:1.5em">
+          <li class ="b"> 5 multiple choice Q&A </li>
+          <li class ="b"> Four levels of difficulty for the questions </li>
+          <li class ="c"> Lv1: 7,991 / Lv2: 4,116 / Lv3: 1,833 / Lv4: 1,820 </li>
+      <li class ="a"> 13,034 Multi-level Descriptions </li>
+    </ul>
   </div>
 </div>
     
