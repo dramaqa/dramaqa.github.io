@@ -128,21 +128,21 @@ feature-img: "assets/img/background.png"
           Here is a json example : <br> <br>
         </p>
         <pre>
-          {% highlight json  %}
-              {
-                "correct_idx": 3, 
-                "description": "Dokyung is sitting on the chair.  
-                                Dokyung texted a message to Haeyoung1. Haeyoung1 made surprised Dokyung.", 
-                "answers": ["Dokyung texted the message to mom.", "Dokyung texted the message to dad.", "Dokyung texted the message to Haeyoung1.", "Dokyung texted the message to sister.", "Dokyung texted the message to brother."], 
-                "que": "What did Dokyung do in his home?", 
-                "shot_contained": [48, 115], 
-                "q_level_logic": 3, 
-                "vid": "AnotherMissOh16_002_0000", 
-                "q_level_mem": 3, 
-                "qid": 3707, 
-                "videoType": "scene"
-              }
-         {% endhighlight }
+          {% highlight json %}
+            {
+              "correct_idx": 3, 
+              "description": "Dokyung is sitting on the chair.  
+                              Dokyung texted a message to Haeyoung1. Haeyoung1 made surprised Dokyung.", 
+              "answers": ["Dokyung texted the message to mom.", "Dokyung texted the message to dad.", "Dokyung texted the message to Haeyoung1.", "Dokyung texted the message to sister.", "Dokyung texted the message to brother."], 
+              "que": "What did Dokyung do in his home?", 
+              "shot_contained": [48, 115], 
+              "q_level_logic": 3, 
+              "vid": "AnotherMissOh16_002_0000", 
+              "q_level_mem": 3, 
+              "qid": 3707, 
+              "videoType": "scene"
+            }
+          {% endhighlight %}
          </pre>
     </div> <br /> <br />
     <div class="content-item">
@@ -190,15 +190,15 @@ feature-img: "assets/img/background.png"
           Here is a json example : <br> <br>
         </p>
         <pre>
-          {% highlight json  %}
-                {
-                  "script": {
-                        "et": "193.940", 
-                        "st": "192.250", 
-                        "utter": "You shouldn’t feel empty, but relieved!"},
-                        "vid": ["AnotherMissOh01_001_0088", "AnotherMissOh01_001_0089"]
-                        }
+          {% highlight json %}
+            {
+              "script": {
+                "et": "193.940", 
+                "st": "192.250", 
+                "utter": "You shouldn’t feel empty, but relieved!"},
+                "vid": ["AnotherMissOh01_001_0088", "AnotherMissOh01_001_0089"]
                 }
+            }
           {% endhighlight %}
         </pre>
     </div> <br /> <br />
@@ -250,16 +250,16 @@ feature-img: "assets/img/background.png"
         Here is a json example : <br> <br>
       </p>
       <pre>
-         {% highlight json  %}
-               {
-                 "registed_name": "AnotherMissOh01.mp4",
-                 "file_name": "AnotherMissOh01.mp4",
-                 "shot_results": {
-                             "shot_id" : "SHOT_0000000000",
-                             "start_time" : "00:00:00;000",
-                             "end_time" : "00:00:01;24"
-                             }
-               }
+        {% highlight json %}
+          {
+            "registed_name": "AnotherMissOh01.mp4",
+            "file_name": "AnotherMissOh01.mp4",
+            "shot_results": {
+              "shot_id" : "SHOT_0000000000",
+              "start_time" : "00:00:00;000",
+              "end_time" : "00:00:01;24"
+              }
+          }
         {% endhighlight %}    
       </pre>   
     </div> <br /> <br />
