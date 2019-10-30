@@ -63,7 +63,7 @@ feature-img: "assets/img/background.png"
     <h2 class = "content-subtitle">
       2. Dataset Specification
     </h2>
-    <ul class = "content-item" style="line-height:1.5em">
+    <ul class = "content-item" style="line-height:2em">
       <li class ="a"> 9,649 video clips (scenes: 317 / shots: 9332) </li>
       <li class ="a"> 15,760 question-answer pairs with multi-level difficulties </li>
         <ul class = "content-subitem" sytle"line-height:1.5em">
