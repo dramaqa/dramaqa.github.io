@@ -187,6 +187,7 @@ feature-img: "assets/img/background.png"
         <p class = "json-description">
           Here is a json example : <br> <br>
         </p>
+        <pre>
           {% highlight json  %}
                 {
                   "script": {
@@ -197,6 +198,7 @@ feature-img: "assets/img/background.png"
                         }
                 }
           {% endhighlight %}
+        </pre>
     </div> <br /> <br />
     <div class="content-item">
       <h2 class="content-subtitle">
