@@ -19,7 +19,7 @@ feature-img: "assets/img/background.png"
     margin-left: 1em;
   }
   .c{
-    margin-left: 1.5em;
+    margin-left: 2em;
   }
 </style>
     
@@ -57,14 +57,14 @@ feature-img: "assets/img/background.png"
         <li class ="a"> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
         <li class ="a"> Lv 4: MC (scene-level video), LC (reason for causality). </li>
       </ul>
-  </div>
+  </div> <br />
   
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
       2. Dataset Specification
     </h2>
     <ul class = "content-item" style="line-height:2em">
-      <li class ="a"> 9,649 video clips (scenes: 317 / shots: 9332) </li>
+      <li class ="a"> 9,649 video clips (scenes: 317 / shots: 9332) </li> <br/>
       <li class ="a"> 15,760 question-answer pairs with multi-level difficulties </li>
         <ul class = "content-subitem" style="line-height:1.5em">
           <li class ="b" type="circle"> 5 multiple choice Q&A </li>
