@@ -29,7 +29,7 @@ feature-img: "assets/img/background.png"
     </h2>
     <p class = "content-item">
       DramaQA  dataset is collected on a Korean popular TV show, “Another Miss Oh”. The goal of the DramaQA Dataset is to solve natural language QA that target the story of a video clip. DramaQA utilizes image frames, subtitles, and descriptions of the video clip to answer the question. Following are differentiated characteristics from other video QA datasets.
-    </p> <br />
+    </p>
     <div class="content-subitem">
       <h3 class = "content-item-subtitle">
         (1) Multi-level Description
