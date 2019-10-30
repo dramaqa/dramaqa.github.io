@@ -19,7 +19,7 @@ feature-img: "assets/img/background.png"
     </p>
     <div class="content-subitem">
       <h4 class = "content-item-subtitle">
-        (1). Multi-level Description
+        (1) Multi-level Description
       </h4>
       <p class = "content-subitem">
         We briefly introduce two terms commonly used in video domain: Shot and Scene. A shot is formed by a series of continuous frames with consistent background setting, and a scene is a group of semantically related shots, which are coherent to certain subject or theme.
@@ -27,7 +27,7 @@ feature-img: "assets/img/background.png"
 	    We collected the story descriptions for shot and scene level respectively and we limited that the descriptions should be focused on 19 main characters.
       </p>
       <h4 class = "content-item-subtitle">
-        (2). Multi-level Difficulty
+        (2) Multi-level Difficulty
       </h4>
       <p class = "content-item-subtitle">
         Based on arxiv link, we defined four levels of difficulty for the question in terms of two criteria: length of video clip (Memory Capacity, MC) and the number of logical reasoning step (Logical complexity, LC).
