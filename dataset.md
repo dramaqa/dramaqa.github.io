@@ -12,7 +12,7 @@ feature-img: "assets/img/background.png"
   p.content-subitem {
     margin-left: 0.5em;
   }
-  ul.content-subitem {
+  li.a {
     margin-left: 0.5em;
   }
 </style>
@@ -46,10 +46,10 @@ feature-img: "assets/img/background.png"
         Based on arxiv link, we defined four levels of difficulty for the question in terms of two criteria: length of video clip (Memory Capacity, MC) and the number of logical reasoning step (Logical complexity, LC).
       </p>
       <ul class = "content-subitem" style="line-height:1.5em">
-        <li> Lv 1: MC (shot-level video), LC (single supporting fact). </li>
-        <li> Lv 2: MC (shot-level video), LC (multiple supporting facts). </li>
-        <li> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
-        <li> Lv 4: MC (scene-level video), LC (reason for causality). </li>
+        <li class ="a"> Lv 1: MC (shot-level video), LC (single supporting fact). </li>
+        <li class ="a"> Lv 2: MC (shot-level video), LC (multiple supporting facts). </li>
+        <li class ="a"> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
+        <li class ="a"> Lv 4: MC (scene-level video), LC (reason for causality). </li>
       </ul>
   </div>
 </div>
