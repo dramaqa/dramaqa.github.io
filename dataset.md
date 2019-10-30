@@ -222,7 +222,7 @@ feature-img: "assets/img/background.png"
             }
           {% endhighlight %}
          </pre>
-     </div> <br />
+     </div>
      <div class="content-item" id="dataset-3">
       <h3 class="content-subtitle">
         3) Scripts (Subtitles)
