@@ -125,7 +125,7 @@ feature-img: "assets/img/background.png"
           </tr>       
         </table> <br />
         <p class = "json-description">
-          Here is a json example : <br> <br>
+          Here is a json example : 
         </p>
         <pre>
           {% highlight json %}
@@ -187,7 +187,7 @@ feature-img: "assets/img/background.png"
           </tr> 
         </table>
         <p class = "json-description">
-          Here is a json example : <br> <br>
+          Here is a json example : 
         </p>
         <pre>
           {% highlight json %}
@@ -247,7 +247,7 @@ feature-img: "assets/img/background.png"
           </tr>             
       </table>
       <p class = "json-description">
-        Here is a json example : <br> <br>
+        Here is a json example : 
       </p>
       <pre>
         {% highlight json %}
