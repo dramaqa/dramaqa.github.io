@@ -95,18 +95,18 @@ feature-img: "assets/img/background.png"
       <li class ="a"> 13,034 Multi-level Descriptions </li>
     </ul>
     <div class="content-item">
-      <h2 class="content-subtitle">
+      <h3 class="content-subtitle">
         1) Image Frames in Video Clips
-      </h2>
+      </h3>
       <p class="description">
         Lengths of video scene clips are 1 to 5 minutes in average, and each of scene clips is composed with short clips.
         A length of a short clip is 1 to 50 seconds. The image frames are extracted at 3 frames per second(FPS).
       </p>
     </div> <br /> <br />
     <div class = "content-item">
-      <h2 class="content-subtitle">
+      <h3 class="content-subtitle">
         2) Annotations (Q&A, question level, etc)
-      </h2>
+      </h3>
       <p class="description">
         In annotations files, there are QAs and question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.<br>
         In case of question level, there are two types : memory capacity level and logical complexity level. Both of the level types can have a value from 1 to 4.<br> <br>
@@ -186,9 +186,9 @@ feature-img: "assets/img/background.png"
          </pre>
      </div> <br /> <br />  
      <div class="content-item">
-      <h2 class="content-subtitle">
+      <h3 class="content-subtitle">
         3) Scripts (Subtitles)
-      </h2>
+      </h3>
       <p class="description">
         Each of scripts files, which is same with subtitle, is preprocessed into a single JSON file which have video names as keys. 
         This JSON file contains a list of subtitle sentences and a list of subtitle information(speaker, speech time, content of speech).
