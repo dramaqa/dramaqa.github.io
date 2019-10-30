@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Dataset
-permalink: /Dataset
+title: Overview
+permalink: /Overview
 feature-img: "assets/img/background.png"
 ---
 
 <div class="dataset content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
-    DramaQA Dataset Description
+    DramaQA Dataset Overview
   </h1> <br />
   
   <div class="content-item">
