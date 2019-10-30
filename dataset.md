@@ -7,14 +7,13 @@ feature-img: "assets/img/background.png"
 
 <style>
   h3.content-item-subtitle {
-    text-indent: 1em;
+    margin-left: 0.5em;
   }
   p.content-subitem {
-    text-indent: 1em;
-    margin-left: 1em;
+    margin-left: 0.5em;
   }
   ul.content-subitem {
-    text-indent: 1em;
+    margin-left: 0.5em;
   }
 </style>
     
@@ -37,7 +36,7 @@ feature-img: "assets/img/background.png"
       </h3>
       <p class = "content-subitem">
         We briefly introduce two terms commonly used in video domain: Shot and Scene. A shot is formed by a series of continuous frames with consistent background setting, and a scene is a group of semantically related shots, which are coherent to certain subject or theme.
-        <br/><br/>
+        <br />
 	    We collected the story descriptions for shot and scene level respectively and we limited that the descriptions should be focused on 19 main characters.
       </p>
       <h3 class = "content-item-subtitle">
