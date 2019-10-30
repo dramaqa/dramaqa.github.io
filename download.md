@@ -248,11 +248,11 @@ feature-img: "assets/img/background.png"
         {% highlight json  %}
             {
               "registed_name" : "AnotherMissOh01.mp4",
-              "file_name" : “AnotherMissOh01.mp4”,
-              “shot_results” : {
-                                “shot_id” : “SHOT_0000000000”,
-                                “start_time” : “00:00:00;000”,
-                                “end_time” : “00:00:01;24”
+              "file_name" : "AnotherMissOh01.mp4",
+              "shot_results" : {
+                                "shot_id" : "SHOT_0000000000",
+                                "start_time" : "00:00:00;000",
+                                "end_time" : "00:00:01;24"
                                }
             }
          {% endhighlight %}      
