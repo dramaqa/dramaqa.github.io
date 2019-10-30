@@ -6,14 +6,15 @@ feature-img: "assets/img/background.png"
 ---
 
 <style>
-  h4.content-item-subtitle {
-    text-indent: 2em;
+  h3.content-item-subtitle {
+    text-indent: 1em;
   }
   p.content-subitem {
-    text-indent: 2em;
+    text-indent: 1em;
+    margin-left: 1em;
   }
   ul.content-subitem {
-    text-indent: 2em;
+    text-indent: 1em;
   }
 </style>
     
@@ -29,19 +30,19 @@ feature-img: "assets/img/background.png"
     </h2>
     <p class = "content-item">
       DramaQA  dataset is collected on a Korean popular TV show, “Another Miss Oh”. The goal of the DramaQA Dataset is to solve natural language QA that target the story of a video clip. DramaQA utilizes image frames, subtitles, and descriptions of the video clip to answer the question. Following are differentiated characteristics from other video QA datasets.
-    </p>
+    </p> <br />
     <div class="content-subitem">
-      <h4 class = "content-item-subtitle">
+      <h3 class = "content-item-subtitle">
         (1) Multi-level Description
-      </h4>
+      </h3>
       <p class = "content-subitem">
         We briefly introduce two terms commonly used in video domain: Shot and Scene. A shot is formed by a series of continuous frames with consistent background setting, and a scene is a group of semantically related shots, which are coherent to certain subject or theme.
         <br/><br/>
 	    We collected the story descriptions for shot and scene level respectively and we limited that the descriptions should be focused on 19 main characters.
       </p>
-      <h4 class = "content-item-subtitle">
+      <h3 class = "content-item-subtitle">
         (2) Multi-level Difficulty
-      </h4>
+      </h3>
       <p class = "content-subitem">
         Based on arxiv link, we defined four levels of difficulty for the question in terms of two criteria: length of video clip (Memory Capacity, MC) and the number of logical reasoning step (Logical complexity, LC).
       </p>
