@@ -5,6 +5,19 @@ permalink: /Dataset
 feature-img: "assets/img/background.png"
 ---
 
+<style>
+  h4.content-item-subtitle {
+    text-indent: 2em;
+  }
+  p.content-subitem {
+    text-indent: 2em;
+  }
+  ul.content-subitem {
+    text-indent: 2em;
+  }
+</style>
+    
+    
 <div class="dataset content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Dataset Description
@@ -29,10 +42,10 @@ feature-img: "assets/img/background.png"
       <h4 class = "content-item-subtitle">
         (2) Multi-level Difficulty
       </h4>
-      <p class = "content-item-subtitle">
+      <p class = "content-subitem">
         Based on arxiv link, we defined four levels of difficulty for the question in terms of two criteria: length of video clip (Memory Capacity, MC) and the number of logical reasoning step (Logical complexity, LC).
       </p>
-      <ul style="line-height:1.5em">
+      <ul class = "content-subitem" style="line-height:1.5em">
         <li> Lv 1: MC (shot-level video), LC (single supporting fact). </li>
         <li> Lv 2: MC (shot-level video), LC (multiple supporting facts). </li>
         <li> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
