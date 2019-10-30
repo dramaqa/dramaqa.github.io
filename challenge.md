@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Challenge 2019
-permalink: /challenge/2019/
+title: DramaQA Challenge
+permalink: /Challenge
 feature-img: "assets/img/background.png"
 ---
 
