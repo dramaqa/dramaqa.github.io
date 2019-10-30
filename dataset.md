@@ -75,7 +75,7 @@ feature-img: "assets/img/background.png"
         <li class ="a"> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
         <li class ="a"> Lv 4: MC (scene-level video), LC (reason for causality). </li>
       </ul>
-  </div> <br />
+  </div> <br /> <br />
   
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
@@ -91,7 +91,7 @@ feature-img: "assets/img/background.png"
          </ul>
       <li class ="a"> 13,034 Multi-level Descriptions </li>
     </ul>
-  </div>
+  </div> <br /> <br />
   
   <div class = "content-subcontainer">
       <h2 class="content-subtitle">
@@ -175,6 +175,8 @@ feature-img: "assets/img/background.png"
           {% endhighlight %}
          </pre>
   </div> <br /> <br />
+  
+  
   <div class="content-subcontainer">
       <h2 class="content-subtitle">
         2. Scripts (Subtitles)
@@ -232,6 +234,8 @@ feature-img: "assets/img/background.png"
           {% endhighlight %}
         </pre>
   </div> <br /> <br />
+  
+  
   <div class="content-subcontainer">
       <h2 class="content-subtitle">
         3. Shot Section Information
@@ -293,6 +297,8 @@ feature-img: "assets/img/background.png"
         {% endhighlight %}    
       </pre>   
   </div> <br /> <br />
+  
+  
   <div class="content-subcontainer">
       <h2 class="content-subtitle">
         4. Image Frames in Video Clips
