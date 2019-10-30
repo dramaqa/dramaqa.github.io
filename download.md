@@ -189,11 +189,11 @@ feature-img: "assets/img/background.png"
         </p>
           {% highlight json  %}
                 {
-                  “script”: {
-                        “et”: “193.940”, 
-                        “st”: “192.250”, 
-                        “utter”: “You shouldn’t feel empty, but relieved!“},
-                        “vid”: [“AnotherMissOh01_001_0088”, “AnotherMissOh01_001_0089”]
+                  "script": {
+                        "et": "193.940", 
+                        "st": "192.250", 
+                        "utter": "You shouldn’t feel empty, but relieved!"},
+                        "vid": ["AnotherMissOh01_001_0088", "AnotherMissOh01_001_0089"]
                         }
                 }
            {% endhighlight %}
@@ -247,8 +247,8 @@ feature-img: "assets/img/background.png"
       </p>
         {% highlight json  %}
             {
-              “registed_name” : “AnotherMissOh01.mp4”,
-              “file_name” : “AnotherMissOh01.mp4”,
+              "registed_name" : "AnotherMissOh01.mp4",
+              "file_name" : “AnotherMissOh01.mp4”,
               “shot_results” : {
                                 “shot_id” : “SHOT_0000000000”,
                                 “start_time” : “00:00:00;000”,
