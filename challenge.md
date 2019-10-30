@@ -62,7 +62,7 @@ feature-img: "assets/img/background.png"
       4. Challenge Guidelines
     </h2>
     <ul class="content-item" style="line-height:2em">
-      <li> <a id="link" href="/Description ">Dataset Description</a> </li>
+      <li> <a id="link" href="/Dataset ">Dataset Description</a> </li>
       <li> Starter Code </li>
       <li> Evaluation(Leaderboard) </li>
      </ul>
