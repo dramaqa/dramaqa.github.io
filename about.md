@@ -28,9 +28,9 @@ title: About
   {% for news in site.data.updates %}
     <p class="content-item-news news-{{ forloop.index0 }}">
       <span id="date"> 
-        <font class="date" color="#4000FF" size="4em"> {{ news.date }} </font>
+        <font class="date" color="#4000FF" size="3%"> {{ news.date }} </font>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <font class="content" color="#585858" size="4em">{{ news.content }} </font>
+        <font class="content" color="#585858" size="4%">{{ news.content }} </font>
       </span>
     </p>
   {% endfor %}

@@ -44,12 +44,13 @@ feature-img: "assets/img/background.png"
     background-color: #ffffff;
   }
 </style>
-    
+  
     
 <div class="dataset content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Dataset Description
   </h1> <br />
+  <img class="dataset-overview-img" src="/assets/dataset_img.jpg" style="max-width: 130%; height: auto;">
   
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
