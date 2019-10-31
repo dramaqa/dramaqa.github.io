@@ -31,6 +31,7 @@ feature-img: "assets/img/background.png"
   th, td {
     padding: 10px;
     text-align: center;
+    line-height: 170%;
   }
   thead tr {
     background-color: #ffffff;
@@ -108,7 +109,7 @@ feature-img: "assets/img/background.png"
       </ul> <br/> <br/>
     <div class="content-item" id="dataset-1">
       <h3 class="content-subtitle">
-        1) Image Frames in Video Clips
+        1) Image Frames
       </h3>
       <p class="description">
         AnotherMissOh_images.zip contains image frames of each video clips. The image frames in a scene are saved in {episodeName/sceneNum} folder, and the image frames in a shot are saved in {episodeName/sceneNum/shotNum} folder (e.g., AnotherMissOh01/002/0003 folder for 3rd shot in 2nd scene in episode 1). The image frames are captured at 3 frames per second (FPS). In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network.
@@ -227,45 +228,12 @@ feature-img: "assets/img/background.png"
       <h3 class="content-subtitle">
         3) Scripts (Subtitles)
       </h3>
-      <p class="description">
-        AnotherMissOh_QA.zip contains 3 json files, each denotes a split of DramaQA dataset:
+      <p class = "json-description">
+          AnotherMissOhQA_subtitles.json contains subtitles of video clips which have vid as keys. 
+          <br/>
+          Here is a json example : 
       </p>
-      <table style="font-size: 19px">
-          <tr>
-            <th style="width: 200px">key</th>
-            <th style="width: 500px">type</th>
-            <th style="width: 1000px">descriptions</th>
-          </tr>
-          <tr>
-            <td>vid</td>
-            <td>list of string</td>
-            <td>list of vid where subtitles appear</td>
-          </tr>
-          <tr>
-            <td>script</td>
-            <td>list of three dict<br>(starttime, endtime, utterance)</td>
-            <td>for each utterance, provide its start and end time</td>
-          </tr>
-          <tr>
-            <td>st</td>
-            <td>string</td>
-            <td>utterance start time. It consists of seconds and milliseconds.</td>
-          </tr>
-          <tr>
-            <td>et</td>
-            <td>string</td>
-            <td>utterance end time. It consists of seconds and milliseconds.</td>
-          </tr>
-          <tr>
-            <td>utter</td>
-            <td>string</td>
-            <td>each element of subtitles</td>
-          </tr> 
-        </table>
-        <p class = "json-description">
-          AnotherMissOhQA_subtitles.json contains subtitles of video clips which have vid as keys. Here is a json example : 
-        </p>
-        <pre>
+      <pre>
           {% highlight json %}
             {
               "script": {
@@ -276,5 +244,5 @@ feature-img: "assets/img/background.png"
                 }
             }
           {% endhighlight %}
-        </pre>
+      </pre>
     </div>
