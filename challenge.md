@@ -62,8 +62,8 @@ feature-img: "assets/img/background.png"
       4. Challenge Guidelines
     </h2>
     <ul class="content-item" style="line-height:2em">
-      <li> <a id="link" href="/Dataset ">Dataset Description</a> </li>
-      <li> Starter Code </li>
+      <li> <a id="link" href="/Dataset">Dataset Description</a> </li>
+      <li> <a id="link" href="https://github.com/skaro94/vtt_challenge_2019">Starter Code</a> </li>
       <li> Evaluation(Leaderboard) </li>
      </ul>
   </div>
