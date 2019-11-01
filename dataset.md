@@ -104,7 +104,7 @@ feature-img: "assets/img/background.png"
       <li class ="a"> 13,034 Multi-level Descriptions </li>
       <li class ="a">Table of Contents</li>
       <ul class ="a" style="line-height:1.5em">
-        <li class ="b"><a id="link" href="#dataset-1 ">Image Frames in Video Clips</a></li>
+        <li class ="b"><a id="link" href="#dataset-1 ">Image Frames</a></li>
         <li class ="b"><a id="link" href="#dataset-2 ">Annotations (Q&A, question level, etc)</a></li>
         <li class ="b"><a id="link" href="#dataset-3 ">Scripts (Subtitles)</a></li>
       </ul> <br/> <br/>
