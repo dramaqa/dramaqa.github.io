@@ -64,7 +64,7 @@ feature-img: "assets/img/background.png"
     <ul class="content-item" style="line-height:2em">
       <li> <a id="link" href="/Dataset">Dataset Description</a> </li>
       <li> <a id="link" href="https://github.com/skaro94/vtt_challenge_2019">Starter Code</a> </li>
-      <li> Evaluation(Leaderboard) </li>
+      <li> <a id="link" href="https://evalai.cloudcv.org/web/challenges/challenge-page/467/overview">Evaluation(Leaderboard)</a> </li>
      </ul>
   </div>
   
