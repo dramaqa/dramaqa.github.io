@@ -36,5 +36,7 @@ feature-img: "assets/img/background.png"
     You will be required to fill out this application <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a> with your agreement file.
     <br/><br/>
     The download link for the dataset will be sent to you in around a week if your form is valid. Please do not share the dataset with others.
+    <br/><br/>
+    Be aware that we reply to the submissions by email, <b>don't forget to check your spam mailbox.</b>
   </p>
 </div>
