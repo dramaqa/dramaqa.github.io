@@ -88,7 +88,7 @@ title: About
   <div class = "content-subcontainer">
     <div class="content-item">
       {% for img in sponsor.images %}
-        <img src="{{ img.src }}">
+        <img src="{{ img.src }}" style="width:400px; height:auto">
       {% endfor %}
     </div>
   </div>
