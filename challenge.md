@@ -41,7 +41,7 @@ feature-img: "assets/img/background.png"
           <td>Submission deadline at 23:59:59 (UTC)</td>
         </tr>
         <tr>
-          <th>Dec. 19, 2019</th>
+          <th>Dec. 18, 2019</th>
           <td>Winner’s announcement at the DramaQA Workshop, KSC 2019</td>
         </tr>        
       </table>
