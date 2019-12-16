@@ -26,7 +26,7 @@ feature-img: "assets/img/background.png"
   }
   
   table {
-    width: 100%
+    width: 100%;
   }
   th, td {
     padding: 10px;

@@ -5,6 +5,15 @@ permalink: /Challenge
 feature-img: "assets/img/background.png"
 ---
 
+<style>
+    table {
+        width: 100%;
+    }
+    th {
+        width: 350px;
+    }
+</style>
+
 <div class="challenge content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Challenge 2019
@@ -37,7 +46,7 @@ feature-img: "assets/img/background.png"
           <td>DramaQA Challenge 2019 launched!</td>
         </tr>
         <tr>
-          <th>Dec. 09, 2019</th>
+          <th><del>Dec. 09, 2019</del> &rarr; Dec. 12, 2019</th>
           <td>Submission deadline at 23:59:59 (UTC)</td>
         </tr>
         <tr>
