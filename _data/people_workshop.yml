@@ -1,0 +1,35 @@
+- name: Seongho Choi
+  affiliation: Seoul National University
+  src: /assets/img/people/shchoi.jpeg
+
+- name: Kyoung-Woon On
+  affiliation: Seoul National University
+  src: /assets/img/people/kwon.jpeg
+
+- name: Yu-Jung Heo
+  affiliation: Seoul National University
+  src: /assets/img/people/yjheo.jpeg
+
+- name: Haeyong Kang
+  affiliation: KAIST
+  src: /assets/img/people/hkang.jpeg
+
+- name: Krishna Mohan Chalavadi
+  affiliation: Indian Institute of Technology Hyderabad
+  src: /assets/img/people/ckm.jpeg
+
+- name: Ting Han
+  affiliation: National Institue of Advanced Industrial Science and Technology
+  src: /assets/img/people/than.jpeg
+
+- name: Chang Dong Yoo
+  affiliation: KAIST
+  src: /assets/img/people/cdyoo.jpeg
+
+- name: Gunhee Kim
+  affiliation: Seoul National Universit
+  src: /assets/img/people/gkim.jpeg
+
+- name: Byoung-Tak Zhang
+  affiliation: Seoul National University
+  src: /assets/img/people/btzhang.jpeg
