@@ -29,7 +29,7 @@ feature-img: "assets/img/background.png"
     width: 100%;
   }
   th, td {
-    padding: 10px;
+    padding: 4px;
     text-align: center;
     line-height: 170%;
   }
@@ -107,7 +107,7 @@ feature-img: "assets/img/background.png"
         <li class ="b"><a id="link" href="#dataset-1 ">Image Frames</a></li>
         <li class ="b"><a id="link" href="#dataset-2 ">Annotations (Q&A, question level, etc)</a></li>
         <li class ="b"><a id="link" href="#dataset-3 ">Scripts (Subtitles)</a></li>
-      </ul> <br/> <br/>
+      </ul> <br/>
     <div class="content-item" id="dataset-1">
       <h3 class="content-subtitle">
         1) Image Frames
@@ -224,8 +224,8 @@ feature-img: "assets/img/background.png"
             }
           {% endhighlight %}
          </pre>
-     </div>
-     <div class="content-item" id="dataset-3">
+    </div>
+    <div class="content-item" id="dataset-3">
       <h3 class="content-subtitle">
         3) Scripts (Subtitles)
       </h3>
