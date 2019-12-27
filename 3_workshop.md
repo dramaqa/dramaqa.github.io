@@ -223,7 +223,7 @@ feature-img: "assets/img/background.png"
 
 <div class="content-subcontainer">
     <h2 class = "content-title" style="TEXT-ALIGN: left; color: black;">
-      6. People
+      6. Organizers
     </h2>
     <div class="content-item" style="TEXT-ALIGN: center;">
       {% for person in site.data.people_workshop %}

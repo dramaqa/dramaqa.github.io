@@ -16,6 +16,7 @@ feature-img: "assets/img/background.png"
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Challenge 2019
   </h1> <br />
+  <p><b>This challenge is closed in Dec. 12, 2019 </b></p>
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
       1. Overview
