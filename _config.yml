@@ -3,10 +3,10 @@ baseurl: "/"
 url: "https://dramaqa.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: DramaQA                                    # site's title
+title: DramaQA                                          # site's title
 description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/logo.png                         # Empty for no avatar in navbar
-favicon: assets/small_logo.png                         # Icon displayed in the tab
+avatar: assets/img/logo.png                             # Empty for no avatar in navbar
+favicon: assets/small_logo.png                          # Icon displayed in the tab
 
 # Header and footer text
 header_text: DramaQA for Video Story Understanding                                           # Change Blog header text
