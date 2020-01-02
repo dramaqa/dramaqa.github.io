@@ -1,10 +1,12 @@
 - title: About
   url: /
 - title: Challenge
+  child: True
   sublinks:
     - title: 2019
       url: /Challenge/2019
 - title: Workshop
+  child: True
   sublinks:
     - title: 2019
       url: /Workshop/2019
