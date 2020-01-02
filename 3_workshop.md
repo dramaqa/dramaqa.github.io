@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Workshop
-permalink: /Workshop
+permalink: /Workshop/2019
 feature-img: "assets/img/background.png"
 ---
 

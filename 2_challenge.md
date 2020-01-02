@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Challenge
-permalink: /Challenge
+permalink: /Challenge/2019
 feature-img: "assets/img/background.png"
 ---
 
