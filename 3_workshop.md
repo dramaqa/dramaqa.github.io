@@ -36,7 +36,7 @@ feature-img: "assets/img/background.png"
 </div> <br> <br> <br>
 
 
-<div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
+<div class="content-subcontainer" style="TEXT-ALIGN: left; color:black" id="top">
   <h2> 1. Call for Papers </h2>
   <p> The ability to craft and understand stories is a crucial cognitive tool used by humans for communication. According to computational linguists, narrative theorists and cognitive scientists, the story understanding is a good proxy to measure the readers' intelligence. Readers can understand a story as a way of problem-solving in which, for example, they keep focusing on how main characters overcome certain obstacles throughout the story. Readers need to make inferences both in prospect and in retrospect about the causal relationships between different events in the story. </p>
   <p> Especially, the video story data such as TV shows and movies can serve as an excellent testbed to evaluate the human-level AI algorithms from two points of view. First, video data have different modalities such as a sequence of images, audios (including dialogue, sound effects and background music) and text (subtitles or added comments). Second, video data show various cross-sections of everyday life. Therefore, understanding video story can be thought of a significant challenge to current AI technology, which involves analyzing and simulating human vision, language, thinking, and behavior.  </p>
@@ -271,6 +271,6 @@ feature-img: "assets/img/background.png"
 
 <div class="content-subcontainer" style="TEXT-ALIGN: center; color:black">
 <footer>
-  <p class="pull-right"><a href="https://dramaqa.github.io/Workshop">Back to top</a></p>
+  <p class="pull-right"><a href="#top">Back to top</a></p>
   <p>© 2019 <a href="mailto:yjheo@bi.snu.ac.kr">Yu-Jung Heo</a>, Video Intelligence Center @ Seoul National University </p>
 </footer>
