@@ -1,0 +1,15 @@
+.navbar-collapse li ul {
+    background: rgb(109,109,109);
+    display:none;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:200;
+}
+
+.navbar-collapse li:hover ul {
+    display: block;
+}

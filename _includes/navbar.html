@@ -28,11 +28,8 @@
         {% endif %}
         {% if link.child %}
         <li class="dropdown {{ class }}">
-          <!--a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a-->
+          <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <a class="toggle-menu">
-              {{ link.title }}
-            </a>
             {% for sublink in link.sublinks %}
               {% if sublink.title == 'separator' %}
                 <li role="separator" class="divider"></li>
