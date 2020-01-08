@@ -1,17 +1,23 @@
 - title: About
-  url: /
+  url:
 - title: Challenge
+  url: Challenge/2019
   child: True
   sublinks:
     - title: 2019
-      url: /Challenge/2019
+      url: Challenge/2019
+    - title: 2020
+      url: Challenge/2020
 - title: Workshop
+  url: Workshop/2019
   child: True
   sublinks:
     - title: 2019
-      url: /Workshop/2019
+      url: Workshop/2019
+    - title: 2020
+      url: Workshop/2020
 - title: Dataset
-  url: /Dataset
+  url: Dataset
 - title: Download
-  url: /Download
+  url: Download
 
