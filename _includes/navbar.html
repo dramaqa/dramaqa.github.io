@@ -45,6 +45,7 @@
 </header>
 
 <script>
+<<<<<<< HEAD
     // Add active class to the current button (highlight it)
     let header = document.getElementById("navbar");
     let menus = header.getElementsByTagName("a");
@@ -59,6 +60,23 @@
             current[0].className = current[0].className.replace(" active", "");
             this.className += " active";
         });
+    window.onload = function() {
+        // Add active class to the current button (highlight it)
+        let header = document.getElementById("navbar");
+        let a_tags = header.getElementsByTagName("a");
+        console.log(a_tags);
+        let url_element = window.location.href;
+        console.log(url_element);
+        console.log(url_element.includes('Workshop'));
+
+        for (let i = 0; i < a_tags.length; i++) {
+            console.log(a_tags[i].text);
+            if (url_element.includes(a_tags[i].text)) {
+                console.log('|' + a_tags[i].style.color + '|');
+                a_tags[i].style.color = '#007bff';
+                a_tags[i].className += 'active';
+            }
+        }
     }
 </script>
 
