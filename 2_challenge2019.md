@@ -1,9 +1,14 @@
 ---
 layout: page
-title: Challenge
+title: 1st DramaQA Challenge 2019
+subtitle: Oct. 30, 2019 ~ Dec. 12, 2019
 permalink: /Challenge/2019
-feature-img: "assets/img/background.png"
+feature-img: "assets/img/main.png"
 ---
+
+<link rel="stylesheet" href="/assets/css/member.css">
+<link rel="stylesheet" href="/assets/css/sponsor.css">
+
 
 <style>
     table {
@@ -13,10 +18,6 @@ feature-img: "assets/img/background.png"
 </style>
 
 <div class="challenge content-container">
-  <h1 class = "content-title" style="TEXT-ALIGN: center">
-    DramaQA Challenge 2019
-  </h1> <br />
-  <p style="text-align: center"><b>This challenge is closed in Dec. 12, 2019 </b></p>
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
       1. Overview
@@ -42,7 +43,7 @@ feature-img: "assets/img/background.png"
         </tr>
         <tr>
           <th style="width: 350px">Oct. 31, 2019</th>
-          <td>DramaQA Challenge 2019 launched!</td>
+          <td>1st DramaQA Challenge 2019 launched!</td>
         </tr>
         <tr>
           <th style="width: 350px"><del>Dec. 09, 2019</del> &rarr; Dec. 12, 2019</th>
@@ -83,20 +84,54 @@ feature-img: "assets/img/background.png"
     <table style="celllspacing=0; cellpadding=0; border=0"> 
         <tr>
           <th style="width: 200px">The 1st place</th>
-          <td style="width: 300px">Eun-Sol Kim (Kakao Brain),<br> Woo-Young Kang (Kakao Brain)</td>
+          <td style="width: 300px"><b>Kakao Brain Drama</b><br>Eun-Sol Kim (Kakao Brain),<br> Woo-Young Kang (Kakao Brain)</td>
           <td><img class="1st" src="/assets/img/challenge/2019_1st.JPG" style="margin:0; padding:0; width: 400px; height: 280px"></td>
         </tr>
         <tr>
           <th>The 2nd place</th>
-          <td>Seri Lee (SNU)</td>
+          <td><b>sl</b><br>Seri Lee<br>(Seoul National University)</td>
           <td><img class="2nd" src="/assets/img/challenge/2019_2nd.JPG" style="margin:0; padding:0; width: 400px; height: 280px"></td>
         </tr>
         <tr>
           <th>The 3rd place</th>
-          <td>Seonil Son (SNU)</td>
+          <td><b>twopunchman (bertqa)</b><br>Seonil Son<br>(Seoul National University)</td>
           <td><img class="3rd" src="/assets/img/challenge/2019_3rd.JPG" style="margin:0; padding:0; width: 400px; height: 280px"></td>
         </tr>        
     </table>
+  </div> <br />
+  
+  <div class="content-subcontainer">
+    <h2 class = "content-title">
+      6. Organizers
+    </h2> <br />
+    <div class="content-item">
+      {% for person in site.data.people %}
+        <div class="member">
+          <div class="member-profile">
+            <img class="member-profile" src="{{person.src}}">
+          </div>
+          <div class="member-name member-name">
+            {{ person.name }}
+          </div>
+          <div class="member-info member-position">
+            {{ person.affiliation }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div> <br />
+  
+  <div class="content-subcontainer">
+    <h2 class = "content-title">
+      7. Sponsor
+    </h2> <br />
+    {% for sponsor in site.data.sponsors %}
+    <div class="content-item" style="TEXT-ALIGN: center">
+      {% for img in sponsor.images %}
+        <img src="{{ img.src }}" style="width:230px; height:auto; padding:0 0; vertical-align: middle;">
+      {% endfor %}
+    </div>
+    {% endfor %}
   </div>
   
 </div>

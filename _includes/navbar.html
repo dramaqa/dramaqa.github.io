@@ -45,6 +45,21 @@
 </header>
 
 <script>
+<<<<<<< HEAD
+    // Add active class to the current button (highlight it)
+    let header = document.getElementById("navbar");
+    let menus = header.getElementsByTagName("a");
+    console.log(menus);
+    let url_element = window.location.href.split('/');
+
+    for (let i = 0; i < menus.length; i++) {
+        if(menus[i].classList.contains())
+        menus[i].addEventListener("click", function() {
+            console.log('click!');
+            let current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
     window.onload = function() {
         // Add active class to the current button (highlight it)
         let header = document.getElementById("navbar");

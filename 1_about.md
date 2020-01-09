@@ -4,9 +4,6 @@ permalink: /
 title: About
 ---
 
-<link rel="stylesheet" href="/assets/css/member.css">
-<link rel="stylesheet" href="/assets/css/sponsor.css">
-
 <style>
   p.content-item-news{
     margin-top: 0.1em;
@@ -14,9 +11,6 @@ title: About
   }
   font.date{
     font-family: Monaco, "Courier New", monospace;
-  }
-  font.content{
-    font-family: 'Roboto', sans-serif;
   }
 </style>
 
@@ -56,43 +50,6 @@ title: About
   <p class="content-item">
   To be Announced
   </p>
-</div> <br /> <br /> <br />
-
-<div class="people content-container" style="TEXT-ALIGN: center">
-  <h1 class = "content-title">
-    People
-  </h1> <br />
-  <div class="content-item">
-    {% for person in site.data.people %}
-      <div class="member">
-        <div class="member-profile">
-          <img class="member-profile" src="{{person.src}}">
-        </div>
-        <div class="member-name member-name">
-          {{ person.name }}
-        </div>
-        <div class="member-info member-position">
-          {{ person.affiliation }}
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div> <br /> <br /> <br />
-
-<div class="sponsor content-container" style="TEXT-ALIGN: center">
-  <h1 class = "content-title">
-    Sponsor
-  </h1> <br />
-
-  {% for sponsor in site.data.sponsors %}
-  <div class = "content-subcontainer">
-    <div class="content-item">
-      {% for img in sponsor.images %}
-        <img src="{{ img.src }}" style="width:400px; height:auto">
-      {% endfor %}
-    </div>
-  </div>
-  {% endfor %}
 </div> <br /> <br /> <br />
 
 <div class="contact content-container" style="TEXT-ALIGN: center">
