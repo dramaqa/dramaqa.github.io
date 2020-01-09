@@ -106,7 +106,7 @@ feature-img: "assets/img/main.png"
     </h2> <br />
     <div class="content-item">
       {% for person in site.data.people %}
-        <div class="member" style="horizontal-align: middle;">
+        <div class="member">
           <div class="member-profile">
             <img class="member-profile" src="{{person.src}}">
           </div>
