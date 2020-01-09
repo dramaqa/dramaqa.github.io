@@ -2,7 +2,7 @@
 layout: page
 title: Workshop
 permalink: /Workshop/2019
-feature-img: "assets/img/background.png"
+feature-img: "assets/img/main.png"
 ---
 
 <link rel="stylesheet" href="/assets/css/member.css">
@@ -24,17 +24,6 @@ feature-img: "assets/img/background.png"
         text-indent: 10px;
     }
 </style>
-
-<!--a class="btn btn-default" href="http://iccv2019.thecvf.com/"-->
-
-<div class="content-container" style="TEXT-ALIGN: center; color: white">
-  <br />
-  <h1><b>Video Turing Test:</b></h1>
-  <h1>Toward Human-Level Video Story Understanding</h1>
-  <p>@E4, COEX Convention Center, ICCV 2019 <br> Half day (AM) on Nov 2, 2019, Seoul, Korea</p>
-  <img class="logo" src="/assets/img/workshop/ICCV19logo_main.png" style="width: 120px;">
-</div> <br> <br> <br>
-
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black" id="top">
   <h2> 1. Call for Papers </h2>
@@ -121,12 +110,12 @@ feature-img: "assets/img/background.png"
       <tr>
         <th scope="row">09:45 - 10:15</th>
         <td>Spotlight Talks (5 minutes each) <br>
-        (1) <b>DIFRINT: Deep Iterative Frame Interpolation for Full-frame Video Stabilization </b> (Jinsoo Choi, In So Kweon) <br>
-        (2) <b>Adversarial Inference for Multi-Sentence Video Description </b> (Jae Sung Park, Marcus Rohrbach, Trevor Darrell, Anna Rohrbach) <br>
-        (3) <b>Robust Person Re-identification via Graph Convolution Networks </b> (Guisik Kim, Dongwook Shu, Junseok Kwon) <br>
-        (4) <b>Enhancing Performance of Character Identification on Multiparty Dialogues of Drama via Multimodality </b> (Donghwan Kim) <br>
-        (5) <b>Dual Attention Networks for Visual Reference Resolution in Visual Dialog </b> (Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang) <br>
-        (6) <b>Event Structure Frame-Annotated WordNet for Multimodal Inferencing </b> (Seohyun Im) </td>
+        (1) <b>DIFRINT: Deep Iterative Frame Interpolation for Full-frame Video Stabilization </b> <br>Jinsoo Choi, In So Kweon <br>
+        (2) <b>Adversarial Inference for Multi-Sentence Video Description </b> <br>Jae Sung Park, Marcus Rohrbach, Trevor Darrell, Anna Rohrbach <br>
+        (3) <b>Robust Person Re-identification via Graph Convolution Networks </b> <br>Guisik Kim, Dongwook Shu, Junseok Kwon <br>
+        (4) <b>Enhancing Performance of Character Identification on Multiparty Dialogues of Drama via Multimodality </b> <br>Donghwan Kim <br>
+        (5) <b>Dual Attention Networks for Visual Reference Resolution in Visual Dialog </b> <br>Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang <br>
+        (6) <b>Event Structure Frame-Annotated WordNet for Multimodal Inferencing </b> <br>Seohyun Im </td>
       </tr>
       <tr>
         <th scope="row">10:15 - 11:25</th>
@@ -263,14 +252,8 @@ feature-img: "assets/img/background.png"
 </ul>
 </div> <br />
 
-<div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
-    <h2> 8. Contact us </h2>
-    <p> For more questions about the workshop and submissions, please email <a href="mailto:vttws2019@gmail.com">vttws2019@gmail.com</a> </p>
-</div> <br/>
-
-
 <div class="content-subcontainer" style="TEXT-ALIGN: center; color:black">
 <footer>
   <p class="pull-right"><a href="#top">Back to top</a></p>
-  <p>© 2019 <a href="mailto:yjheo@bi.snu.ac.kr">Yu-Jung Heo</a>, Video Intelligence Center @ Seoul National University </p>
+  <p>© 2019 Video Intelligence Center @ Seoul National University </p>
 </footer>

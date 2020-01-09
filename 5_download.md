@@ -2,7 +2,7 @@
 layout: page
 title: Download
 permalink: /Download
-feature-img: "assets/img/background.png"
+feature-img: "assets/img/main.png"
 ---
 
 

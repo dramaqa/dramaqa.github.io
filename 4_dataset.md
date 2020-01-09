@@ -2,7 +2,7 @@
 layout: page
 title: Dataset
 permalink: /Dataset
-feature-img: "assets/img/background.png"
+feature-img: "assets/img/main.png"
 ---
 
 <style>
