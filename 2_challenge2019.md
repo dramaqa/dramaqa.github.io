@@ -43,7 +43,7 @@ feature-img: "assets/img/main.png"
         </tr>
         <tr>
           <th style="width: 350px">Oct. 31, 2019</th>
-          <td>DramaQA Challenge 2019 launched!</td>
+          <td>1st DramaQA Challenge 2019 launched!</td>
         </tr>
         <tr>
           <th style="width: 350px"><del>Dec. 09, 2019</del> &rarr; Dec. 12, 2019</th>
