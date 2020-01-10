@@ -12,7 +12,7 @@ favicon: assets/small_logo.png                          # Icon displayed in the 
 header_text: DramaQA for Video Story Understanding                                           # Change Blog header text
 header_feature_image: assets/img/main.png
 footer_text:
-  <a href="https://bi.snu.ac.kr">BioIntelligence Lab</a> <br>
+  Video Intelligence Center @ Seoul National University <br>
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
