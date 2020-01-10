@@ -43,7 +43,7 @@ feature-img: "assets/img/main.png"
     <li>Character identification &amp; interaction modeling in video</li>
     <li>Emotion recognition in video</li>
     <li>Novel tasks about video understanding and challenge dataset</li>
-  </ul>
+  </ul><br>
   This workshop will invite a selected set of leading researchers in the related fields for invited talks. Also, we encourage submissions of papers as extended abstract within 4 pages. 
   <h3> Submission Instructions </h3>
   <p>We invite submissions of papers as <b>extended abstract within 4 pages</b>, excluding references or supplementary materials. All submissions must be in pdf format as a single file (incl. supplementary materials) using below templates and submitted through <a href="https://cmt3.research.microsoft.com/VTT2019">this CMT link</a>. 
