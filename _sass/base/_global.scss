@@ -150,11 +150,12 @@ img[align=right] {
 }
 
 blockquote {
-  border-left: 2px solid darken($blockquote-color, 20%);
-  margin: 1em 1em;
-  padding: 0.75em 1em;
-  background-color: $blockquote-color;
-  box-shadow: 0 2px 2px $border-color;
+  //border-left: 2px solid darken($blockquote-color, 20%);
+  //margin: 1em 1em;
+  //padding: 0.75em 1em;
+  //background-color: $blockquote-color;
+  //box-shadow: 0 2px 2px $border-color;
+  padding: 0em 1.5em;
 }
 
 blockquote p:last-child,
@@ -222,6 +223,7 @@ ol,
 ul {
   list-style-position: outside;
   margin-left: 1em;
+  margin-bottom: 0em;
 }
 
 hr {

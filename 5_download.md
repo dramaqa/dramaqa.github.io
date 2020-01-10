@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Download
+title: '<br><h1 class=title>Download</h1>'
 permalink: /Download
 feature-img: "assets/img/main.png"
 ---

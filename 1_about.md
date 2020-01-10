@@ -9,8 +9,11 @@ title: About
     margin-top: 0.1em;
     margin-bottom: 0.1em;
   }
-  font.date{
+
+  .date{
     font-family: Monaco, "Courier New", monospace;
+    color: #4000FF;
+    font-size: 0.8em;
   }
 </style>
 
@@ -21,10 +24,9 @@ title: About
   
   {% for news in site.data.updates %}
     <p class="content-item-news news-{{ forloop.index0 }}">
-      <span id="date"> 
-        <font class="date" color="#4000FF" size="3%"> {{ news.date }} </font>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <font class="content" color="#585858" size="4%">{{ news.content }} </font>
+      <span id="date">
+        <span class="date"> {{ news.date }} </span>
+        <span class="content" style="color: #585858"> {{ news.content }} </span>
       </span>
     </p>
   {% endfor %}

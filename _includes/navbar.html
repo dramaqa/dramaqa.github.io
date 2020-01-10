@@ -23,7 +23,7 @@
         {% endif %}
         {% if link.child %}
         <li class="has-dropdown">
-          <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+          <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="menu" data-toggle="collapse" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
           <ul class="dropdown-content">
             {% for sublink in link.sublinks %}
             <li>

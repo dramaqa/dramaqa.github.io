@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Workshop
+title: '<br><h1 class="title">Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
+subtitle: '<h4 class="subtitle">@E4, COEX Convention Center, ICCV 2019<br>Half day (AM) on Nov 2, 2019, Seoul, Korea</h4><br><a class="btn btn-default" href="http://iccv2019.thecvf.com/"><img src="/assets/img/workshop/ICCV19logo_main.png" style="max-width: 9em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2019
 feature-img: "assets/img/main.png"
 ---
@@ -109,13 +110,28 @@ feature-img: "assets/img/main.png"
       </tr>
       <tr>
         <th scope="row">09:45 - 10:15</th>
-        <td>Spotlight Talks (5 minutes each) <br>
-        (1) <b>DIFRINT: Deep Iterative Frame Interpolation for Full-frame Video Stabilization </b> <br>Jinsoo Choi, In So Kweon <br>
-        (2) <b>Adversarial Inference for Multi-Sentence Video Description </b> <br>Jae Sung Park, Marcus Rohrbach, Trevor Darrell, Anna Rohrbach <br>
-        (3) <b>Robust Person Re-identification via Graph Convolution Networks </b> <br>Guisik Kim, Dongwook Shu, Junseok Kwon <br>
-        (4) <b>Enhancing Performance of Character Identification on Multiparty Dialogues of Drama via Multimodality </b> <br>Donghwan Kim <br>
-        (5) <b>Dual Attention Networks for Visual Reference Resolution in Visual Dialog </b> <br>Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang <br>
-        (6) <b>Event Structure Frame-Annotated WordNet for Multimodal Inferencing </b> <br>Seohyun Im </td>
+        <td>Spotlight Talks (5 minutes each) <br><br>
+            <ol start="1" style="line-height: 1.2;">
+                <li>
+                <b>DIFRINT: Deep Iterative Frame Interpolation for Full-frame Video Stabilization </b> <br>Jinsoo Choi, In So Kweon <br>
+                </li>
+                <li>
+                <b>Adversarial Inference for Multi-Sentence Video Description </b> <br>Jae Sung Park, Marcus Rohrbach, Trevor Darrell, Anna Rohrbach <br>
+                </li>
+                <li>
+                <b>Robust Person Re-identification via Graph Convolution Networks </b> <br>Guisik Kim, Dongwook Shu, Junseok Kwon <br>
+                </li>
+                <li>
+                <b>Enhancing Performance of Character Identification on Multiparty Dialogues of Drama via Multimodality </b> <br>Donghwan Kim <br>
+                </li>
+                <li>
+                <b>Dual Attention Networks for Visual Reference Resolution in Visual Dialog </b> <br>Gi-Cheon Kang, Jaeseo Lim, Byoung-Tak Zhang <br>
+                </li>
+                <li>
+                <b>Event Structure Frame-Annotated WordNet for Multimodal Inferencing </b> <br>Seohyun Im
+                </li>
+            </ol>
+        </td>
       </tr>
       <tr>
         <th scope="row">10:15 - 11:25</th>
@@ -168,44 +184,59 @@ feature-img: "assets/img/main.png"
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
   <h2> 5. Accepted papers </h2>
-  <li>
-    <b>DIFRINT: Deep Iterative Frame Interpolation for Full-frame Video Stabilization</b> <p style="font-size: medium; ">&nbsp;(spotlight)</p> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jinsoo Choi (KAIST); In So Kweon (KAIST) </span> <br>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
+    <b>DIFRINT: Deep Iterative Frame Interpolation for Full-frame Video Stabilization</b> <p style="font-size: medium; ">&nbsp;(spotlight)</p> <br>    
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Jinsoo Choi (KAIST); In So Kweon (KAIST) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>Adversarial Inference for Multi-Sentence Video Description </b> <p style="font-size: medium; ">&nbsp;(spotlight)</p> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jae Sung Park (UC Berkeley); Marcus Rohrbach (Facebook AI Research); Trevor Darrell (UC Berkeley); Anna Rohrbach (UC Berkeley) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Jae Sung Park (UC Berkeley); Marcus Rohrbach (Facebook AI Research); Trevor Darrell (UC Berkeley); Anna Rohrbach (UC Berkeley) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>Robust Person Re-identification via Graph Convolution Networks </b> <p style="font-size: medium; ">&nbsp;(spotlight)</p> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Guisik Kim (Chung-Ang Univ., Korea); Dongwook Shu (Chung-Ang Univ., Korea); Junseok Kwon (Chung-Ang Univ., Korea) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Guisik Kim (Chung-Ang Univ., Korea); Dongwook Shu (Chung-Ang Univ., Korea); Junseok Kwon (Chung-Ang Univ., Korea) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>Enhancing Performance of Character Identification on Multiparty Dialogues of Drama via Multimodality </b> <p style="font-size: medium; ">&nbsp;(spotlight)</p> <br>
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Donghwan Kim (Korea Advanced Institute of Science and Technology) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Donghwan Kim (Korea Advanced Institute of Science and Technology) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>Dual Attention Networks for Visual Reference Resolution in Visual Dialog </b> <p style="font-size: medium; ">&nbsp;(spotlight)</p> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gi-Cheon Kang (Seoul National University); Jaeseo Lim (Seoul National University); Byoung-Tak Zhang (Seoul National University) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Gi-Cheon Kang (Seoul National University); Jaeseo Lim (Seoul National University); Byoung-Tak Zhang (Seoul National University) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>Event Structure Frame-Annotated WordNet for Multimodal Inferencing </b> <p style="font-size: medium; ">&nbsp;(spotlight)</p> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seohyun Im (Seoul National University) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Seohyun Im (Seoul National University) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>A Neural Question-Answering Manager for Video Question Answering </b> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A-Yeong Kim (Kyungpook National University); Gyu-Min Park (Kyung Hee University); Su-Hwan Yun (Kyung Hee University); Seong-Bae Park (Kyung Hee University) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> A-Yeong Kim (Kyungpook National University); Gyu-Min Park (Kyung Hee University); Su-Hwan Yun (Kyung Hee University); Seong-Bae Park (Kyung Hee University) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>Emotion-based Story Event Clustering </b> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hye-Yeon Yu (Department of Electrical and Computer Engineering, Sungkyunkwan University, Suwon, Korea); Seohui Park (Sungkyunkwan University); 
-    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yun-Gyung Cheong (Sungkyunkwan University); Byung-Chull Bae (Hongik University) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Hye-Yeon Yu (Department of Electrical and Computer Engineering, Sungkyunkwan University, Suwon, Korea); Seohui Park (Sungkyunkwan University); Yun-Gyung Cheong (Sungkyunkwan University); Byung-Chull Bae (Hongik University) </span> <br>
+    </blockquote>
   </li>
-  <li>
+  <li style="padding-left: 1.3em; text-indent:-1.3em;">
     <b>Tripartite Heterogeneous Graph Propagation for Multimodal Entity Interaction Prediction </b> <br> 
-    <span style="font-size: medium; "> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kyung-Min Kim (Clova AI Research), Donghyun Kwak (Search Solution Inc.), Hanock Kwak (LINE Plus Copr.), 
-    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Young-Jin Park (Naver R&D Center), Sangkwon Sim (Clova AI Research), Jae-Han Cho (Clova AI Research), Minkyu Kim (Clova AI Research), 
-    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jihun Kwon (Naver R&D Center), Nako Sung (Clova AI Research), Jung-Woo Ha (Clova AI Research) </span> <br>
+    <blockquote style="padding-left: 0em; text-indent:0em;">
+    <span style="font-size: medium; "> Kyung-Min Kim (Clova AI Research), Donghyun Kwak (Search Solution Inc.), Hanock Kwak (LINE Plus Copr.), Young-Jin Park (Naver R&D Center), Sangkwon Sim (Clova AI Research), Jae-Han Cho (Clova AI Research), Minkyu Kim (Clova AI Research), Jihun Kwon (Naver R&D Center), Nako Sung (Clova AI Research), Jung-Woo Ha (Clova AI Research) </span> <br>
+    </blockquote>
   </li>
 </div> <br />
 
