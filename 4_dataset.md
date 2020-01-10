@@ -1,6 +1,7 @@
 ---
 layout: page
-title: '<br><h1 class=title>Dataset</h1>'
+title: Dataset
+headertitle: '<br><h1 class=title>Dataset</h1>'
 permalink: /Dataset
 feature-img: "assets/img/main.png"
 ---

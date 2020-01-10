@@ -1,6 +1,7 @@
 ---
 layout: page
-title: '<br><h1 class="title">Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
+title: Workshop 2019
+headertitle: '<br><h1 class="title">Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
 subtitle: '<h4 class="subtitle">@E4, COEX Convention Center, ICCV 2019<br>Half day (AM) on Nov 2, 2019, Seoul, Korea</h4><br><a class="btn btn-default" href="http://iccv2019.thecvf.com/"><img src="/assets/img/workshop/ICCV19logo_main.png" style="max-width: 9em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2019
 feature-img: "assets/img/main.png"

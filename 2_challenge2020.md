@@ -1,6 +1,7 @@
 ---
 layout: page
-title: '<br><h1 class=title>2nd DramaQA Challenge 2020</h1>'
+title: Challenge 2020
+headertitle: '<br><h1 class=title>2nd DramaQA Challenge 2020</h1>'
 permalink: /Challenge/2020
 feature-img: "assets/img/main.png"
 ---

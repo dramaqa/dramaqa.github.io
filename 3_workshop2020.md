@@ -1,6 +1,7 @@
 ---
 layout: page
-title: '<br><h1 class=title>Workshop 2020</h1>'
+title: Workshop 2020
+headertitle: '<br><h1 class=title>Workshop 2020</h1>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
 ---

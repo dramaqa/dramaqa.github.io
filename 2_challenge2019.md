@@ -1,6 +1,7 @@
 ---
 layout: page
-title: '<br><h1 class=title>1st DramaQA Challenge 2019</h1>'
+title: Challenge 2019
+headertitle: '<br><h1 class=title>1st DramaQA Challenge 2019</h1>'
 subtitle: '<h4 class=subtitle>Oct. 30, 2019 ~ Dec. 12, 2019</h4><br>'
 permalink: /Challenge/2019
 feature-img: "assets/img/main.png"
