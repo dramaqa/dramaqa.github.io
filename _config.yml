@@ -9,7 +9,7 @@ avatar: assets/img/logo.png                             # Empty for no avatar in
 favicon: assets/small_logo.png                          # Icon displayed in the tab
 
 # Header and footer text
-header_text: DramaQA for Video Story Understanding                                           # Change Blog header text
+header_text: DramaQA for Video Story Understanding      # Change Blog header text
 header_feature_image: assets/img/main.png
 footer_text:
   Video Intelligence Center @ Seoul National University <br>
