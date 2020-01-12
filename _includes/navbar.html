@@ -20,11 +20,11 @@
 
         {% if link.child %}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle" href="#" id="{{ link.title }}Dropdown" role="button" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false">
             {{ link.title }}
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu" aria-labelledby="{{ link.title }}Dropdown">
             {% for sublink in link.sublinks %}
               <a class="dropdown-item" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
               {% if forloop.last == false %}
