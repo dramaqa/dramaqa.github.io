@@ -6,12 +6,20 @@
     https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
 -->
 <html lang="en">
-  {% include head.html %}
-  <body>
-    {% include navbar.html %}
-    <div class="content">
-      {{ content }}
-    </div>
-    {% include footer.html %}
-  </body>
+{% include head.html %}
+
+<body>
+<header>
+  {% include navbar.html %}
+</header>
+
+<div class="content">
+  {{ content }}
+</div>
+
+<footer class="site-footer">
+  {% include footer.html %}
+</footer>
+</body>
+
 </html>
