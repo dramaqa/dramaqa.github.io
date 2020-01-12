@@ -22,10 +22,9 @@ article {
   }
 }
 
-div{
-  img.dataset-overview-img{
-    margin-left: -15%;
-    align-items: center;
+div {
+  img.dataset-overview-img {
+    padding: 0;
   }
 }
 
@@ -72,6 +71,7 @@ header {
   a {
     display: flex;
     align-items: center;
+
     img {
       height: auto;
     }
