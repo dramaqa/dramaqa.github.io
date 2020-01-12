@@ -1,77 +1,65 @@
-
 <link rel="stylesheet" href="/assets/css/navigation.css">
 
-<header class="site-header">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light text-dark">
+  <a class="navbar-brand" href="/">
+    <img class="logo-icon" src="{{ site.avatar | relative_url }}" alt="logo img">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- Logo and title -->
-	<div class="branding">
-        {% if site.avatar %}
-		<a href="{{ '/' | relative_url }}">
-			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" style="margin-top: 0.5em"/>
-		</a>
-        {% endif %}
-
-	</div>
-
-  <nav id="nav" class="collapse navbar-collapse">
-    <ul id="navbar" class="nav navbar-nav">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
       {% assign links = site.data.navigation %}
       {% for link in links %}
         {% assign class = nil %}
         {% if page.url contains link.url %}
           {% assign class = 'active' %}
         {% endif %}
+
         {% if link.child %}
-        <li class="has-dropdown">
-          <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="menu" data-toggle="collapse" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-          <ul class="dropdown-content">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/" role="button" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false">
+            {{ link.title }}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             {% for sublink in link.sublinks %}
-            <li>
-              <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-            </li>
+              <a class="dropdown-item" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+              {% if forloop.last == false %}
+                <div class="dropdown-divider"></div>
+              {% endif %}
             {% endfor %}
-          </ul>
+          </div>
         </li>
 
         {% else %}
-        <li>
-          <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="menu">{{ link.title }}</a>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
         </li>
         {% endif %}
       {% endfor %}
     </ul>
-  </nav>
-
-</header>
+  </div>
+</nav>
 
 <script>
     window.onload = function() {
         // Add active class to the current button (highlight it)
         let header = document.getElementById("navbar");
         let a_tags = header.getElementsByTagName("a");
-        console.log(a_tags);
+
         let url_element = window.location.href;
-        console.log(url_element);
-        console.log(url_element.includes('Workshop'));
+
+        if (url_element.includes('Workshop')) {
+        }
 
         for (let i = 0; i < a_tags.length; i++) {
-            console.log(a_tags[i].text);
             if (url_element.includes(a_tags[i].text)) {
-                console.log('|' + a_tags[i].style.color + '|');
                 a_tags[i].style.color = '#007bff';
-                a_tags[i].className += 'active';
+                a_tags[i].style.fontWeight = 'bold';
             }
         }
     }
 </script>
-
-
-<!--<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("#nav ul.dropdown-content").hide();
-        $("#nav ul.dropdown-content li").click(function(){
-            $("ul",this).slideToggle("fast");
-        });
-    });
-</script>-->
