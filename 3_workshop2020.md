@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Workshop 2020
-headertitle: '<br><h1 class=title>2nd DramaQA Workshop 2020</h1>'
-subtitle: '<h4 class="subtitle">16TH EUROPEAN CONFERENCE ON COMPUTER VISION, <br>Glasgow’s Scottish Event Campus (SEC) , GLASGOW, <br>23-28 AUGUST 2020</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
+headertitle: '<br><h1 class="title">Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
+subtitle: '<h4 class="subtitle">@ Glasgow’s Scottish Event Campus (SEC), <br>23-28 Aug. 2020, Glasgow, 16th ECCV</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
 ---
