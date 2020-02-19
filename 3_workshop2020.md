@@ -2,6 +2,7 @@
 layout: page
 title: Workshop 2020
 headertitle: '<br><h1 class=title>Workshop 2020</h1>'
+subtitle: '<h4 class="subtitle">16TH EUROPEAN CONFERENCE ON COMPUTER VISION, <br>Glasgow’s Scottish Event Campus (SEC) , GLASGOW, 23-28 AUGUST 2020</h4><br><a class="btn btn-default" href="http://iccv2019.thecvf.com/"><img src="/assets/img/eccvlogo.png" style="max-width: 9em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
 ---
@@ -36,7 +37,7 @@ feature-img: "assets/img/main.png"
   Video story data such as TV shows and movies can serve as an excellent testbed to evaluate human-level AI algorithms from two points of view. First, video data has different modalities such as a sequence of images, audio (including dialogue, sound effects and background music) and text (subtitles or added comments). Second, video data shows various cross-sections of everyday life. Therefore, understanding video stories can be thought of as a significant challenge to current AI technology, which involves analyzing and simulating human vision, language, thinking, and behavior.
   </p>
   <p>
-  This workshop aims to invite experts from various fields, including vision, language processing, multimedia, and speech recognition, to provide their perspective on existing research, and initiate discussion on future challenges in data-driven video understanding. To assess current state-of-the-art methodologies and encourage rapid progress in the field, we will also host a challenge based on the DramaQA dataset, which encourages story-centered video question answering. Topics of interest includes but are not limited to:
+  This workshop aims to invite experts from various fields, including vision, language processing, multimedia, and speech recognition, to provide their perspective on existing research, and initiate discussion on future challenges in data-driven video understanding. To assess current state-of-the-art methodologies and encourage rapid progress in the field, we will also host a challenge based on the DramaQA dataset, which encourages story-centered video question answering. Topics of interest include but are not limited to:
   </p>
   <li>Deep learning architectures for multi-modal video story representation</li>
   <li>Question answering for video stories</li>
