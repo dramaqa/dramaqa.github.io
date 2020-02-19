@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/assets/css/navigation.css">
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light text-dark">
+<nav id="dramaqa-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">
     <img class="logo-icon" src="{{ site.avatar | relative_url }}" alt="logo img" height="40">
   </a>
@@ -13,18 +13,18 @@
     <ul class="navbar-nav ml-auto">
       {% assign links = site.data.navigation %}
       {% for link in links %}
-        {% assign class = nil %}
+        {% assign class = ni\l %}
         {% if page.url contains link.url %}
           {% assign class = 'active' %}
         {% endif %}
 
         {% if link.child %}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle" href="#" id="{{ link.title }}Dropdown" role="button" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false">
             {{ link.title }}
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu" aria-labelledby="{{ link.title }}Dropdown">
             {% for sublink in link.sublinks %}
               <a class="dropdown-item" href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
               {% if forloop.last == false %}
@@ -33,30 +33,28 @@
             {% endfor %}
           </div>
         </li>
-
         {% else %}
         <li class="nav-item">
           <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
         </li>
         {% endif %}
+
       {% endfor %}
     </ul>
   </div>
 </nav>
 
 <script>
-    window.onload = function() {
+    window.onload = function () {
         // Add active class to the current button (highlight it)
-        let header = document.getElementById("navbar");
+        let header = document.getElementById("dramaqa-navbar");
         let a_tags = header.getElementsByTagName("a");
 
         let url_element = window.location.href;
 
-        if (url_element.includes('Workshop')) {
-        }
-
         for (let i = 0; i < a_tags.length; i++) {
             if (url_element.includes(a_tags[i].text)) {
+                console.log(a_tags[i].text);
                 a_tags[i].style.color = '#007bff';
                 a_tags[i].style.fontWeight = 'bold';
             }
