@@ -2,7 +2,7 @@
 layout: page
 title: Workshop 2020
 headertitle: '<br><h1 class=title>Workshop 2020</h1>'
-subtitle: '<h4 class="subtitle">16TH EUROPEAN CONFERENCE ON COMPUTER VISION, <br>Glasgow’s Scottish Event Campus (SEC) , GLASGOW, 23-28 AUGUST 2020</h4><br><a class="btn btn-default" href="http://iccv2019.thecvf.com/"><img src="/assets/img/eccvlogo.png" style="max-width: 9em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
+subtitle: '<h4 class="subtitle">16TH EUROPEAN CONFERENCE ON COMPUTER VISION, <br>Glasgow’s Scottish Event Campus (SEC) , GLASGOW, <br>23-28 AUGUST 2020</h4><br><a class="btn btn-default" href="http://iccv2019.thecvf.com/"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
 ---
