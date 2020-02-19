@@ -55,7 +55,7 @@ feature-img: "assets/img/main.png"
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
   <h2> 2. Important Dates </h2>
-  Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a> (url link 걸어주세요)
+  Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
   <br>
   Paper Submission Deadline: TBD
   <br>
