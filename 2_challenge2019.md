@@ -101,7 +101,7 @@ feature-img: "assets/img/main.png"
       6. Organizers
     </h2> <br />
     <div class="content-item">
-      {% for person in site.data.people %}
+      {% for person in site.data.people_challenge2019 %}
         <div class="member">
           <div class="member-profile">
             <img class="member-profile" src="{{person.src}}">
