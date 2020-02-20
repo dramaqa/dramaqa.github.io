@@ -2,7 +2,7 @@
 layout: page
 title: Workshop 2020
 headertitle: '<br><h1 class="title">Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
-subtitle: '<h4 class="subtitle">@ Glasgow’s Scottish Event Campus (SEC), <br>23-28 Aug. 2020, Glasgow, 16th ECCV</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
+subtitle: '<h4 class="subtitle">@ Glasgow’s Scottish Event Campus (SEC), <br>28 Aug. 2020, Glasgow, 16th ECCV</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
 ---
@@ -37,7 +37,8 @@ feature-img: "assets/img/main.png"
   Video story data such as TV shows and movies can serve as an excellent testbed to evaluate human-level AI algorithms from two points of view. First, video data has different modalities such as a sequence of images, audio (including dialogue, sound effects and background music) and text (subtitles or added comments). Second, video data shows various cross-sections of everyday life. Therefore, understanding video stories can be thought of as a significant challenge to current AI technology, which involves analyzing and simulating human vision, language, thinking, and behavior.
   </p>
   <p>
-  This workshop aims to invite experts from various fields, including vision, language processing, multimedia, and speech recognition, to provide their perspective on existing research, and initiate discussion on future challenges in data-driven video understanding. To assess current state-of-the-art methodologies and encourage rapid progress in the field, we will also host a challenge based on the DramaQA dataset, which encourages story-centered video question answering. Topics of interest include but are not limited to:
+  This workshop aims to invite experts from various fields, including vision, language processing, multimedia, and speech recognition, to provide their perspective on existing research, and initiate discussion on future challenges in data-driven video understanding. To assess current state-of-the-art methodologies and encourage rapid progress in the field, 
+  we will also host a <a href="https://dramaqa.github.io/Challenge/2020">challenge based on the DramaQA dataset</a>, which encourages story-centered video question answering. Topics of interest include but are not limited to:
   </p>
   <li>Deep learning architectures for multi-modal video story representation</li>
   <li>Question answering for video stories</li>
@@ -49,13 +50,13 @@ feature-img: "assets/img/main.png"
   <li>Emotion recognition in video</li>
   <li>Novel tasks about video understanding and challenge dataset</li>
   
-  <p>
+  <br><p>
   This workshop will invite leading researchers from various fields. We encourage submissions of papers as <b><i>extended abstracts of 4 pages in ECCV format</i></b>. Accepted submissions and challenge winner and runner up teams will be invited to present their work at the workshop.
   </p>
 </div> <br />
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
-  <h2> 2. Important Dates </h2>
+  <h2> 2. Bullet </h2>
   Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
   <br>
   Paper Submission Deadline: TBD

@@ -2,7 +2,7 @@
 layout: page
 title: Challenge 2020
 headertitle: '<br><h1 class=title>2nd DramaQA Challenge 2020</h1>'
-subtitle: '<h4 class="subtitle">@ Glasgow’s Scottish Event Campus (SEC), <br>23-28 Aug. 2020, Glasgow, 16th ECCV</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
+subtitle: '<h4 class="subtitle">@ Glasgow’s Scottish Event Campus (SEC), <br>28 Aug. 2020, Glasgow, 16th ECCV</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Challenge/2020
 feature-img: "assets/img/main.png"
 ---
@@ -26,7 +26,7 @@ feature-img: "assets/img/main.png"
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
-      2. Important Dates
+      2. Bullet
     </h2>
     <div style="overflow-x: auto">
      <li>
