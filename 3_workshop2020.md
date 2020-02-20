@@ -51,7 +51,7 @@ feature-img: "assets/img/main.png"
   <li>Novel tasks about video understanding and challenge dataset</li>
   
   <br><p>
-  This workshop will invite leading researchers from various fields. We encourage submissions of papers as <b><i>extended abstracts of 4 pages in ECCV format</i></b>. Accepted submissions and challenge winner and runner up teams will be invited to present their work at the workshop.
+  This workshop will invite leading researchers from various fields. Details of submission instruction will be anounced soon.
   </p>
 </div> <br />
 
