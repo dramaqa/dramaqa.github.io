@@ -19,7 +19,7 @@
   src: /assets/img/people/vicente.jpg
 
 - name: Leonid Sigal
-  affiliation: University of British Columbia Scientific
+  affiliation: University of British Columbia
   src: /assets/img/people/leonid.jpg
 
 - name: Chang Dong Yoo
@@ -29,6 +29,10 @@
 - name: Gunhee Kim
   affiliation: Seoul National University
   src: /assets/img/people/gkim.png
+
+- name: Marcello Pelillo
+  affiliation: University of Venice
+  src: /assets/img/people/pelillo.jpg
 
 - name: Byoung-Tak Zhang
   affiliation: Seoul National University

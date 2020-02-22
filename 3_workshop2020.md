@@ -56,12 +56,21 @@ feature-img: "assets/img/main.png"
 </div> <br />
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
-  <h2> 2. Bullet </h2>
-  Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
-  <br>
-  Paper Submission Deadline: TBD
-  <br>
-  Workshop Date: Aug 28, 2020 (Full day)
+  <h2> 2. Important Dates </h2>
+  <div style="overflow-x: auto">
+    <li>
+      Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
+    </li>
+    <li>
+      Paper Submission Deadline: Late May (TBD)
+    </li>
+    <li>
+      Workshop Date: August 28, 2020 (Full day)
+    </li>
+    <li>
+      Details will be announced soon.
+    </li>
+  </div>
 </div> <br /> <br />
 
 <div class="content-subcontainer">
