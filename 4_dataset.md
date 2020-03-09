@@ -46,34 +46,32 @@ feature-img: "assets/img/main.png"
   }
 </style>
   
+<link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.5.0/styles/default.min.css">
+<script src="//cdn.jsdelivr.net/highlight.js/9.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+  
     
 <div class="dataset content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Dataset Description
   </h1> <br />
-  <img class="dataset-overview-img" src="/assets/dataset_img.jpg">
+  <img class="dataset-overview-img" src="/assets/dramaqa_overview_final.png">
   
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
       1. Overview
     </h2>
+    <br/>
     <p class = "content-item">
-      DramaQA  dataset is collected on a Korean popular TV show, “Another Miss Oh”. The goal of the DramaQA Dataset is to solve natural language QA that target the story of a video clip. DramaQA utilizes image frames, subtitles, and descriptions of the video clip to answer the question. Following are differentiated characteristics from other video QA datasets.
+      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research. We collected the dataset on a popular Korean drama <b><i>Another Miss Oh</i></b>, which has 18 episodes, 20.5 hours in total. DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels. 
     </p>
+    <br/>
     <div class="content-subitem">
       <h3 class = "content-item-subtitle">
-        1) Multi-level Description
+        1)  Question-Answer Hierarchy for Levels of Difficulty
       </h3>
       <p class = "content-subitem">
-        We briefly introduce two terms commonly used in video domain: Shot and Scene. A shot is formed by a series of continuous frames with consistent background setting, and a scene is a group of semantically related shots, which are coherent to certain subject or theme.
-        <br />
-	    We collected the story descriptions for shot and scene level respectively and we limited that the descriptions should be focused on 19 main characters.
-      </p>
-      <h3 class = "content-item-subtitle">
-        2) Multi-level Difficulty
-      </h3>
-      <p class = "content-subitem">
-        Based on arxiv link, we defined four levels of difficulty for the question in terms of two criteria: length of video clip (Memory Capacity, MC) and the number of logical reasoning step (Logical complexity, LC).
+        To  classify  question-answer  pairs  into  hierarchical  levels  of  understanding,  we propose two criteria: Memory capacity and Logical complexity. Memory capacity (MC)  is  defined  as  the  length  of  the  video  clip,  and  corresponds  to  working memory in human cognitive process. Logical complexity (LC) is defined by the number of logical reasoning steps required to answer the question, which is in line with Piaget’s developmental stage. 
       </p>
       <ul class = "content-subitem" style="line-height:1.5em">
         <li class ="a"> Lv 1: MC (shot-level video), LC (single supporting fact). </li>
@@ -81,7 +79,15 @@ feature-img: "assets/img/main.png"
         <li class ="a"> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
         <li class ="a"> Lv 4: MC (scene-level video), LC (reason for causality). </li>
       </ul>
-  </div> <br /> <br />
+    <br/>
+      <h3 class = "content-item-subtitle">
+        2)  Character-Centered Video Annotations
+      </h3>
+      <p class = "content-subitem">
+        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i>Another Miss Oh</i></b>. As visual metadata, all image frames in the video clips are annotated with main characters information. In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. Including none behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
+      </p>
+    </div> <br /> <br />
+  </div>
   
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
@@ -102,28 +108,21 @@ feature-img: "assets/img/main.png"
           <li class ="c" type="square"> 1,833 level 3 questions </li>
           <li class ="c" type="square"> 1,821 level 4 questions </li>
          </ul>
-      <li class ="a"> 13,034 Multi-level Descriptions </li>
       <li class ="a">Table of Contents</li>
       <ul class ="a" style="line-height:1.5em">
-        <li class ="b"><a id="link" href="#dataset-1 ">Image Frames</a></li>
-        <li class ="b"><a id="link" href="#dataset-2 ">Annotations (Q&A, question level, etc)</a></li>
-        <li class ="b"><a id="link" href="#dataset-3 ">Scripts (Subtitles)</a></li>
+        <li class ="b"><a id="link" href="#dataset-1 ">Annotations (Q&A, question level, etc)</a></li>
+        <li class ="b"><a id="link" href="#dataset-2 ">Image Frames</a></li>
+        <li class ="b"><a id="link" href="#dataset-3 ">Visual Metadata</a></li>
+        <li class ="b"><a id="link" href="#dataset-4 ">Coreference Resolved Scripts</a></li>
       </ul> <br/>
-    <div class="content-item" id="dataset-1">
+    </ul>
+    <div class = "content-item" id="dataset-1">
       <h3 class="content-subtitle">
-        1) Image Frames
-      </h3>
-      <p class="description">
-        AnotherMissOh_images.zip contains image frames of each video clips. The image frames in a scene are saved in {episodeName/sceneNum} folder, and the image frames in a shot are saved in {episodeName/sceneNum/shotNum} folder (e.g., AnotherMissOh01/002/0003 folder for 3rd shot in 2nd scene in episode 1). The image frames are captured at 3 frames per second (FPS). In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network.
-      </p>
-    </div> <br />
-    <div class = "content-item"  id="dataset-2">
-      <h3 class="content-subtitle">
-        2) Annotations (Q&A, question level, etc)
+        1) Annotations (Q&A, question level, etc)
       </h3>
       <p class = "pre-description">
           AnotherMissOh_QA.zip contains 3 json files, each denotes a split of DramaQA dataset:
-          <table style="font-size: 19px"> 
+          <table style="font-size: 1em"> 
             <tr>
               <th style="width: 300px">files</th>
               <th style="width: 100px">#data</th>
@@ -153,7 +152,7 @@ feature-img: "assets/img/main.png"
         <br/><br/>
         Each of files contains following entries:
       </p>
-        <table style="font-size: 19px">
+        <table style="font-size: 1em">
           <tr>
             <th style="width: 200px">key</th>
             <th style="width: 200px">type</th>
@@ -208,43 +207,104 @@ feature-img: "assets/img/main.png"
         <p class = "json-description">
           Here is a json example : 
         </p>
-        <pre>
-          {% highlight json %}
-            {
-              "correct_idx": 3, 
-              "description": "Dokyung is sitting on the chair.  
-                              Dokyung texted a message to Haeyoung1. Haeyoung1 made surprised Dokyung.", 
-              "answers": ["Dokyung texted the message to mom.", "Dokyung texted the message to dad.", "Dokyung texted the message to Haeyoung1.", "Dokyung texted the message to sister.", "Dokyung texted the message to brother."], 
-              "que": "What did Dokyung do in his home?", 
-              "shot_contained": [48, 115], 
-              "q_level_logic": 3, 
-              "vid": "AnotherMissOh16_002_0000", 
-              "q_level_mem": 3, 
-              "qid": 3707, 
-              "videoType": "scene"
-            }
-          {% endhighlight %}
-         </pre>
-    </div>
-    <div class="content-item" id="dataset-3">
+        <pre style="font-size: 1em"><code class="json">{
+    "correct_idx": 3, 
+    "description": "Dokyung is sitting on the chair.  
+                    Dokyung texted a message to Haeyoung1. 
+                    Haeyoung1 made surprised Dokyung.", 
+    "answers": ["Dokyung texted the message to mom.", 
+                "Dokyung texted the message to dad.", 
+                "Dokyung texted the message to Haeyoung1.",
+                "Dokyung texted the message to sister.", 
+                "Dokyung texted the message to brother."], 
+    "que": "What did Dokyung do in his home?", 
+    "shot_contained": [48, 115], 
+    "q_level_logic": 3, 
+    "vid": "AnotherMissOh16_002_0000", 
+    "q_level_mem": 3, 
+    "qid": 3707, 
+    "videoType": "scene"
+}</code></pre>
+    </div> <br />
+    <div class = "content-item" id="dataset-2">
       <h3 class="content-subtitle">
-        3) Scripts (Subtitles)
+        2) Image Frames
       </h3>
-      <p class = "json-description">
-          AnotherMissOhQA_subtitles.json contains subtitles of video clips which have vid as keys. 
-          <br/>
-          Here is a json example : 
-      </p>
-      <pre>
-          {% highlight json %}
-            {
-              "script": {
-                "et": "193.940", 
-                "st": "192.250", 
-                "utter": "You shouldn’t feel empty, but relieved!"},
-                "vid": ["AnotherMissOh01_001_0088", "AnotherMissOh01_001_0089"]
-                }
-            }
-          {% endhighlight %}
-      </pre>
+      <ul class = "content-item" style="line-height:2em">
+        <li class ="a"> <code>AnotherMissOh_images.zip</code> contains image frames of each video clips. </li>
+        <li class ="a"> The image frames in a scene are saved in <code>{episodeName/sceneNum}</code> folder, and the image frames in a shot are saved in <code>{episodeName/sceneNum/shotNum}</code> folder. </li>
+        <ul class = "content-subitem" style="line-height:1.5em">
+          <li class ="b" type="circle"> e.g., <code>AnotherMissOh01/002/0003</code> folder for 3rd shot in 2nd scene in episode 1. </li>
+        </ul>
+        <li class ="a"> The image frames are captured at 3 frames per second (FPS). </li>
+        <li class ="a"> In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network. </li>
+      </ul>
     </div>
+    <br />
+    <div class = "content-item" id="dataset-3">
+      <h3 class="content-subtitle">
+        3) Visual Metadata
+      </h3>
+      <ul class = "content-subitem" style="line-height:1.5em">
+        <li class ="a"> <b>Bounding Box:</b> In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their  name.  
+        In  case  the  characters  face  is  invisible  or  unrecognizable,  the character’s name is labeled as <code>none</code>. In total, 20 main characters are annotated with their unique name.</li>
+        <li class ="a"> <b>Behavior & Emotion</b>, Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. Including <code>none</code> behavior,  total  28  behavioral  verbs,  such  as <code>drink</code>, <code>hold</code>, <code>cook</code>,  is used  for  behavior  expression.  Also,  we  present  characters’  emotion  with  7 emotional adjectives; <code>anger</code>, <code>disgust</code>, <code>fear</code>, <code>happiness</code>, <code>sadness</code>, <code>surprise</code>, and <code>neutral</code>. </li>
+      </ul>
+      <p class = "json-description">
+        Here is a json example : 
+      </p>
+      <pre style="font-size: 1em"><code class="json">{
+    "frame_id": "AnotherMissOh17_013_0261_IMAGE_0000021778",
+    "persons": [
+        "person_info": {
+            "behavior": "stand up",
+            "face_rect": {
+                "min_x": 427,
+                "max_x": 498,
+                "max_y": 234,
+                "min_y": 124
+            },
+            "full_rect": {
+                "min_x": 330,
+                "max_x": 569,
+                "max_y": 617,
+                "min_y": 74
+            },
+            "emotion": "Sadness",
+        },
+        "person_id": "Jiya"
+        }
+    ]  
+}</code></pre>
+    </div>
+    <br />
+    <div class = "content-item" id="dataset-4">
+      <h3 class="content-subtitle">
+        4) Coreference Resolved Scripts
+      </h3>
+      <p class = "content-subitem">
+        For  understanding  video  stories,  especially drama, it is important to understand the dialogue between the characters. Especially, the information such as “<i>Who</i> is talking to <i>whom</i> about <i>who</i> did what?” is significant for understanding whole stories. In DramaQA, we provide these information by resolving the coreferences for main characters in scripts.  
+      </p>
+      <p class = "json-description">
+        Here is a json example : 
+      </p>
+      <pre style="font-size: 1em"><code class="json">"AnotherMissOh01_001_0109": {
+    "contained_subs": [
+    {
+        "et": "295.595",
+        "speaker": "Haeyoung1",
+        "st": "293.685",
+        "utter": "I(Heayoung1) said I(Heayoung1)'m not going to get married."
+    },
+    {
+        "et": "292.426",
+        "speaker": "Deogi",
+        "st": "290.376",
+        "utter": "Just what in the world are you(Heayoung1) trying to say now?"
+    }],
+    "et": "294.6",
+    "st": "291.56"
+}</code></pre>
+    </div>
+  </div>
+</div>
