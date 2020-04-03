@@ -59,16 +59,16 @@ feature-img: "assets/img/main.png"
   <h2> 2. Important Dates </h2>
   <div style="overflow-x: auto">
     <li>
-      Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
+      Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">Link</a>
     </li>
     <li>
-      Paper Submission Deadline: Late May (TBD)
+      Paper Submission Deadline: July 10, 2020
     </li>
     <li>
       Workshop Date: August 28, 2020 (Full day)
     </li>
     <li>
-      Details will be announced soon.
+      <b>Details will be announced soon.
     </li>
   </div>
 </div> <br /> <br />
@@ -97,5 +97,5 @@ feature-img: "assets/img/main.png"
 <div class="content-subcontainer" style="TEXT-ALIGN: center; color:black">
 <footer>
   <p class="pull-right"><a href="#top">Back to top</a></p>
-  <p>© 2019 Video Intelligence Center @ Seoul National University </p>
+  <p>© 2020 Video Intelligence Center @ Seoul National University </p>
 </footer>
