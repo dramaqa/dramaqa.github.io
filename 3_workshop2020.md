@@ -68,7 +68,7 @@ feature-img: "assets/img/main.png"
       Workshop Date: August 28, 2020 (Full day)
     </li>
     <li>
-      <b>Details will be announced soon.
+        <b>Details will be announced soon.</b>
     </li>
   </div>
 </div> <br /> <br />
