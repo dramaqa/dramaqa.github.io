@@ -70,7 +70,7 @@ feature-img: "assets/img/main.png"
     </h2>
     <div class="content-item" style="TEXT-ALIGN: center;">
       {% for person in site.data.people_workshop2020 %}
-        <div class="member" style="vertical-align: top; width: 250px;">
+        <div class="member" style="vertical-align: top; width: 170px;">
           <div class="member-profile">
             <img class="member-profile" src="{{person.src}}" alt="person">
           </div>
