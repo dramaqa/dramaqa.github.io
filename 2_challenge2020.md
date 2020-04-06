@@ -26,18 +26,21 @@ feature-img: "assets/img/main.png"
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
-      2. Bullet
+      2. Important Dates
     </h2>
     <div style="overflow-x: auto">
-     <li>
-       In March, DramaQA Dataset v1.0 is released.
-     </li>
-     <li>
-       In April, The 2nd DramaQA Challenge 2020 launched.
-     </li>
-     <br>
-     Details will be announced soon. <br>
-     Signup to receive updates: <a id="link" href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
+      <li>
+        Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
+      </li>
+      <li>
+        In March, DramaQA Dataset v1.0 will be released.
+      </li>
+      <li>
+        In April, The 2nd DramaQA Challenge 2020 will be launched.
+      </li>
+      <li>
+        Details will be announced soon. 
+      </li>
     </div>
   </div> <br /> <br />
 
