@@ -7,6 +7,10 @@ feature-img: "assets/img/main.png"
 ---
 
 <style>
+  pre code {
+    font-size: 1em;
+    font-family: 'consolas', monospace;
+  }
   h3.content-item-subtitle {
     margin-left: 0.5em;
   }
@@ -84,7 +88,7 @@ feature-img: "assets/img/main.png"
         2)  Character-Centered Video Annotations
       </h3>
       <p class = "content-subitem">
-        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i>Another Miss Oh</i></b>. As visual metadata, all image frames in the video clips are annotated with main characters information. In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. Including none behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
+        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i>Another Miss Oh</i></b>. As visual metadata, all image frames in the video clips are annotated with main characters information. In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
       </p>
     </div> <br /> <br />
   </div>
@@ -174,11 +178,6 @@ feature-img: "assets/img/main.png"
             <td>video type: shot or scene</td>
           </tr>
           <tr>
-            <td>description</td>
-            <td>string</td>
-            <td>video clip story description</td>
-          </tr>
-          <tr>
             <td>q_level_mem</td>
             <td>int</td>
             <td>memory capacity level, values are from 2 to 3</td>
@@ -207,7 +206,7 @@ feature-img: "assets/img/main.png"
         <p class = "json-description">
           Here is a json example : 
         </p>
-        <pre style="font-size: 1em"><code class="json">{
+        <pre><code class="json">{
     "correct_idx": 3, 
     "description": "Dokyung is sitting on the chair.  
                     Dokyung texted a message to Haeyoung1. 
@@ -253,7 +252,7 @@ feature-img: "assets/img/main.png"
       <p class = "json-description">
         Here is a json example : 
       </p>
-      <pre style="font-size: 1em"><code class="json">{
+      <pre><code class="json">{
     "frame_id": "AnotherMissOh17_013_0261_IMAGE_0000021778",
     "persons": [
         "person_info": {
@@ -288,7 +287,7 @@ feature-img: "assets/img/main.png"
       <p class = "json-description">
         Here is a json example : 
       </p>
-      <pre style="font-size: 1em"><code class="json">"AnotherMissOh01_001_0109": {
+      <pre><code class="json">"AnotherMissOh01_001_0109": {
     "contained_subs": [
     {
         "et": "295.595",
