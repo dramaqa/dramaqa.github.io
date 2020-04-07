@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dataset
+title: DramaQA Dataset
 headertitle: '<br><h1 class=title>Dataset</h1>'
 permalink: /Dataset
 feature-img: "assets/img/main.png"
@@ -60,14 +60,16 @@ feature-img: "assets/img/main.png"
     DramaQA Dataset Description
   </h1> <br />
   <img class="dataset-overview-img" src="/assets/dramaqa_overview_final.png">
-  
+  <br /> <br/>
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
       1. Overview
     </h2>
     <br/>
     <p class = "content-item">
-      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research. We collected the dataset on a popular Korean drama <b><i>Another Miss Oh</i></b>, which has 18 episodes, 20.5 hours in total. DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels. 
+      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research. 
+      We collected the dataset on a popular Korean drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh">Another Miss Oh</a></i></b>, which has 18 episodes, 20.5 hours in total. 
+      DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels. 
     </p>
     <br/>
     <div class="content-subitem">
@@ -75,20 +77,28 @@ feature-img: "assets/img/main.png"
         1)  Question-Answer Hierarchy for Levels of Difficulty
       </h3>
       <p class = "content-subitem">
-        To  classify  question-answer  pairs  into  hierarchical  levels  of  understanding,  we propose two criteria: Memory capacity and Logical complexity. Memory capacity (MC)  is  defined  as  the  length  of  the  video  clip,  and  corresponds  to  working memory in human cognitive process. Logical complexity (LC) is defined by the number of logical reasoning steps required to answer the question, which is in line with Piaget’s developmental stage. 
+        To  classify  question-answer  pairs  into  hierarchical  levels  of  understanding,  we propose two criteria: Memory Capacity and Logical Complexity. 
+        Memory Capacity (MC)  is  defined  as  the  length  of  the  video  clip,  and  corresponds  to  working memory in human cognitive process. 
+        Logical Complexity (LC) is defined by the number of logical reasoning steps required to answer the question, which is in line with Piaget’s developmental stage. <br/>
+        The hierarchical levels are as follows,
       </p>
       <ul class = "content-subitem" style="line-height:1.5em">
-        <li class ="a"> Lv 1: MC (shot-level video), LC (single supporting fact). </li>
-        <li class ="a"> Lv 2: MC (shot-level video), LC (multiple supporting facts). </li>
-        <li class ="a"> Lv 3: MC (scene-level video), LC (multiple supporting facts w/ time). </li>
-        <li class ="a"> Lv 4: MC (scene-level video), LC (reason for causality). </li>
+        <li class ="a"> Difficulty 1: Difficulty 1 level QAs are based on a shot-level video length and requires single supporting fact to answer the question. </li>
+        <li class ="a"> Difficulty 2: Difficulty 2 level QAs are based on a shot-level video length and requires multiple supporting facts to answer the question. </li>
+        <li class ="a"> Difficulty 3: Difficulty 3 level QAs are based on a scene-level video length and requires multiple supporting facts with time factor to answer the question. </li>
+        <li class ="a"> Difficulty 4: Difficulty 4 level QAs are based on a scene-level video length and requires reasoning for causality to answer the question. </li>
       </ul>
     <br/>
       <h3 class = "content-item-subtitle">
         2)  Character-Centered Video Annotations
       </h3>
       <p class = "content-subitem">
-        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i>Another Miss Oh</i></b>. As visual metadata, all image frames in the video clips are annotated with main characters information. In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
+        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh"><span>Another Miss Oh</span></a></i></b>. 
+        As visual metadata, all image frames in the video clips are annotated with main characters information. 
+        In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. 
+        Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. 
+        Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. 
+        Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
       </p>
     </div> <br /> <br />
   </div>
@@ -105,7 +115,7 @@ feature-img: "assets/img/main.png"
       </ul>
       <li class ="a"> 15,760 question-answer pairs with multi-level difficulties </li>
         <ul class = "content-subitem" style="line-height:1.5em">
-          <li class ="b" type="circle"> 5 multiple choice Q&A </li>
+          <li class ="b" type="circle"> 5 multiple choice QA </li>
           <li class ="b" type="circle"> Four levels of difficulty for the questions </li>
           <li class ="c" type="square"> 7,991 level 1 questions </li>
           <li class ="c" type="square"> 4,116 level 2 questions </li>
@@ -114,22 +124,37 @@ feature-img: "assets/img/main.png"
          </ul>
       <li class ="a">Table of Contents</li>
       <ul class ="a" style="line-height:1.5em">
-        <li class ="b"><a id="link" href="#dataset-1 ">Annotations (Q&A, question level, etc)</a></li>
-        <li class ="b"><a id="link" href="#dataset-2 ">Image Frames</a></li>
+        <li class ="b"><a id="link" href="#dataset-1 ">Image Frames</a></li>
+        <li class ="b"><a id="link" href="#dataset-2 ">Hierarchical QA</a></li>
         <li class ="b"><a id="link" href="#dataset-3 ">Visual Metadata</a></li>
         <li class ="b"><a id="link" href="#dataset-4 ">Coreference Resolved Scripts</a></li>
       </ul> <br/>
     </ul>
     <div class = "content-item" id="dataset-1">
       <h3 class="content-subtitle">
-        1) Annotations (Q&A, question level, etc)
+        1) Image Frames
+      </h3>
+      <ul class = "content-item" style="line-height:2em">
+        <li class ="a"> <code>AnotherMissOh_images.zip</code> contains image frames of each video clips. </li>
+        <li class ="a"> The image frames in a scene are saved in <code>{episodeName/sceneNum}</code> folder, and the image frames in a shot are saved in <code>{episodeName/sceneNum/shotNum}</code> folder. </li>
+        <ul class = "content-subitem" style="line-height:1.5em">
+          <li class ="b" type="circle"> e.g., <code>AnotherMissOh01/002/0003</code> folder for 3rd shot in 2nd scene in episode 1. </li>
+        </ul>
+        <li class ="a"> The image frames are captured at 3 frames per second (FPS). </li>
+        <li class ="a"> In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network. </li>
+      </ul>
+    </div>
+    <br />
+    <div class = "content-item" id="dataset-2">
+      <h3 class="content-subtitle">
+        2) Hierarchical QA 
       </h3>
       <p class = "pre-description">
-          AnotherMissOh_QA.zip contains 3 json files, each denotes a split of DramaQA dataset:
+          <code>AnotherMissOh_QA.zip</code> contains 3 json files, each denotes a split of DramaQA dataset:
           <table style="font-size: 1em"> 
             <tr>
-              <th style="width: 300px">files</th>
-              <th style="width: 100px">#data</th>
+              <th style="width: 300px">Files</th>
+              <th style="width: 100px">#Data</th>
               <th stype="width: 300px">Usage</th>
             </tr>
             <tr>
@@ -150,47 +175,17 @@ feature-img: "assets/img/main.png"
           </table>
       </p>
       <p class="description">
-        In annotations files, there are questions, answers, question levels, descriptions and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.
+        In QA files, there are questions, answers, question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.
         <br/>
-        In case of question level, there are two types : memory capacity level and logical complexity level. 
+        In case of question level, there are two types : Memory Capacity level and Logical Complexity level. 
         <br/><br/>
         Each of files contains following entries:
       </p>
         <table style="font-size: 1em">
           <tr>
-            <th style="width: 200px">key</th>
-            <th style="width: 200px">type</th>
-            <th style="width: 600px">description</th>
-          </tr>
-          <tr>
-            <td>qid</td>
-            <td>int</td>
-            <td>question id</td>
-          </tr>
-          <tr>
-            <td>vid</td>
-            <td>string</td>
-            <td>video clip id: episodeName_sceneNum_shotNum<br/>(for scene-level video vid, episodeName_sceneNum_0000 is used.)</td>
-          </tr>
-          <tr>
-            <td>videoType</td>
-            <td>string</td>
-            <td>video type: shot or scene</td>
-          </tr>
-          <tr>
-            <td>q_level_mem</td>
-            <td>int</td>
-            <td>memory capacity level, values are from 2 to 3</td>
-          </tr>
-          <tr>
-            <td>q_level_logic</td>
-            <td>int</td>
-            <td>logical complexity level, values are from 1 to 4</td>
-          </tr>
-          <tr>
-            <td>que</td>
-            <td>string</td>
-            <td>question</td>
+            <th style="width: 200px">Key</th>
+            <th style="width: 200px">Type</th>
+            <th style="width: 600px">Description</th>
           </tr>
           <tr>
             <td>correct_idx</td>
@@ -201,16 +196,48 @@ feature-img: "assets/img/main.png"
             <td>answers</td>
             <td>list of string</td>
             <td>list of candidate answers</td>
-          </tr>       
+          </tr>   
+          <tr>
+            <td>que</td>
+            <td>string</td>
+            <td>question</td>
+          </tr> 
+          <tr>
+            <td>shot_contained</td>
+            <td>list of int</td>
+            <td>a list of the first and the last shot index of the target video<br/>(when the target video is a shot, it only contains one element.)</td>
+          </tr> 
+          <tr>
+            <td>q_level_logic</td>
+            <td>int</td>
+            <td>Logical Complexity level, values are from 1 to 4</td>
+          </tr> 
+          <tr>
+            <td>vid</td>
+            <td>string</td>
+            <td>video clip id: episodeName_sceneNum_shotNum<br/>(for scene-level video vid, episodeName_sceneNum_0000 is used.)</td>
+          </tr>  
+          <tr>
+            <td>q_level_mem</td>
+            <td>int</td>
+            <td>Memory Capacity level, values are from 2 to 3</td>
+          </tr>
+          <tr>
+            <td>qid</td>
+            <td>int</td>
+            <td>question id</td>
+          </tr>
+          <tr>
+            <td>videoType</td>
+            <td>string</td>
+            <td>video type: shot or scene</td>
+          </tr>
         </table> <br />
         <p class = "json-description">
-          Here is a json example : 
+          Here is an example of json file: 
         </p>
         <pre><code class="json">{
     "correct_idx": 3, 
-    "description": "Dokyung is sitting on the chair.  
-                    Dokyung texted a message to Haeyoung1. 
-                    Haeyoung1 made surprised Dokyung.", 
     "answers": ["Dokyung texted the message to mom.", 
                 "Dokyung texted the message to dad.", 
                 "Dokyung texted the message to Haeyoung1.",
@@ -224,20 +251,6 @@ feature-img: "assets/img/main.png"
     "qid": 3707, 
     "videoType": "scene"
 }</code></pre>
-    </div> <br />
-    <div class = "content-item" id="dataset-2">
-      <h3 class="content-subtitle">
-        2) Image Frames
-      </h3>
-      <ul class = "content-item" style="line-height:2em">
-        <li class ="a"> <code>AnotherMissOh_images.zip</code> contains image frames of each video clips. </li>
-        <li class ="a"> The image frames in a scene are saved in <code>{episodeName/sceneNum}</code> folder, and the image frames in a shot are saved in <code>{episodeName/sceneNum/shotNum}</code> folder. </li>
-        <ul class = "content-subitem" style="line-height:1.5em">
-          <li class ="b" type="circle"> e.g., <code>AnotherMissOh01/002/0003</code> folder for 3rd shot in 2nd scene in episode 1. </li>
-        </ul>
-        <li class ="a"> The image frames are captured at 3 frames per second (FPS). </li>
-        <li class ="a"> In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network. </li>
-      </ul>
     </div>
     <br />
     <div class = "content-item" id="dataset-3">
@@ -245,12 +258,15 @@ feature-img: "assets/img/main.png"
         3) Visual Metadata
       </h3>
       <ul class = "content-subitem" style="line-height:1.5em">
-        <li class ="a"> <b>Bounding Box:</b> In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their  name.  
-        In  case  the  characters  face  is  invisible  or  unrecognizable,  the character’s name is labeled as <code>none</code>. In total, 20 main characters are annotated with their unique name.</li>
-        <li class ="a"> <b>Behavior & Emotion</b>, Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. Including <code>none</code> behavior,  total  28  behavioral  verbs,  such  as <code>drink</code>, <code>hold</code>, <code>cook</code>,  is used  for  behavior  expression.  Also,  we  present  characters’  emotion  with  7 emotional adjectives; <code>anger</code>, <code>disgust</code>, <code>fear</code>, <code>happiness</code>, <code>sadness</code>, <code>surprise</code>, and <code>neutral</code>. </li>
+        <li class ="a"> <b>Bounding Box:</b> In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name.  
+        In total, 20 main characters are annotated with their unique name.</li>
+        <li class ="a"> <b>Behavior & Emotion</b>, Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. 
+        Including <code>none</code> behavior,  total  28  behavioral  verbs,  such  as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression.  
+        Also, we present characters’ emotion with 7 emotional adjectives: <code>Anger</code>, <code>Disgust</code>, <code>Fear</code>, <code>Happiness</code>, <code>Sadness</code>, <code>Surprise</code>, and <code>Neutral</code>. </li>
+        <li class ="a"> You can check a list of <code>person_id</code>, <code>behavior</code>, and <code>emotion</code> in <a href="/assets/data/list_of_elements.txt" download="list_of_elements.txt">here</a>.</li>
       </ul>
       <p class = "json-description">
-        Here is a json example : 
+        Here is an example of json file: 
       </p>
       <pre><code class="json">{
     "frame_id": "AnotherMissOh17_013_0261_IMAGE_0000021778",
@@ -285,7 +301,7 @@ feature-img: "assets/img/main.png"
         For  understanding  video  stories,  especially drama, it is important to understand the dialogue between the characters. Especially, the information such as “<i>Who</i> is talking to <i>whom</i> about <i>who</i> did what?” is significant for understanding whole stories. In DramaQA, we provide these information by resolving the coreferences for main characters in scripts.  
       </p>
       <p class = "json-description">
-        Here is a json example : 
+        Here is an example of json file: 
       </p>
       <pre><code class="json">"AnotherMissOh01_001_0109": {
     "contained_subs": [

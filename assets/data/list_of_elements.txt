@@ -1,0 +1,3 @@
+person_ids = ['Anna', 'Chairman', 'Deogi', 'Dokyung', 'Gitae', 'Haeyoung1', 'Haeyoung2', 'Heeran', 'Hun', 'Jeongsuk', 'Jinsang', 'Jiya', 'Kyungsu', 'Sangseok', 'Seohee', 'Soontack', 'Sukyung', 'Sungjin', 'Taejin', 'Yijoon']
+emotions = ['Anger', 'Disgust', 'Fear', 'Happiness', 'Neutral', 'Sadness', 'Surprise']
+behaviors = ['call', 'clean', 'cook', 'dance', 'destroy', 'drink', 'eat', 'high-five', 'hold', 'hug', 'kiss', 'look at/back on', 'look for', 'nod', 'none', 'open', 'play instruments', 'point out', 'push away', "put arms around each other's shoulder", 'shake hands', 'sing', 'sit down', 'smoke', 'stand up', 'walk', 'watch', 'wave hands', 'write']
