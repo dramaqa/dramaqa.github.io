@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Workshop 2020
-headertitle: '<br><h1 class="title">Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
+headertitle: '<br><h1 class="title">The 2nd workshop on Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
 subtitle: '<h4 class="subtitle">@ Glasgow’s Scottish Event Campus (SEC), <br>28 Aug. 2020, Glasgow, 16th ECCV</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
