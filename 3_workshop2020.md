@@ -56,7 +56,7 @@ feature-img: "assets/img/main.png"
   
   <br><h3> Submission Instructions </h3>
   <p>
-    Note that we provide both an archival and non-archival (short and long) track. All submissions will be handled through CMT, at <a href="https://cmt3.research.microsoft.com/VTT2020">this CMT link</a><br>
+    Note that we provide both an archival and non-archival (short and long) track. All submissions will be handled through CMT, at <a href="https://cmt3.research.microsoft.com/VTT2020">this CMT link</a>.<br>
  
 <li><b>Archival full paper track (up to 14 pages excluding references): </b>The submission must be no longer than 14 pages (excluding references). All submissions must be in pdf format as a single file (incl. supplementary materials) using <a href="https://eccv2020.eu/wp-content/uploads/2020/03/ECCV-2020-kit_02.03.2020.zip">this ECCV’20 template</a>. Accepted papers in this track will be published in the ECCV’20 workshop proceedings. The review process is single-round and double-blind. All submissions in this track have to be anonymized. </li>
  
