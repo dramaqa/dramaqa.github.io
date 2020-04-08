@@ -51,7 +51,7 @@ feature-img: "assets/img/main.png"
   <li>Novel tasks about video understanding and challenge dataset</li>
   
   <br><p>
-  This workshop will invite leading researchers from various fields. Details of submission instruction will be anounced soon.
+  This workshop will invite leading researchers from various fields. Also, we encourage submissions of papers as archival and non-archival (short and long) track. All accepted papers will be presented as posters during the workshop and listed on the website. Additionally, a small number of accepted papers will be selected to be presented as contributed talks.
   </p>
   
   <br><h3> Submission Instructions </h3>
