@@ -73,7 +73,7 @@ feature-img: "assets/img/main.png"
       Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">Link</a>
     </li>
     <li>
-      Paper Submission Deadline: July 10, 2020
+      Paper Submission Deadline: July 10, 2020 at 11:59pm (PST)
     </li>
     <li>
       Workshop Date: August 28, 2020 (Full day)
