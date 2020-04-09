@@ -43,10 +43,30 @@ feature-img: "assets/img/main.png"
       </li>
     </div>
   </div> <br /> <br />
+  
+  <div class = "content-subcontainer">
+      <h2 class = "content-subtitle">
+        3. Prize
+      </h2>
+      <p class="content-item">
+        TBA
+      </p>
+    </div> <br />
+  
+  <div class = "content-subcontainer">
+    <h2 class = "content-subtitle">
+      4. Challenge Guidelines
+    </h2>
+    <ul class="content-item" style="line-height:2em">
+      <li> <a id="link" href="/Dataset">Dataset Description</a> </li>
+      <li> <a id="link" href="https://github.com/liveseongho/DramaQAChallenge2020">Starter Code</a> </li>
+      <li> <a id="link" href="#">Evaluation(Leaderboard)</a> </li>
+     </ul>
+  </div> <br />
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
-      3. Organizers
+      5. Organizers
     </h2>
     <div class="content-item">
       {% for person in site.data.people_challenge2020 %}
