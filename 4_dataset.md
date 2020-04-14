@@ -108,19 +108,19 @@ feature-img: "assets/img/main.png"
       2. Dataset Specification
     </h2>
     <ul class = "content-item" style="line-height:2em">
-      <li class ="a"> 9,649 video clips </li>
+      <li class ="a"> 23,928 video clips </li>
       <ul class = "content-subitem" style="line-height:1.5em">
-        <li class ="b" type="circle"> 317 scenes </li>
-        <li class ="b" type="circle"> 9,332 shots </li>
+        <li class ="b" type="circle"> 803 scenes </li>
+        <li class ="b" type="circle"> 23,125 shots </li>
       </ul>
-      <li class ="a"> 15,760 question-answer pairs with multi-level difficulties </li>
+      <li class ="a"> 16,191 question-answer pairs with multi-level difficulties </li>
         <ul class = "content-subitem" style="line-height:1.5em">
           <li class ="b" type="circle"> 5 multiple choice QA </li>
           <li class ="b" type="circle"> Four levels of difficulty for the questions </li>
-          <li class ="c" type="square"> 7,991 level 1 questions </li>
-          <li class ="c" type="square"> 4,116 level 2 questions </li>
-          <li class ="c" type="square"> 1,833 level 3 questions </li>
-          <li class ="c" type="square"> 1,821 level 4 questions </li>
+          <li class ="c" type="square"> 7,992 level 1 questions </li>
+          <li class ="c" type="square"> 4,118 level 2 questions </li>
+          <li class ="c" type="square"> 2,045 level 3 questions </li>
+          <li class ="c" type="square"> 2,036 level 4 questions </li>
          </ul>
       <li class ="a">Table of Contents</li>
       <ul class ="a" style="line-height:1.5em">
@@ -159,17 +159,17 @@ feature-img: "assets/img/main.png"
             </tr>
             <tr>
               <td>AnotherMissOhQA_train_set.json</td>
-              <td>12,761</td>
+              <td>12,758</td>
               <td>Model training</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_val_set.json</td>
-              <td>1,500</td>
+              <td>1,697</td>
               <td>Hyperparmeter tuning</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_test_set.json</td>
-              <td>1,500</td>
+              <td>1,736</td>
               <td>Model testing</td>
             </tr>   
           </table>
