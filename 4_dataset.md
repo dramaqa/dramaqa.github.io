@@ -159,17 +159,17 @@ feature-img: "assets/img/main.png"
             </tr>
             <tr>
               <td>AnotherMissOhQA_train_set.json</td>
-              <td>12,758</td>
+              <td>10,098</td>
               <td>Model training</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_val_set.json</td>
-              <td>1,697</td>
+              <td>3,071</td>
               <td>Hyperparmeter tuning</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_test_set.json</td>
-              <td>1,736</td>
+              <td>3,022</td>
               <td>Model testing</td>
             </tr>   
           </table>

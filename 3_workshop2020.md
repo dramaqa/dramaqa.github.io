@@ -66,8 +66,19 @@ feature-img: "assets/img/main.png"
   </p>
 </div> <br />
 
+<div class="content-subcontainer">
+    <h2 class = "content-title" style="TEXT-ALIGN: left; color: black;">
+      2. Challenge: DramaQA Challenge
+    </h2>
+    <div style="overflow-x: auto">
+        <p>
+          Please see <a href="https://dramaqa.snu.ac.kr/Challenge/2020">the challenge page</a> for details.
+        </p>
+    </div>
+</div> <br />
+
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
-  <h2> 2. Important Dates </h2>
+  <h2> 3. Important Dates </h2>
   <div style="overflow-x: auto">
     <li>
       Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">Link</a>
@@ -84,9 +95,11 @@ feature-img: "assets/img/main.png"
   </div>
 </div> <br /> <br />
 
+
+
 <div class="content-subcontainer">
     <h2 class = "content-title" style="TEXT-ALIGN: left; color: black;">
-      3. Organizers
+      4. Organizers
     </h2>
     <div class="content-item" style="TEXT-ALIGN: center;">
       {% for person in site.data.people_workshop2020 %}
