@@ -100,6 +100,9 @@ feature-img: "assets/img/main.png"
         Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. 
         Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
       </p>
+      <p>
+        We describe more detailed information at our <a href="https://arxiv.org/abs/2005.03356">paper</a>.
+      </p>
     </div> <br /> <br />
   </div>
   

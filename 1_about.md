@@ -39,7 +39,8 @@ title: About
     DramaQA for Video Story Understanding
   </h1> <br />
   <p class="content-item">
-  Video Question and Answering (Video QA) is an emerging benchmark task to measure the levels of machine intelligence for video understanding. While several previous studies have suggested datasets for the Video QA task, they did not consider story-level understanding, resulting in a lack of variance in the degree of question difficulty and coherent story-centric description.
+  Video Question and Answering (Video QA) is an emerging benchmark task to measure the levels of machine intelligence for video understanding. <br/>
+  While several previous studies have suggested datasets for the Video QA task, they did not consider story-level understanding, resulting in a lack of variance in the degree of question difficulty and coherent story-centric description.
   <br />
   DramaQA is a large-scale video QA dataset based on a Korean popular TV show, “Another Miss Oh”. This dataset contains four levels of QA on difficulty and multi-level character-centered story descriptions. We are expecting this dataset could be a starting point to evaluate human level video story understanding.
   </p>
@@ -47,10 +48,17 @@ title: About
 
 <div class="paper content-container" style="TEXT-ALIGN: center">
   <h1 class = "content-title">
-    Paper
+    Papers
   </h1> <br />
+  <h3>
+    DramaQA: Character-Centered Video Story Understanding with Hierarchical QA
+  </h3>
   <p class="content-item">
-  To be Announced
+    Seongho Choi, Kyoung-Woon On, Yu-Jung Heo, Ahjeong Seo, Youwon Jang, Seungchan Lee, Minsu Lee, Byoung-Tak Zhang
+  </p>
+  <p>
+    <a href="https://arxiv.org/abs/2005.03356">[PDF]</a> 
+    <a href="https://github.com/liveseongho/DramaQAChallenge2020">[Code]</a>
   </p>
 </div> <br /> <br /> <br />
 
