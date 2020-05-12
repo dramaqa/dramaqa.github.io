@@ -84,30 +84,19 @@ feature-img: "assets/img/main.png"
       Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">Link</a>
     </li>
     <li>
-      Paper Submission Deadline: July 10, 2020 at 11:59pm (PST)
+      Paper submission deadline: July 10, 2020 at 11:59pm (PST)
     </li>
     <li>
-      Notification to Authors: July 29, 2020 
+      Notification to authors: July 29, 2020 
     </li>
     <li>
-      Camera-Ready Paper Submission Deadline: August 12, 2020 at 11:59pm (PST)
+      Camera-Ready Paper submission deadline: August 12, 2020 at 11:59pm (PST)
     </li>
     <li>
-      Workshop Date: August 28, 2020 (Full day)
+      Workshop date: August 28, 2020 (Full day)
     </li>
     </div>
 </div> <br /> <br />
-
-<div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
-  <h2> 3-testmd. Important Dates </h2>
-  <div style="overflow-x: auto">
-    | Paper Submission Deadline              | July 10, 2020 at 11:59pm (PST)   |
-    |----------------------------------------|----------------------------------|
-    | Notification to Authors                | July 29, 2020                    |
-    | Camera-Ready Paper Submission Deadline | August 12, 2020 at 11:59pm (PST) |
-    | Workshop Date                          | August 28, 2020 (Full day)       |
-    </div>  
-</div>
 
 <div class="content-subcontainer">
     <h2 class = "content-title" style="TEXT-ALIGN: left; color: black;">
