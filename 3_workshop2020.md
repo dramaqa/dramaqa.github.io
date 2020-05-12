@@ -99,6 +99,8 @@ feature-img: "assets/img/main.png"
 </div> <br /> <br />
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
+  <h2> 3-test. Important Dates </h2>
+  <div style="overflow-x: auto">
     <table class="table table-striped">
       <tbody>
         <tbody>
@@ -120,6 +122,7 @@ feature-img: "assets/img/main.png"
         </tr>
       </tbody>
     </table>
+    </div>  
 </div>
 
 <div class="content-subcontainer">
