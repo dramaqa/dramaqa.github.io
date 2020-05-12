@@ -87,12 +87,39 @@ feature-img: "assets/img/main.png"
       Paper Submission Deadline: July 10, 2020 at 11:59pm (PST)
     </li>
     <li>
-      Workshop Date: August 28, 2020 (Full day)
+      Notification to Authors: July 29, 2020 
     </li>
     <li>
-        <b>Details will be announced soon.</b>
+      Camera-Ready Paper Submission Deadline: August 12, 2020 at 11:59pm (PST)
     </li>
-  </div>
+    <li>
+      Workshop Date: August 28, 2020 (Full day)
+    </li>
+    </div>
+    
+    <div class="col-md-12" id="dates">
+        <table class="table table-striped">
+          <tbody>
+            <tbody>
+            <tr>	
+              <th scope="row">Paper Submission Deadline</th>
+              <td>September 10, 2019 (GMT+9) &nbsp;&nbsp;<button type="button" class="btn btn-danger">Extended</button>
+            </tr>
+            <tr>	
+              <th scope="row">Notification to Authors</th>
+              <td>October 7, 2019</td>
+            </tr>
+            <tr>	
+              <th scope="row">Paper Camera-Ready Deadline</th>
+              <td>October 18, 2019</td>
+            </tr>
+            <tr>	
+              <th scope="row">Workshop Date</th>
+              <td>November 2, 2019</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
 </div> <br /> <br />
 
 
