@@ -99,29 +99,13 @@ feature-img: "assets/img/main.png"
 </div> <br /> <br />
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
-  <h2> 3-test. Important Dates </h2>
+  <h2> 3-testmd. Important Dates </h2>
   <div style="overflow-x: auto">
-    <table class="table table-striped">
-      <tbody>
-        <tbody>
-        <tr>	
-          <th scope="row">Paper Submission Deadline</th>
-          <td>September 10, 2019 (GMT+9) &nbsp;&nbsp;<button type="button" class="btn btn-danger">Extended</button>
-        </tr>
-        <tr>	
-          <th scope="row">Notification to Authors</th>
-          <td>October 7, 2019</td>
-        </tr>
-        <tr>	
-          <th scope="row">Paper Camera-Ready Deadline</th>
-          <td>October 18, 2019</td>
-        </tr>
-        <tr>	
-          <th scope="row">Workshop Date</th>
-          <td>November 2, 2019</td>
-        </tr>
-      </tbody>
-    </table>
+    | Paper Submission Deadline              | July 10, 2020 at 11:59pm (PST)   |
+    |----------------------------------------|----------------------------------|
+    | Notification to Authors                | July 29, 2020                    |
+    | Camera-Ready Paper Submission Deadline | August 12, 2020 at 11:59pm (PST) |
+    | Workshop Date                          | August 28, 2020 (Full day)       |
     </div>  
 </div>
 
