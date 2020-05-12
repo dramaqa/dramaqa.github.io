@@ -95,7 +95,10 @@ feature-img: "assets/img/main.png"
     <li>
       Workshop Date: August 28, 2020 (Full day)
     </li>
-    
+    </div>
+</div> <br /> <br />
+
+<div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
     <table class="table table-striped">
       <tbody>
         <tbody>
@@ -117,10 +120,7 @@ feature-img: "assets/img/main.png"
         </tr>
       </tbody>
     </table>
-    </div>
-</div> <br /> <br />
-
-
+</div>
 
 <div class="content-subcontainer">
     <h2 class = "content-title" style="TEXT-ALIGN: left; color: black;">
