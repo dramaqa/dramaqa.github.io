@@ -49,7 +49,7 @@ feature-img: "assets/img/main.png"
         3. Prize
       </h2>
       <p class="content-item">
-        TBA
+        Top 3 winning teams will receive $1500 in cash.
       </p>
     </div> <br />
   
