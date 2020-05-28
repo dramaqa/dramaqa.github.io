@@ -33,10 +33,10 @@ feature-img: "assets/img/main.png"
         Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
       </li>
       <li>
-        In March, DramaQA Dataset v1.0 will be released.
+        In April 7th, DramaQA Dataset v1.0 was released.
       </li>
       <li>
-        In April, The 2nd DramaQA Challenge 2020 will be launched.
+        In April, The 2nd DramaQA Challenge 2020 was launched.
       </li>
       <li>
         Details will be announced soon. 
