@@ -49,7 +49,7 @@ feature-img: "assets/img/main.png"
         3. Prize
       </h2>
       <p class="content-item">
-        Top 3 winning teams will receive $1500 in cash.
+        Top 3 winning teams will receive $1,200 in cash.
       </p>
     </div> <br />
   
@@ -60,7 +60,7 @@ feature-img: "assets/img/main.png"
     <ul class="content-item" style="line-height:2em">
       <li> <a id="link" href="/Dataset">Dataset Description</a> </li>
       <li> <a id="link" href="https://github.com/liveseongho/DramaQAChallenge2020">Starter Code</a> </li>
-      <li> <a id="link" href="#">Evaluation(Leaderboard)</a> </li>
+      <li> <a id="link" href="https://evalai.cloudcv.org/web/challenges/challenge-page/610/overview">Evaluation(Leaderboard)</a> </li>
      </ul>
   </div> <br />
 
