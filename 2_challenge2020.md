@@ -33,13 +33,16 @@ feature-img: "assets/img/main.png"
         Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
       </li>
       <li>
-        In April 7th, DramaQA Dataset v1.0 was released.
+        In April 7th, <a href="https://dramaqa.snu.ac.kr/Dataset">DramaQA Dataset v1.0</a> was released.
       </li>
       <li>
         In April, The 2nd DramaQA Challenge 2020 was launched.
       </li>
       <li>
-        Details will be announced soon. 
+        In April, DramaQA Challenge <a href="https://evalai.cloudcv.org/web/challenges/challenge-page/610/overview">Leaderboard</a> is open and <a href="https://github.com/liveseongho/DramaQAChallenge2020">Starter Code</a> is released.
+      </li>
+      <li>
+        In March 7th, DramaQA Dataset Paper was uploaded to <a href="https://arxiv.org/abs/2005.03356">Arxiv</a>.
       </li>
     </div>
   </div> <br /> <br />
@@ -61,6 +64,7 @@ feature-img: "assets/img/main.png"
       <li> <a id="link" href="/Dataset">Dataset Description</a> </li>
       <li> <a id="link" href="https://github.com/liveseongho/DramaQAChallenge2020">Starter Code</a> </li>
       <li> <a id="link" href="https://evalai.cloudcv.org/web/challenges/challenge-page/610/overview">Evaluation(Leaderboard)</a> </li>
+      <li> <a id="link" href="https://dramaqa.snu.ac.kr/Download">Dataset Download</a> </li>
      </ul>
   </div> <br />
 
