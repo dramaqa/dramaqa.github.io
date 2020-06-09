@@ -88,5 +88,18 @@ feature-img: "assets/img/main.png"
       {% endfor %}
     </div>
   </div> <br />
+
+  <div class="content-subcontainer">
+    <h2 class = "content-title">
+      6. Sponsor
+    </h2> <br />
+    {% for sponsor in site.data.sponsors2020 %}
+    <div class="content-item" style="TEXT-ALIGN: left">
+      {% for img in sponsor.images %}
+        <img src="{{ img.src }}" style="width:230px; height:auto; padding:0 0; vertical-align: middle;">
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
   
 </div>

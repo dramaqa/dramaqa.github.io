@@ -121,7 +121,7 @@ feature-img: "assets/img/main.png"
     <h2 class = "content-title">
       7. Sponsor
     </h2> <br />
-    {% for sponsor in site.data.sponsors %}
+    {% for sponsor in site.data.sponsors2019 %}
     <div class="content-item" style="TEXT-ALIGN: center">
       {% for img in sponsor.images %}
         <img src="{{ img.src }}" style="width:230px; height:auto; padding:0 0; vertical-align: middle;">
