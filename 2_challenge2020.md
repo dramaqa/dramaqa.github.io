@@ -30,6 +30,9 @@ feature-img: "assets/img/main.png"
     </h2>
     <div style="overflow-x: auto">
       <li>
+        Submission deadline at July 31 (23:59:59 UTC-0)
+      </li>
+      <li>
         Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">link</a>
       </li>
       <li>
