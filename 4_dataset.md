@@ -120,10 +120,10 @@ feature-img: "assets/img/main.png"
         <ul class = "content-subitem" style="line-height:1.5em">
           <li class ="b" type="circle"> 5 multiple choice QA </li>
           <li class ="b" type="circle"> Four levels of difficulty for the questions </li>
-          <li class ="c" type="square"> 7,992 level 1 questions </li>
-          <li class ="c" type="square"> 4,118 level 2 questions </li>
-          <li class ="c" type="square"> 2,045 level 3 questions </li>
-          <li class ="c" type="square"> 2,036 level 4 questions </li>
+          <li class ="c" type="square"> 9,313 level 1 questions </li>
+          <li class ="c" type="square"> 4,530 level 2 questions </li>
+          <li class ="c" type="square"> 2,074 level 3 questions </li>
+          <li class ="c" type="square"> 2,066 level 4 questions </li>
          </ul>
       <li class ="a">Table of Contents</li>
       <ul class ="a" style="line-height:1.5em">
@@ -162,17 +162,17 @@ feature-img: "assets/img/main.png"
             </tr>
             <tr>
               <td>AnotherMissOhQA_train_set.json</td>
-              <td>10,098</td>
+              <td>11,118</td>
               <td>Model training</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_val_set.json</td>
-              <td>3,071</td>
+              <td>3,412</td>
               <td>Hyperparmeter tuning</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_test_set.json</td>
-              <td>3,022</td>
+              <td>3,453</td>
               <td>Model testing</td>
             </tr>   
           </table>
