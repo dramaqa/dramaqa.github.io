@@ -87,7 +87,7 @@ feature-img: "assets/img/main.png"
         Paper submission deadline: July 24, 2020 at 11:59pm (PST) <b> (Extended) </b>
     </li>
     <li>
-      Notification to authors: August 7, 2020
+      Notification to authors: August 7, 2020 <b> (Extended) </b>
     </li>
     <li>
       Camera-Ready Paper submission deadline: August 14, 2020 at 11:59pm (PST)
