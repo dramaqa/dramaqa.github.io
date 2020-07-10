@@ -84,13 +84,13 @@ feature-img: "assets/img/main.png"
       Signup to receive updates: <a href="https://forms.gle/KJ7TT9YQAedsjhBq6">Link</a>
     </li>
     <li>
-      Paper submission deadline: July 10, 2020 at 11:59pm (PST)
+        Paper submission deadline: July 24, 2020 at 11:59pm (PST) <b> (extended) </b>
     </li>
     <li>
-      Notification to authors: July 22, 2020 
+      Notification to authors: August 7, 2020 <b> (extended) </b>
     </li>
     <li>
-      Camera-Ready Paper submission deadline: August 12, 2020 at 11:59pm (PST)
+      Camera-Ready Paper submission deadline: August 14, 2020 at 11:59pm (PST)
     </li>
     <li>
       Workshop date: August 28, 2020 (Full day)
