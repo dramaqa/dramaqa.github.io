@@ -98,9 +98,39 @@ feature-img: "assets/img/main.png"
     </div>
 </div> <br /> <br />
 
+<div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
+  <h2> 4. Invited Speakers </h2>
+  <div style="overflow-x: auto">
+
+  <li>
+      Invited Speaker 1: <a href="http://people.cs.pitt.edu/~kovashka/">Adriana Kovashka</a>, University of Pittsburgh
+  </li>
+  <li>
+      Invited Speaker 2: <a href="https://anna-rohrbach.net/">Anna Rohrbach</a>, UC Berkeley
+  </li>
+  <li>
+      Invited Speaker 3: <a href="http://www.mohamed-elhoseiny.com/">Mohamed Elhoseiny</a>, KAUST (King Abdullah University of Science and Technology)
+  </li>
+  <li>
+      Invited Speaker 4: <a href="http://www.cs.toronto.edu/~makarand/">Makarand Tapaswi</a>, Inria Paris
+  </li>
+  <li>
+      Invited Speaker 5: <a href="http://sailab.diism.unisi.it/people/marco-gori/">Marco Gori</a>, University of Siena
+  </li>
+  <li>
+      Invited Speaker 6: <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a>, University of Washington & Allen Institute for Artificial Intelligence
+  </li>
+  
+  <h4>More details on the subjects of their talks will be announced soon!</h4>
+  
+  </div>
+  
+</div>
+<p><br> <br></p>
+
 <div class="content-subcontainer">
     <h2 class = "content-title" style="TEXT-ALIGN: left; color: black;">
-      4. Organizers
+      5. Organizers
     </h2>
     <div class="content-item" style="TEXT-ALIGN: center;">
       {% for person in site.data.people_workshop2020 %}
