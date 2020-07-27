@@ -103,24 +103,24 @@ feature-img: "assets/img/main.png"
   <div style="overflow-x: auto">
 
   <li>
-      Invited Speaker 1: <a href="http://people.cs.pitt.edu/~kovashka/">Adriana Kovashka</a>, University of Pittsburgh
+      Invited Speaker: <a href="http://people.cs.pitt.edu/~kovashka/">Adriana Kovashka</a>, University of Pittsburgh
   </li>
   <li>
-      Invited Speaker 2: <a href="https://anna-rohrbach.net/">Anna Rohrbach</a>, UC Berkeley
+      Invited Speaker: <a href="https://anna-rohrbach.net/">Anna Rohrbach</a>, UC Berkeley
   </li>
   <li>
-      Invited Speaker 3: <a href="http://www.mohamed-elhoseiny.com/">Mohamed Elhoseiny</a>, KAUST (King Abdullah University of Science and Technology)
+      Invited Speaker: <a href="http://www.mohamed-elhoseiny.com/">Mohamed H. Elhoseiny</a>, KAUST (King Abdullah University of Science and Technology)
   </li>
   <li>
-      Invited Speaker 4: <a href="http://www.cs.toronto.edu/~makarand/">Makarand Tapaswi</a>, Inria Paris
+      Invited Speaker: <a href="http://www.cs.toronto.edu/~makarand/">Makarand Tapaswi</a>, Inria Paris
   </li>
   <li>
-      Invited Speaker 5: <a href="http://sailab.diism.unisi.it/people/marco-gori/">Marco Gori</a>, University of Siena
+      Invited Speaker: <a href="http://sailab.diism.unisi.it/people/marco-gori/">Marco Gori</a>, University of Siena
   </li>
   <li>
-      Invited Speaker 6: <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a>, University of Washington & Allen Institute for Artificial Intelligence
+      Invited Speaker: <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a>, University of Washington & Allen Institute for Artificial Intelligence
   </li>
-  
+  <br>
   <h4>More details on the subjects of their talks will be announced soon!</h4>
   
   </div>
