@@ -2,7 +2,7 @@
 layout: page
 title: Workshop 2020
 headertitle: '<br><h1 class="title">The 2nd workshop on Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
-subtitle: '<h4 class="subtitle">@ Glasgow’s Scottish Event Campus (SEC), <br>28 Aug. 2020, Glasgow, 16th ECCV</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
+subtitle: '<h4 class="subtitle">28 August. 2020 <br> 16th European Conference on Computer Vision</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
 ---
@@ -121,6 +121,7 @@ feature-img: "assets/img/main.png"
 	  <b>Title: Commonsense Modeling with Vision and Language</b><br>
 	  Abstract: Despite considerable advances in deep learning, AI remains to be narrow and brittle. One fundamental limitation comes from its lack of commonsense intelligence: reasoning about everyday situations and events, which in turn, requires knowledge about how the physical and social world works. In this talk, I will share some of our recent efforts that attempt to crack commonsense intelligence with emphasis on intuitive causal inferences and the synergistic connection between declarative knowledge in multimodal knowledge graphs and observed knowledge in unstructured web data. I will conclude the talk by discussing major open research questions, including the importance of algorithmic solutions to reduce incidental biases in data that can lead to overestimation of true AI capabilities. 
   </li>
+  <br>
   
   <h4> -- Live QnA Session-2 at 6 A.M - 8 A.M August 28th (PDT) </h4>
 	
