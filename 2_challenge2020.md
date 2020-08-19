@@ -83,14 +83,9 @@ feature-img: "assets/img/main.png"
                     {% for person in site.data.people_challenge2020_award_1 %}
                         <div class="member">
                           <p class="member-profile">
-                            <img class="member-profile" src="{{person.src}}">
-                          </p>
-                          <p class="member-name member-name">
-                            {{ person.name }}
-                          </p>
-                          <p class="member-info member-position">
-                            {{ person.affiliation }}
-                          </p>
+                            <img class="member-profile" src="{{person.src}}"> <br>
+                            {{ person.name }} <br>
+                            {{ person.affiliation }} <br>
                         </div>
                     {% endfor %}
                 </td>
