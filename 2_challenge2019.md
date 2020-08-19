@@ -71,7 +71,7 @@ feature-img: "assets/img/main.png"
      </ul>
   </div> <br />
   
-  <div class="content-subcontainer">
+  <!--div class="content-subcontainer">
     <h2 class = "content-subtitle">
       5. Awards
     </h2>
@@ -94,7 +94,7 @@ feature-img: "assets/img/main.png"
             </tr>        
         </table>
     </div>
-  </div> <br />
+  </div--> <br />
   
   <div class="content-subcontainer">
     <h2 class = "content-title">
