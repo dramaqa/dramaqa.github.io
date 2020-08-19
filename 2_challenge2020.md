@@ -78,21 +78,33 @@ feature-img: "assets/img/main.png"
       <div style="overflow-x: auto">
           <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
               <tr>
-                <th style="width: 20em; TEXT-ALIGN: center;">The 1st place</th>
-                <td style="width: 65em;"><b>GGANG</b><br>
-                Jiwan Chung(Seoul National University), Youngjae Yu(Seoul National University), <br>
-                Heeseung Yun(Seoul National University), Jongseok Kim(Seoul National University), <br>
-                Eunkyu Park(Seoul National University), Gunhee Kim(Seoul National University) </td>
+                <th style="width: 20em; TEXT-ALIGN: center;">The 1st place : <b>GGANG</b></th>
+                <td style="width: 65em;">
+                    {% for person in site.data.people_challenge2020_award %}
+                        <p class="member">
+                          <p class="member-profile">
+                            <img class="member-profile" src="{{person.src}}">
+                          </p>
+                          <p class="member-name member-name">
+                            {{ person.name }}
+                          </p>
+                          <p class="member-info member-position">
+                            {{ person.affiliation }}
+                          </p>
+                        </p>
+                    {% endfor %}
+                </td>
               </tr>
               <tr>
                 <th style="width: 8em; TEXT-ALIGN: center;">The 2nd place</th>
                 <td><b>Sudoku</b><br>
-                Zhicheng Guo, Jiaxuan Zhao </td>
+                Zhicheng Guo(Xidian University), Jiaxuan Zhao(Xidian University) </td>
               </tr>
               <tr>
                 <th style="width: 8em; TEXT-ALIGN: center;">The 3rd place</th>
                 <td><b>HARD KAERI</b><br>
-                KyungTae Lim, Youhan Lee, Yonggyun Yu</td>
+                KyungTae Lim(Korea Atomic Energy Research Institute), Youhan Lee(Korea Atomic Energy Research Institute), <br>
+                Yonggyun Yu(Korea Atomic Energy Research Institute)</td>
               </tr>        
           </table>
       </div>
