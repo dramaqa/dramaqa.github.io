@@ -78,10 +78,11 @@ feature-img: "assets/img/main.png"
       <div style="overflow-x: auto">
           <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
               <tr>
-                <th style="width: 13em; TEXT-ALIGN: center;">The 1st place</th>
-                <td style="width: 70em;"><b>GGANG</b><br>
-                Jiwan Chung(Seoul National University), Youngjae Yu(Seoul National University), Heeseung Yun(Seoul National University), <br>
-                Jongseok Kim(Seoul National University), Eunkyu Park(Seoul National University), Gunhee Kim(Seoul National University) </td>
+                <th style="width: 20em; TEXT-ALIGN: center;">The 1st place</th>
+                <td style="width: 65em;"><b>GGANG</b><br>
+                Jiwan Chung(Seoul National University), Youngjae Yu(Seoul National University), <br>
+                Heeseung Yun(Seoul National University), Jongseok Kim(Seoul National University), <br>
+                Eunkyu Park(Seoul National University), Gunhee Kim(Seoul National University) </td>
               </tr>
               <tr>
                 <th style="width: 8em; TEXT-ALIGN: center;">The 2nd place</th>
