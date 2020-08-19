@@ -79,9 +79,9 @@ feature-img: "assets/img/main.png"
           <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
               <tr>
                 <th style="width: 20em; TEXT-ALIGN: center;">The 1st place : <b>GGANG</b></th>
-                <td style="width: 65em;">
+                <td style="width: 80em;">
                     {% for person in site.data.people_challenge2020_award %}
-                        <p class="member">
+                        <div class="member">
                           <p class="member-profile">
                             <img class="member-profile" src="{{person.src}}">
                           </p>
@@ -91,7 +91,7 @@ feature-img: "assets/img/main.png"
                           <p class="member-info member-position">
                             {{ person.affiliation }}
                           </p>
-                        </p>
+                        </div>
                     {% endfor %}
                 </td>
               </tr>
