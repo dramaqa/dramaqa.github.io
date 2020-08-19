@@ -79,8 +79,8 @@ feature-img: "assets/img/main.png"
           <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
               <tr>
                 <th style="width: 20em; TEXT-ALIGN: center;">The 1st place : <b>GGANG</b></th>
-                <td style="width: 80em;">
-                    {% for person in site.data.people_challenge2020_award %}
+                <td style="width: 100%;">
+                    {% for person in site.data.people_challenge2020_award_1 %}
                         <div class="member">
                           <p class="member-profile">
                             <img class="member-profile" src="{{person.src}}">
@@ -96,15 +96,40 @@ feature-img: "assets/img/main.png"
                 </td>
               </tr>
               <tr>
-                <th style="width: 8em; TEXT-ALIGN: center;">The 2nd place</th>
-                <td><b>Sudoku</b><br>
-                Zhicheng Guo(Xidian University), Jiaxuan Zhao(Xidian University) </td>
+                <th style="width: 8em; TEXT-ALIGN: center;">The 2nd place : <b>Sudoku</b></th>
+                <td>
+                    {% for person in site.data.people_challenge2020_award_2 %}
+                        <div class="member">
+                          <p class="member-profile">
+                            <img class="member-profile" src="{{person.src}}">
+                          </p>
+                          <p class="member-name member-name">
+                            {{ person.name }}
+                          </p>
+                          <p class="member-info member-position">
+                            {{ person.affiliation }}
+                          </p>
+                        </div>
+                    {% endfor %}
+                </td>
               </tr>
               <tr>
-                <th style="width: 8em; TEXT-ALIGN: center;">The 3rd place</th>
-                <td><b>HARD KAERI</b><br>
-                KyungTae Lim(Korea Atomic Energy Research Institute), Youhan Lee(Korea Atomic Energy Research Institute), <br>
-                Yonggyun Yu(Korea Atomic Energy Research Institute)</td>
+                <th style="width: 8em; TEXT-ALIGN: center;">The 3rd place : <b>HARD KAERI</b></th>
+                <td>
+                    {% for person in site.data.people_challenge2020_award_3 %}
+                        <div class="member">
+                          <p class="member-profile">
+                            <img class="member-profile" src="{{person.src}}">
+                          </p>
+                          <p class="member-name member-name">
+                            {{ person.name }}
+                          </p>
+                          <p class="member-info member-position">
+                            {{ person.affiliation }}
+                          </p>
+                        </div>
+                    {% endfor %}                
+                </td>
               </tr>        
           </table>
       </div>
