@@ -70,10 +70,36 @@ feature-img: "assets/img/main.png"
       <li> <a id="link" href="https://dramaqa.snu.ac.kr/Download">Dataset Download</a> </li>
      </ul>
   </div> <br />
+  
+  <div class="content-subcontainer">
+      <h2 class = "content-subtitle">
+        5. Awards
+      </h2>
+      <div style="overflow-x: auto">
+          <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
+              <tr>
+                <th style="width: 8em; TEXT-ALIGN: center;">The 1st place</th>
+                <td style="width: 17em;"><b>GGANG</b><br>
+                Jiwan Chung(Seoul National University), Youngjae Yu(Seoul National University), Heeseung Yun(Seoul National University), <br>
+                Jongseok Kim(Seoul National University), Eunkyu Park(Seoul National University), Gunhee Kim(Seoul National University) </td>
+              </tr>
+              <tr>
+                <th style="width: 8em; TEXT-ALIGN: center;">The 2nd place</th>
+                <td><b>Sudoku</b><br>
+                Zhicheng Guo, Jiaxuan Zhao </td>
+              </tr>
+              <tr>
+                <th style="width: 8em; TEXT-ALIGN: center;">The 3rd place</th>
+                <td><b>HARD KAERI</b><br>
+                KyungTae Lim, Youhan Lee, Yonggyun Yu</td>
+              </tr>        
+          </table>
+      </div>
+    </div> <br />
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
-      5. Organizers
+      6. Organizers
     </h2>
     <div class="content-item">
       {% for person in site.data.people_challenge2020 %}
@@ -94,7 +120,7 @@ feature-img: "assets/img/main.png"
 
   <div class="content-subcontainer">
     <h2 class = "content-title">
-      6. Sponsor
+      7. Sponsor
     </h2> <br />
     {% for sponsor in site.data.sponsors2020 %}
     <div class="content-item" style="TEXT-ALIGN: left">
