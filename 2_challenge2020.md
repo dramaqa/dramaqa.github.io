@@ -8,6 +8,7 @@ feature-img: "assets/img/main.png"
 ---
 
 <link rel="stylesheet" href="/assets/css/member.css">
+<link rel="stylesheet" href="/assets/css/table_member.scss">
 
 <div class="challenge content-container">
   <div class = "content-subcontainer">
@@ -79,9 +80,9 @@ feature-img: "assets/img/main.png"
           <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
               <tr>
                 <th style="width: 20em; TEXT-ALIGN: center;">The 1st place : <b>GGANG</b></th>
-                <td style="width: 100%;">
+                <td style="width: 120em;">
                     {% for person in site.data.people_challenge2020_award_1 %}
-                        <div class="member">
+                        <p class="member">
                             <p class="member-profile">
                               <img class="member-profile" src="{{person.src}}">
                             </p>
@@ -91,7 +92,7 @@ feature-img: "assets/img/main.png"
                             <p class="member-info member-position">
                               {{ person.affiliation }}
                             </p>
-                        </div>
+                        </p>
                     {% endfor %}
                 </td>
               </tr>
