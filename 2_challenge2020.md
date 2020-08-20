@@ -79,9 +79,7 @@ feature-img: "assets/img/main.png"
       <div style="overflow-x: auto">
           <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
               <tr>
-                <th style="width: 20em; TEXT-ALIGN: center;"><b>GGANG</b></th>
-                <td style="width: 120em;">
-                <th style="width: 14em; TEXT-ALIGN: center;">The 1st place <br> <b style="font-size:1.2em">GGANG</b></th>
+                <th style="width: 14em; TEXT-ALIGN: center;"><b style="font-size:1.2em">GGANG</b></th>
                 <td style="width: 80em;">
                     {% for person in site.data.people_challenge2020_award_1 %}
                         <div class="awardmember" style="vertical-align: top; width: 130px;">
@@ -99,8 +97,7 @@ feature-img: "assets/img/main.png"
                 </td>
               </tr>
               <tr>
-                <th style="width: 8em; TEXT-ALIGN: center;"><b>Sudoku</b></th>
-                <th style="width: 14em; TEXT-ALIGN: center;">The 2nd place <br> <b style="font-size:1.2em">Sudoku</b></th>
+                <th style="width: 14em; TEXT-ALIGN: center;"><b style="font-size:1.2em">Sudoku</b></th>
                 <td>
                     {% for person in site.data.people_challenge2020_award_2 %}
                         <div class="awardmember" style="vertical-align: top; width: 130px;">
@@ -118,8 +115,7 @@ feature-img: "assets/img/main.png"
                 </td>
               </tr>
               <tr>
-                <th style="width: 8em; TEXT-ALIGN: center;"><b>HARD KAERI</b></th>
-                <th style="width: 14em; TEXT-ALIGN: center;">The 3rd place <br> <b style="font-size:1.2em">HARD KAERI</b></th>
+                <th style="width: 14em; TEXT-ALIGN: center;"><b style="font-size:1.2em">HARD KAERI</b></th>
                 <td>
                     {% for person in site.data.people_challenge2020_award_3 %}
                         <div class="awardmember" style="vertical-align: top; width: 130px;">
