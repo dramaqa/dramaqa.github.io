@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Workshop 2020
-headertitle: '<br><h1 class="title">The 2nd workshop on Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
+headertitle: '<br><h1 class="title">The 2nd Workshop on Video Turing Test: <br>Toward Human-Level Video Story Understanding</h1>'
 subtitle: '<h4 class="subtitle">Online, 28 August. 2020 <br> 16th European Conference on Computer Vision (ECCV)</h4><br><a class="btn btn-default" href="https://eccv2020.eu//"><img src="/assets/img/eccvlogo_online.png" style="max-width: 5em; padding: 0.1em 0.1em; background-color:#FFFFFF;"></a><br><br>'
 permalink: /Workshop/2020
 feature-img: "assets/img/main.png"
@@ -106,19 +106,19 @@ feature-img: "assets/img/main.png"
 	  
   <li>
       <a href="https://anna-rohrbach.net/">Anna Rohrbach</a>, UC Berkeley <br>
-	  <b>Title: Towards generating stories about video</b><br>
+	  <b>Title: Towards Generating Stories about Video</b><br>
 	  Abstract: Humans can easily tell a story about what they see in a video. Such a story would be relevant, coherent and non-redundant, it would mention distinct person identities and significant objects or places, make use of co-references, etc. Machines are still far from being able to generate such stories. In my talk I will focus on how to make progress towards the following two goals. First, I will talk about how to obtain more coherent and diverse multi-sentence video descriptions. Next, I will discuss how to connect video descriptions to person identities.
   </li>
   <br>
   <li>
       <a href="http://www.mohamed-elhoseiny.com/">Mohamed H. Elhoseiny</a>, KAUST (King Abdullah University of Science and Technology) <br>
-	  <b>Title: Imagination supervised visiolinguistic Learning </b><br>
+	  <b>Title: Imagination Supervised Visiolinguistic Learning </b><br>
 	  Abstract: TBA
   </li>
   <br>
   <li>
       <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a>, University of Washington &amp; Allen Institute for Artificial Intelligence <br>
-	  <b>Title: Commonsense Modeling with Vision and Language</b><br>
+	  <b>Title: Commonsense Intelligence: Cracking the Longstanding Challenge in AI</b><br>
 	  Abstract: Despite considerable advances in deep learning, AI remains to be narrow and brittle. One fundamental limitation comes from its lack of commonsense intelligence: reasoning about everyday situations and events, which in turn, requires knowledge about how the physical and social world works. In this talk, I will share some of our recent efforts that attempt to crack commonsense intelligence with emphasis on intuitive causal inferences and the synergistic connection between declarative knowledge in multimodal knowledge graphs and observed knowledge in unstructured web data. I will conclude the talk by discussing major open research questions, including the importance of algorithmic solutions to reduce incidental biases in data that can lead to overestimation of true AI capabilities. 
   </li>
   <br>

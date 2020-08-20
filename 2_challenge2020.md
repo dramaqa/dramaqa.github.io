@@ -8,7 +8,7 @@ feature-img: "assets/img/main.png"
 ---
 
 <link rel="stylesheet" href="/assets/css/member.css">
-<link rel="stylesheet" href="/assets/css/table_member.scss">
+<link rel="stylesheet" href="/assets/css/table_member.css">
 
 <div class="challenge content-container">
   <div class = "content-subcontainer">
@@ -72,7 +72,7 @@ feature-img: "assets/img/main.png"
      </ul>
   </div> <br />
   
-  <!--div class="content-subcontainer">
+  <div class="content-subcontainer">
       <h2 class = "content-subtitle">
         5. Awards
       </h2>
@@ -81,8 +81,10 @@ feature-img: "assets/img/main.png"
               <tr>
                 <th style="width: 20em; TEXT-ALIGN: center;"><b>GGANG</b></th>
                 <td style="width: 120em;">
+                <th style="width: 14em; TEXT-ALIGN: center;">The 1st place <br> <b style="font-size:1.2em">GGANG</b></th>
+                <td style="width: 80em;">
                     {% for person in site.data.people_challenge2020_award_1 %}
-                        <p class="member">
+                        <div class="awardmember" style="vertical-align: top; width: 130px;">
                             <p class="member-profile">
                               <img class="member-profile" src="{{person.src}}">
                             </p>
@@ -92,15 +94,16 @@ feature-img: "assets/img/main.png"
                             <p class="member-info member-position">
                               {{ person.affiliation }}
                             </p>
-                        </p>
+                        </div>
                     {% endfor %}
                 </td>
               </tr>
               <tr>
                 <th style="width: 8em; TEXT-ALIGN: center;"><b>Sudoku</b></th>
+                <th style="width: 14em; TEXT-ALIGN: center;">The 2nd place <br> <b style="font-size:1.2em">Sudoku</b></th>
                 <td>
                     {% for person in site.data.people_challenge2020_award_2 %}
-                        <div class="member">
+                        <div class="awardmember" style="vertical-align: top; width: 130px;">
                           <p class="member-profile">
                             <img class="member-profile" src="{{person.src}}">
                           </p>
@@ -116,9 +119,10 @@ feature-img: "assets/img/main.png"
               </tr>
               <tr>
                 <th style="width: 8em; TEXT-ALIGN: center;"><b>HARD KAERI</b></th>
+                <th style="width: 14em; TEXT-ALIGN: center;">The 3rd place <br> <b style="font-size:1.2em">HARD KAERI</b></th>
                 <td>
                     {% for person in site.data.people_challenge2020_award_3 %}
-                        <div class="member">
+                        <div class="awardmember" style="vertical-align: top; width: 130px;">
                           <p class="member-profile">
                             <img class="member-profile" src="{{person.src}}">
                           </p>
@@ -134,7 +138,7 @@ feature-img: "assets/img/main.png"
               </tr>        
           </table>
       </div>
-    </div--> <br />
+    </div> <br />
 
   <div class = "content-subcontainer">
     <h2 class = "content-subtitle">
