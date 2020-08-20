@@ -104,6 +104,7 @@ feature-img: "assets/img/main.png"
   <div style="overflow-x: auto">
 
   <h4> -- Live QnA Session-1 at 4 P.M - 6 P.M August 27th (PDT) </h4>
+  <br>
 	  
   <li>
       <img class="member-profile" src="/assets/img/workshop/2020_invited_speakers/anna.png" align="left">
@@ -128,6 +129,7 @@ feature-img: "assets/img/main.png"
   <br>
   
   <h4> -- Live QnA Session-2 at 6 A.M - 8 A.M August 28th (PDT) </h4>
+  <br>
 	
   <li>
       <img class="member-profile" src="/assets/img/workshop/2020_invited_speakers/adriana.png" align="left">
