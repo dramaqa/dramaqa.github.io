@@ -79,7 +79,7 @@ feature-img: "assets/img/main.png"
       <div style="overflow-x: auto">
           <table style="border-collapse: collapse; border-spacing: 0; width: 1000px;">
               <tr>
-                <th style="width: 20em; TEXT-ALIGN: center;">The 1st place : <b>GGANG</b></th>
+                <th style="width: 20em; TEXT-ALIGN: center;"><b>GGANG</b></th>
                 <td style="width: 120em;">
                     {% for person in site.data.people_challenge2020_award_1 %}
                         <p class="member">
@@ -97,7 +97,7 @@ feature-img: "assets/img/main.png"
                 </td>
               </tr>
               <tr>
-                <th style="width: 8em; TEXT-ALIGN: center;">The 2nd place : <b>Sudoku</b></th>
+                <th style="width: 8em; TEXT-ALIGN: center;"><b>Sudoku</b></th>
                 <td>
                     {% for person in site.data.people_challenge2020_award_2 %}
                         <div class="member">
@@ -115,7 +115,7 @@ feature-img: "assets/img/main.png"
                 </td>
               </tr>
               <tr>
-                <th style="width: 8em; TEXT-ALIGN: center;">The 3rd place : <b>HARD KAERI</b></th>
+                <th style="width: 8em; TEXT-ALIGN: center;"><b>HARD KAERI</b></th>
                 <td>
                     {% for person in site.data.people_challenge2020_award_3 %}
                         <div class="member">
