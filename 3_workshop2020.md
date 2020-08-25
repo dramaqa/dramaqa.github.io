@@ -113,7 +113,7 @@ feature-img: "assets/img/main.png"
         <td>
           Accepted Paper 5: <br>
           <b>Watch Hours in Minutes: Summarizing Video with User Intent</b> <br>
-          Saiteja Nalla, Mohit Agrawal, Vishal Kaushal Rishabh Iyer, Ganesh Ramakrishnan
+          Saiteja Nalla, Mohit Agrawal, Vishal Kaushal, Rishabh Iyer, Ganesh Ramakrishnan
         </td>
         <td align='left'>
           [<a href="https://workshopsandtutorials.eccv2020.eu/paper/108/">video & slides</a>] [<a href="https://app.sli.do/event/iw7xi5tl">Q&A</a>]
