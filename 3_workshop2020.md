@@ -173,7 +173,7 @@ feature-img: "assets/img/main.png"
         <td>
         Accepted Paper 7: <br>
           <b>Condensed Movies: Story Based Retrieval with Contextual Embeddings</b> <br>
-          Andrew Brown, Max Bain, Arsha Nagrani, Andrew Zisserman
+          Max Bain, Arsha Nagrani, Andrew Brown, Andrew Zisserman
         </td>
         <td align='left'>
           [<a href="https://workshopsandtutorials.eccv2020.eu/paper/106/">video & slides</a>] [<a href="https://app.sli.do/event/4lbfeiji">Q&A</a>]
