@@ -35,7 +35,7 @@ feature-img: "assets/img/main.png"
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
   <h2> 1. Schedule </h2> <br>
   <!--<h4>Chair: Kyoung-Woon On (Seoul National University)</h4>-->
-  <h5> <b>Session 1</b> (8/27, 22:00 - 25:05 (UTC+1))</h5><br>
+  <h5> <b>Session 1</b> (August 28th, 00:00 - 03:05 (UTC+1))</h5><br>
   <table class="table table-striped">
     <thead>
       <tr>
@@ -46,30 +46,30 @@ feature-img: "assets/img/main.png"
     </thead>
     <tbody>
       <tr>	
-        <th scope="row">22:00 - 22:10</th>
+        <th scope="row">00:00 - 00:10</th>
         <td>Opening Remarks</td>
         <td></td>
       </tr>
       <tr>
-        <th scope="row">22:10 - 22:55</th>
+        <th scope="row">00:10 - 00:55</th>
         <td>Invited Talk 1: <b>Towards Generating Stories about Video</b> <br>
         <a href="https://anna-rohrbach.net/"> Anna Rohrbach</a>, UC Berkeley</td>
         <td>[<a href="https://workshopsandtutorials.eccv2020.eu/paper/793/">video & slides</a>] [<a href="https://app.sli.do/event/vlod0rr7">Q&A</a>]</td>
       </tr>
       <tr>
-        <th scope="row">22:55 - 23:35</th>
+        <th scope="row">00:55 - 01:35</th>
         <td>Invited Talk 2: <b>Imagination Supervised Visiolinguistic Learning</b> <br>
         <a href="http://www.mohamed-elhoseiny.com/">Mohamed H. Elhoseiny</a>, KAUST (King Abdullah University of Science and Technology)</td>
         <td>[<a href="https://workshopsandtutorials.eccv2020.eu/paper/794/">video & slides</a>] [<a href="https://app.sli.do/event/2ekp2iae">Q&A</a>]</td>
       </tr>
       <tr>
-        <th scope="row">23:35 - 24:35</th>
+        <th scope="row">01:35 - 02:35</th>
         <td>Invited Talk 3: <b>Commonsense Intelligence: Cracking the Longstanding Challenge in AI</b> <br>
         <a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a>, University of Washington &amp; Allen Institute for Artificial Intelligence</td>
         <td>[<a href="https://workshopsandtutorials.eccv2020.eu/paper/795/">video & slides</a>] [<a href="https://app.sli.do/event/fm8t9ozj">Q&A</a>]</td>
       </tr>
       <tr>
-        <th rowspan="5">24:35 - 25:05</th>
+        <th rowspan="5">02:35 - 03:05</th>
         <td>
           Accepted Paper 1: <br>
           <b>Object-Centric Relational Reasoning for Video Question Answering </b> <br>
@@ -123,7 +123,7 @@ feature-img: "assets/img/main.png"
   </table>
   
   <br>
-  <h5> <b>Session 2</b> (8/28, 12:00 - 15:10 (UTC+1))</h5>
+  <h5> <b>Session 2</b> (August 28th, 14:00 - 17:10 (UTC+1))</h5>
   <br>
 
   <table class="table table-striped">
@@ -136,30 +136,30 @@ feature-img: "assets/img/main.png"
     </thead>
     <tbody>
       <tr>	
-        <th scope="row">12:00 - 12:10</th>
+        <th scope="row">14:00 - 14:10</th>
         <td>Opening Remarks</td>
         <th></th>
       </tr>
       <tr>
-        <th scope="row">12:10 - 12:45</th>
+        <th scope="row">14:10 - 14:45</th>
         <td>Invited Talk 1: <b>Reasoning about Complex Media from Weak Multi-modal Supervision</b> <br>
         <a href="http://people.cs.pitt.edu/~kovashka/">Adriana Kovashka</a>, University of Pittsburgh</td>
         <td>[<a href="https://workshopsandtutorials.eccv2020.eu/paper/796/">video & slides</a>] [<a href="https://app.sli.do/event/8msmwi59">Q&A</a>]</td>
       </tr>
       <tr>
-        <th scope="row">12:45 - 13:40</th>
+        <th scope="row">14:45 - 15:40</th>
         <td>Invited Talk 2: <b>Machine Understanding of Social Situations</b> <br>
         <a href="http://www.cs.toronto.edu/~makarand/">Makarand Tapaswi</a>, Inria Paris</td>
         <td>[<a href="https://workshopsandtutorials.eccv2020.eu/paper/797/">video & slides</a>] [<a href="https://app.sli.do/event/yuvpef6t">Q&A</a>]</td>
       </tr>
       <tr>
-        <th scope="row">13:40 - 14:25</th>
+        <th scope="row">15:40 - 16:25</th>
         <td>Invited Talk 3: <b>Ten Questions for a Theory of Vision</b> <br>        
         <a href="http://sailab.diism.unisi.it/people/marco-gori/">Marco Gori</a>, University of Siena</td>
         <td>[<a href="https://workshopsandtutorials.eccv2020.eu/paper/798/">video & slides</a>] [<a href="https://app.sli.do/event/fekrcryi">Q&A</a>]</td>
       </tr>
       <tr>
-        <th rowspan="3">14:25 - 14:43</th>
+        <th rowspan="3">16:25 - 16:45</th>
         <td>
           Accepted Paper 6: <br>
           <b>Long Term Spatio-Temporal Modeling for Action Detection</b> <br>
@@ -190,7 +190,7 @@ feature-img: "assets/img/main.png"
         </td>
       </tr>
       <tr>
-        <th scope="row">14:45 - 14:55</th>
+        <th scope="row">16:45 - 16:55</th>
         <td>
           <b>Overview of DramaQA Challenge</b> <br>
           Seongho Choi, Yu-Jung Heo, Kyoung-Woon On, Youwon Jang, Ahjeong Seo, Minsu Lee, Byoung-Tak Zhang
@@ -200,7 +200,7 @@ feature-img: "assets/img/main.png"
         </td>
       </tr>
       <tr>
-        <th rowspan="3">14:55 - 15:10</th>
+        <th rowspan="3">16:55 - 17:10</th>
         <td>
           DramaQA Challenge Winner talks 1: <br>
           <b>Who is who? (Character Information as Attention Priors)</b> <br>
