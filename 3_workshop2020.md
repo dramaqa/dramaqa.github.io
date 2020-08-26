@@ -239,9 +239,7 @@ feature-img: "assets/img/main.png"
   <h2> 2. Invited Speakers </h2>
   <div style="overflow-x: auto">
 
-  <h4> -- Live QnA Session-1 at 10 P.M - 12 P.M August 27th (UTC+1) </h4>
-  <br>
-	  
+  <!--<h4> -- Live QnA Session-1 at 00 A.M - 12 P.M August 27th (UTC+1) </h4>-->	  
   <li>
       <img class="member-profile" src="/assets/img/workshop/2020_invited_speakers/anna.png" align="left">
       <a href="https://anna-rohrbach.net/">Anna Rohrbach</a>, UC Berkeley <br>
@@ -264,9 +262,7 @@ feature-img: "assets/img/main.png"
   </li>
   <br>
   
-  <h4> -- Live QnA Session-2 at 12 P.M - 14 P.M August 28th (UTC+1) </h4>
-  <br>
-	
+  <!--<h4> -- Live QnA Session-2 at 12 P.M - 14 P.M August 28th (UTC+1) </h4>-->
   <li>
       <img class="member-profile" src="/assets/img/workshop/2020_invited_speakers/adriana.jpg" align="left">
       <a href="http://people.cs.pitt.edu/~kovashka/">Adriana Kovashka</a>, University of Pittsburgh <br>
@@ -359,7 +355,7 @@ feature-img: "assets/img/main.png"
       Notification to authors: August 7, 2020 <b> (Extended) </b>
     </li>
     <li>
-      Camera-Ready Paper submission deadline: August 14, 2020 at 11:59pm (PST)
+      Camera-Ready Paper submission deadline: August 30, 2020 at 11:59pm (PST) <b> (Extended) </b>
     </li>
     <li>
       Workshop date: August 28, 2020 (Full day)
@@ -368,7 +364,7 @@ feature-img: "assets/img/main.png"
 </div> <br /> <br />
 
 
-<p><br> <br></p>
+<!--<p><br> <br></p>-->
 
 <div class="content-subcontainer">
     <h2 class = "content-title" style="TEXT-ALIGN: left; color: black;">
