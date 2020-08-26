@@ -387,6 +387,25 @@ feature-img: "assets/img/main.png"
     </div>
 </div> <br />
 
+<div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
+  <h2> 7. Program Committee </h2>
+  <div style="overflow-x: auto">
+	<li> Prof. Bohyung Han (Seoul National University) </li>
+	<li> Prof. Byung-Chull Bae (Hongik University) </li>
+	<li> Prof. Efstratios Gavves (University of Amsterdam) </li>
+	<li> Dr. Eun-Sol Kim (Kakao Brain) </li>
+	<li> Prof. In So Kweon (KAIST) </li>
+	<li> Prof. Ji-Hwan Kim (Sogang University) </li>
+	<li> Dr. Jin-Hwa Kim (SK Telecom) </li>
+	<li> Prof. Junmo Kim (KAIST) </li>
+	<li> Prof. Junseok Kwon (Chung-Ang University) </li>
+	<li> Dr. Kyung-Min Kim (Naver) </li>
+	<li> Dr. Manohar Paluri (Facebook research) </li>
+	<li> Prof. Seon Joo Kim (Yonsei University) </li>
+	<li> Prof. Seong-Bae Park (Kyung Hee University) </li>
+    </div>
+</div> <br /> <br />
+
 <div class="content-subcontainer" style="TEXT-ALIGN: center; color:black">
 <footer>
   <p class="pull-right"><a href="#top">Back to top</a></p>
