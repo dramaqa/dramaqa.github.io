@@ -207,7 +207,7 @@ feature-img: "assets/img/main.png"
           Jiwan Chung, Youngjae Yu, Heeseung Yun, Jongseok Kim, Eunkyu Park, Gunhee Kim 
         </td>
         <td align='left'>
-          [<a href="https://workshopsandtutorials.eccv2020.eu/paper/380/">video & slides</a>]
+          [<a href="https://workshopsandtutorials.eccv2020.eu/paper/380/">video & slides</a>] [<a href="https://app.sli.do/event/lt8ej53f">Q&A</a>]
         </td>
       </tr>
       <tr>
@@ -217,7 +217,7 @@ feature-img: "assets/img/main.png"
           Zhicheng Guo, Jiaxuan Zhao
         </td>
         <td align='left'>
-          [<a href="https://workshopsandtutorials.eccv2020.eu/paper/379/">video & slides</a>]
+          [<a href="https://workshopsandtutorials.eccv2020.eu/paper/379/">video & slides</a>] [<a href="https://app.sli.do/event/yr1bkojf">Q&A</a>]
         </td>
       </tr>
       <tr>
@@ -227,13 +227,12 @@ feature-img: "assets/img/main.png"
           KyungTae Lim, Youhan Lee, Yonggyun Yu
         </td>
         <td align='left'>
-          [<a href="https://workshopsandtutorials.eccv2020.eu/paper/111/">video & slides</a>]
+          [<a href="https://workshopsandtutorials.eccv2020.eu/paper/111/">video & slides</a>] [<a href="https://app.sli.do/event/muxhzajm">Q&A</a>]
         </td>
       </tr>
     </tbody>
   </table>
 </div> <br />
-
 
 <div class="content-subcontainer" style="TEXT-ALIGN: left; color:black">
   <h2> 2. Invited Speakers </h2>
