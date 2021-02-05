@@ -58,7 +58,7 @@ title: About
   </p>
   <p>
     <a href="https://arxiv.org/abs/2005.03356">[PDF]</a> 
-    <a href="https://github.com/liveseongho/DramaQAChallenge2020">[Code]</a>
+    <a href="https://github.com/liveseongho/DramaQA">[Code]</a>
   </p>
 </div> <br /> <br /> <br />
 

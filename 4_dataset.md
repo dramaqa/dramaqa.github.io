@@ -109,30 +109,14 @@ feature-img: "assets/img/main.png"
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
       2. Dataset Specification
-    </h2>
-    <ul class = "content-item" style="line-height:2em">
-      <li class ="a"> 23,928 video clips </li>
-      <ul class = "content-subitem" style="line-height:1.5em">
-        <li class ="b" type="circle"> 803 scenes </li>
-        <li class ="b" type="circle"> 23,125 shots </li>
-      </ul>
-      <li class ="a"> 16,191 question-answer pairs with multi-level difficulties </li>
-        <ul class = "content-subitem" style="line-height:1.5em">
-          <li class ="b" type="circle"> 5 multiple choice QA </li>
-          <li class ="b" type="circle"> Four levels of difficulty for the questions </li>
-          <li class ="c" type="square"> 9,313 level 1 questions </li>
-          <li class ="c" type="square"> 4,530 level 2 questions </li>
-          <li class ="c" type="square"> 2,074 level 3 questions </li>
-          <li class ="c" type="square"> 2,066 level 4 questions </li>
-         </ul>
-      <li class ="a">Table of Contents</li>
-      <ul class ="a" style="line-height:1.5em">
-        <li class ="b"><a id="link" href="#dataset-1 ">Image Frames</a></li>
-        <li class ="b"><a id="link" href="#dataset-2 ">Hierarchical QA</a></li>
-        <li class ="b"><a id="link" href="#dataset-3 ">Visual Metadata</a></li>
-        <li class ="b"><a id="link" href="#dataset-4 ">Coreference Resolved Scripts</a></li>
-      </ul> <br/>
-    </ul>
+    </h2><br>
+    <h4 class ="a">Table of Contents</h4>
+        <ul class ="a" style="line-height:1.5em">
+            <li class ="b"><a id="link" href="#dataset-1 ">Image Frames</a></li>
+            <li class ="b"><a id="link" href="#dataset-2 ">Hierarchical QA</a></li>
+            <li class ="b"><a id="link" href="#dataset-3 ">Visual Metadata</a></li>
+            <li class ="b"><a id="link" href="#dataset-4 ">Coreference Resolved Scripts</a></li>
+        </ul> <br/>
     <div class = "content-item" id="dataset-1">
       <h3 class="content-subtitle">
         1) Image Frames
