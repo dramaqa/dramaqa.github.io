@@ -33,8 +33,8 @@ feature-img: "assets/img/main.png"
     DramaQA Dataset Download
   </h1> <br /> <br />
   <p class = "content-item">
-    <b> DramaQA dataset is currently in progress, and we will update our dataset with additional annotations and QAs within this year. </b> <br><br>
-    To download DramaQA dataset (version of DramaQA Challenge 2020), please fill out <a id="pdf_link" href="/assets/dramaqa_download_agreement.docx">dataset download agreement file</a> in pdf format with your own signature. 
+    <b> DramaQA dataset is currently in progress, and we will update our dataset with additional annotations and QAs soon. </b> <br><br>
+    To download DramaQA dataset (version of DramaQA Challenge 2020), please fill out <a id="pdf_link" href="/assets/dramaqa_download_agreement.docx">dataset download agreement file</a> in pdf format with your own signature.
     You will be required to fill out this application <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a> with your agreement file.
     <br/><br/>
     The download link for the dataset will be sent to you in around a week if your form is valid. Please do not share the dataset with others.
@@ -44,4 +44,4 @@ feature-img: "assets/img/main.png"
 </div>
 
 <!-- a id="download_link" href="/assets/dramaqa_download_agreement.docx" file</a> -->
-<!-- a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform" form</a> --> 
+<!-- a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform" form</a> -->
