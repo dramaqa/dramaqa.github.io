@@ -54,13 +54,14 @@ feature-img: "assets/img/main.png"
 <script src="//cdn.jsdelivr.net/highlight.js/9.5.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
   
-    
+
 <div class="dataset content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     DramaQA Dataset Description
   </h1> <br />
   <img class="dataset-overview-img" src="/assets/dramaqa_overview_final.png">
   <br /> <br/>
+  <!--
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
       1. Overview
@@ -105,39 +106,39 @@ feature-img: "assets/img/main.png"
       </p>
     </div> <br /> <br />
   </div>
-  
+  -->
   <div class="content-subcontainer">
+    <!--
     <h2 class = "content-subtitle">
       2. Dataset Specification
     </h2><br>
-    <h4 class ="a">Table of Contents</h4>
+    -->
+    <h2 class ="a">Table of Contents</h2>
         <ul class ="a" style="line-height:1.5em">
-            <li class ="b"><a id="link" href="#dataset-1 ">Image Frames</a></li>
-            <li class ="b"><a id="link" href="#dataset-2 ">Hierarchical QA</a></li>
-            <li class ="b"><a id="link" href="#dataset-3 ">Visual Metadata</a></li>
-            <li class ="b"><a id="link" href="#dataset-4 ">Coreference Resolved Scripts</a></li>
+            <li class ="b"><a id="link" href="#dataset-1 ">Overview</a></li>
+            <li class ="b"><a id="link" href="#dataset-2 ">DramaQA</a></li>
+            <li class ="b"><a id="link" href="#dataset-3 ">DramaCap</a></li>
+            <li class ="b"><a id="link" href="#dataset-4 ">Image Frames</a></li>
+            <li class ="b"><a id="link" href="#dataset-5 ">Visual Metadata</a></li>
+            <li class ="b"><a id="link" href="#dataset-6 ">Coreference Resolved Scripts</a></li>
         </ul> <br/>
     <div class = "content-item" id="dataset-1">
       <h3 class="content-subtitle">
-        1) Image Frames
+        1) Overview
       </h3>
-      <ul class = "content-item" style="line-height:2em">
-        <li class ="a"> <code>AnotherMissOh_images.zip</code> contains image frames of each video clips. </li>
-        <li class ="a"> The image frames in a scene are saved in <code>{episodeName/sceneNum}</code> folder, and the image frames in a shot are saved in <code>{episodeName/sceneNum/shotNum}</code> folder. </li>
-        <ul class = "content-subitem" style="line-height:1.5em">
-          <li class ="b" type="circle"> e.g., <code>AnotherMissOh01/002/0003</code> folder for 3rd shot in 2nd scene in episode 1. </li>
-        </ul>
-        <li class ="a"> The image frames are captured at 3 frames per second (FPS). </li>
-        <li class ="a"> In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network. </li>
-      </ul>
+    <p class = "content-item">
+      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research. 
+      We collected the dataset on a popular Korean drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh">Another Miss Oh</a></i></b>, which has 18 episodes, 20.5 hours in total. 
+      DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels. 
+    </p>
     </div>
     <br />
     <div class = "content-item" id="dataset-2">
       <h3 class="content-subtitle">
-        2) Hierarchical QA 
+        2) DramaQA
       </h3>
       <p class = "pre-description">
-          <code>AnotherMissOh_QA.zip</code> contains 3 json files, each denotes a split of DramaQA dataset:
+          <code>DramaQA.zip</code> contains 3 json files, each denotes a split of DramaQA dataset:
           <table style="font-size: 1em"> 
             <tr>
               <th style="width: 300px">Files</th>
@@ -146,17 +147,17 @@ feature-img: "assets/img/main.png"
             </tr>
             <tr>
               <td>AnotherMissOhQA_train_set.json</td>
-              <td>11,118</td>
+              <td>18,465</td>
               <td>Model training</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_val_set.json</td>
-              <td>3,412</td>
+              <td>3,889</td>
               <td>Hyperparmeter tuning</td>
             </tr>
             <tr>
               <td>AnotherMissOhQA_test_set.json</td>
-              <td>3,453</td>
+              <td>4,019</td>
               <td>Model testing</td>
             </tr>   
           </table>
@@ -177,7 +178,7 @@ feature-img: "assets/img/main.png"
           <tr>
             <td>correct_idx</td>
             <td>int</td>
-            <td>index of correct answer among candidates (1~5)</td>
+            <td>index of correct answer among candidates (0~4)</td>
           </tr>
           <tr>
             <td>answers</td>
@@ -242,8 +243,83 @@ feature-img: "assets/img/main.png"
     <br />
     <div class = "content-item" id="dataset-3">
       <h3 class="content-subtitle">
-        3) Visual Metadata
+        3) DramaCap
       </h3>
+      <p class = "pre-description">
+          <code>DramaCap.zip</code> contains 3 json files, each denotes a split of DramaCap dataset:
+          <table style="font-size: 1em"> 
+            <tr>
+              <th style="width: 300px">Files</th>
+              <th style="width: 100px">#Data</th>
+              <th stype="width: 300px">Usage</th>
+            </tr>
+            <tr>
+              <td>DramaCap_train.json</td>
+              <td>11,602 </td>
+              <td>Model training</td>
+            </tr>
+            <tr>
+              <td>DramaCap_val.json</td>
+              <td>2,471 </td>
+              <td>Hyperparmeter tuning</td>
+            </tr>
+            <tr>
+              <td>DramaCap_test.json</td>
+              <td>2,329</td>
+              <td>Model testing</td>
+            </tr>   
+          </table>
+      </p>
+      <p class="description">
+        Each of DramaCap files is dictionary which has vid as key and its caption as value.
+        <br/>
+        There are two types of descriptions: shot-level descriptions and scene-level descriptions. In case of scene-level description, vid ends with <code>_0000</code>.
+        <br/><br/>
+      </p>
+        <br />
+        <p class = "json-description">
+          Here is an example of DramaCap file: 
+        </p>
+        <pre><code class="json">{
+    ...
+    "AnotherMissOh01_018_0000": "Heeran and Haeyoung1 are laughing. Heeran and Haeyoung1 made a bet. Haeyoung1 tried to drink an energy drink at once but Haeyoung1 failed. Haeyoung1 fell backwards from the chair.",
+    "AnotherMissOh01_018_0738": "Heeran is laughing on the chair.",
+    "AnotherMissOh01_018_0739": "Heeran is talking.",
+    "AnotherMissOh01_018_0740": "Haeyoung1 is talking.",
+    ...
+}</code></pre>
+    </div>
+    <br />
+    <div class = "content-item" id="dataset-4">
+      <h3 class="content-subtitle">
+        4) Image Frames
+      </h3>
+      <ul class = "content-item" style="line-height:2em">
+        <li class ="a"> <code>AnotherMissOh_images.zip</code> contains image frames of each video clips. </li>
+        <li class ="a"> The image frames in a scene are saved in <code>{episodeName/sceneNum}</code> folder, and the image frames in a shot are saved in <code>{episodeName/sceneNum/shotNum}</code> folder. </li>
+        <ul class = "content-subitem" style="line-height:1.5em">
+          <li class ="b" type="circle"> e.g., <code>AnotherMissOh01/002/0003</code> folder for 3rd shot in 2nd scene in episode 1. </li>
+        </ul>
+        <li class ="a"> The image frames are captured at 3 frames per second (FPS). </li>
+        <li class ="a"> In our baseline code, each image frame is fed into Resnet-50 and transformed to features from the last layer of the network. </li>
+      </ul>
+    </div>
+    <br />
+    <div class = "content-item" id="dataset-5">
+      <h3 class="content-subtitle">
+        5) Visual Metadata
+      </h3>
+      <p class = "content-subitem">
+        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh"><span>Another Miss Oh</span></a></i></b>. 
+        As visual metadata, all image frames in the video clips are annotated with main characters information. 
+        In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. 
+        Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. 
+        Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. 
+        Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
+      </p>
+      <p>
+        We describe more detailed information at our <a href="https://arxiv.org/abs/2005.03356">paper</a>.
+      </p>
       <ul class = "content-subitem" style="line-height:1.5em">
         <li class ="a"> <b>Bounding Box:</b> In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name.  
         In total, 20 main characters are annotated with their unique name.</li>
@@ -280,9 +356,9 @@ feature-img: "assets/img/main.png"
 }</code></pre>
     </div>
     <br />
-    <div class = "content-item" id="dataset-4">
+    <div class = "content-item" id="dataset-6">
       <h3 class="content-subtitle">
-        4) Coreference Resolved Scripts
+        6) Coreference Resolved Scripts
       </h3>
       <p class = "content-subitem">
         For  understanding  video  stories,  especially drama, it is important to understand the dialogue between the characters. Especially, the information such as “<i>Who</i> is talking to <i>whom</i> about <i>who</i> did what?” is significant for understanding whole stories. In DramaQA, we provide these information by resolving the coreferences for main characters in scripts.  
