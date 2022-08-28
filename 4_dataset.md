@@ -57,7 +57,7 @@ feature-img: "assets/img/main.png"
 
 <div class="dataset content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
-    DramaQA Dataset Description
+    Dataset Description
   </h1> <br />
   <img class="dataset-overview-img" src="/assets/dramaqa_overview_final.png">
   <br /> <br/>
