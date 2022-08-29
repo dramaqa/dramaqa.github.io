@@ -29,7 +29,7 @@ feature-img: "assets/img/main.png"
   div.content-item{
     margin-left: 0.5em;
   }
-  
+
   table {
     width: 100%;
   }
@@ -49,18 +49,20 @@ feature-img: "assets/img/main.png"
     background-color: #ffffff;
   }
 </style>
-  
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.5.0/styles/default.min.css">
 <script src="//cdn.jsdelivr.net/highlight.js/9.5.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-  
+
 
 <div class="dataset content-container">
   <h1 class = "content-title" style="TEXT-ALIGN: center">
     Dataset Description
   </h1> <br />
+  <!--
   <img class="dataset-overview-img" src="/assets/dramaqa_overview_final.png">
-  <br /> <br/>
+  <br />-->
+  <br/>
   <!--
   <div class="content-subcontainer">
     <h2 class = "content-subtitle">
@@ -68,9 +70,9 @@ feature-img: "assets/img/main.png"
     </h2>
     <br/>
     <p class = "content-item">
-      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research. 
-      We collected the dataset on a popular Korean drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh">Another Miss Oh</a></i></b>, which has 18 episodes, 20.5 hours in total. 
-      DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels. 
+      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research.
+      We collected the dataset on a popular Korean drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh">Another Miss Oh</a></i></b>, which has 18 episodes, 20.5 hours in total.
+      DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels.
     </p>
     <br/>
     <div class="content-subitem">
@@ -78,8 +80,8 @@ feature-img: "assets/img/main.png"
         1)  Question-Answer Hierarchy for Levels of Difficulty
       </h3>
       <p class = "content-subitem">
-        To  classify  question-answer  pairs  into  hierarchical  levels  of  understanding,  we propose two criteria: Memory Capacity and Logical Complexity. 
-        Memory Capacity (MC)  is  defined  as  the  length  of  the  video  clip,  and  corresponds  to  working memory in human cognitive process. 
+        To  classify  question-answer  pairs  into  hierarchical  levels  of  understanding,  we propose two criteria: Memory Capacity and Logical Complexity.
+        Memory Capacity (MC)  is  defined  as  the  length  of  the  video  clip,  and  corresponds  to  working memory in human cognitive process.
         Logical Complexity (LC) is defined by the number of logical reasoning steps required to answer the question, which is in line with Piaget’s developmental stage. <br/>
         The hierarchical levels are as follows,
       </p>
@@ -94,11 +96,11 @@ feature-img: "assets/img/main.png"
         2)  Character-Centered Video Annotations
       </h3>
       <p class = "content-subitem">
-        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh"><span>Another Miss Oh</span></a></i></b>. 
-        As visual metadata, all image frames in the video clips are annotated with main characters information. 
-        In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. 
-        Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. 
-        Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. 
+        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh"><span>Another Miss Oh</span></a></i></b>.
+        As visual metadata, all image frames in the video clips are annotated with main characters information.
+        In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name.
+        Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated.
+        Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression.
         Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
       </p>
       <p>
@@ -127,9 +129,9 @@ feature-img: "assets/img/main.png"
         1) Overview
       </h3>
     <p class = "content-item">
-      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research. 
-      We collected the dataset on a popular Korean drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh">Another Miss Oh</a></i></b>, which has 18 episodes, 20.5 hours in total. 
-      DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels. 
+      Drama is a genre of narrative that can be described as a series of events consisting of several main characters. These characteristics of drama make it a suitable target for video story research.
+      We collected the dataset on a popular Korean drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh">Another Miss Oh</a></i></b>, which has 18 episodes, 20.5 hours in total.
+      DramaQA dataset consists of sequences of video frames (3 frames per second), character-centered video annotations, and QA pairs with hierarchical difficulty levels.
     </p>
     </div>
     <br />
@@ -139,7 +141,7 @@ feature-img: "assets/img/main.png"
       </h3>
       <p class = "pre-description">
           <code>DramaQA.zip</code> contains 3 json files, each denotes a split of DramaQA dataset:
-          <table style="font-size: 1em"> 
+          <table style="font-size: 1em">
             <tr>
               <th style="width: 300px">Files</th>
               <th style="width: 100px">#Data</th>
@@ -159,13 +161,13 @@ feature-img: "assets/img/main.png"
               <td>AnotherMissOhQA_test_set.json</td>
               <td>4,019</td>
               <td>Model testing</td>
-            </tr>   
+            </tr>
           </table>
       </p>
       <p class="description">
         In QA files, there are questions, answers, question levels and other useful information. Each of QAs is composed of one question and five candidate answers among which only one answer is correct.
         <br/>
-        In case of question level, there are two types : Memory Capacity level and Logical Complexity level. 
+        In case of question level, there are two types : Memory Capacity level and Logical Complexity level.
         <br/><br/>
         Each of files contains following entries:
       </p>
@@ -184,27 +186,27 @@ feature-img: "assets/img/main.png"
             <td>answers</td>
             <td>list of string</td>
             <td>list of candidate answers</td>
-          </tr>   
+          </tr>
           <tr>
             <td>que</td>
             <td>string</td>
             <td>question</td>
-          </tr> 
+          </tr>
           <tr>
             <td>shot_contained</td>
             <td>list of int</td>
             <td>a list of the first and the last shot index of the target video<br/>(when the target video is a shot, it only contains one element.)</td>
-          </tr> 
+          </tr>
           <tr>
             <td>q_level_logic</td>
             <td>int</td>
             <td>Logical Complexity level, values are from 1 to 4</td>
-          </tr> 
+          </tr>
           <tr>
             <td>vid</td>
             <td>string</td>
             <td>video clip id: episodeName_sceneNum_shotNum<br/>(for scene-level video vid, episodeName_sceneNum_0000 is used.)</td>
-          </tr>  
+          </tr>
           <tr>
             <td>q_level_mem</td>
             <td>int</td>
@@ -222,21 +224,21 @@ feature-img: "assets/img/main.png"
           </tr>
         </table> <br />
         <p class = "json-description">
-          Here is an example of json file: 
+          Here is an example of json file:
         </p>
         <pre><code class="json">{
-    "correct_idx": 3, 
-    "answers": ["Dokyung texted the message to mom.", 
-                "Dokyung texted the message to dad.", 
+    "correct_idx": 3,
+    "answers": ["Dokyung texted the message to mom.",
+                "Dokyung texted the message to dad.",
                 "Dokyung texted the message to Haeyoung1.",
-                "Dokyung texted the message to sister.", 
-                "Dokyung texted the message to brother."], 
-    "que": "What did Dokyung do in his home?", 
-    "shot_contained": [48, 115], 
-    "q_level_logic": 3, 
-    "vid": "AnotherMissOh16_002_0000", 
-    "q_level_mem": 3, 
-    "qid": 3707, 
+                "Dokyung texted the message to sister.",
+                "Dokyung texted the message to brother."],
+    "que": "What did Dokyung do in his home?",
+    "shot_contained": [48, 115],
+    "q_level_logic": 3,
+    "vid": "AnotherMissOh16_002_0000",
+    "q_level_mem": 3,
+    "qid": 3707,
     "videoType": "scene"
 }</code></pre>
     </div>
@@ -247,7 +249,7 @@ feature-img: "assets/img/main.png"
       </h3>
       <p class = "pre-description">
           <code>DramaCap.zip</code> contains 3 json files, each denotes a split of DramaCap dataset:
-          <table style="font-size: 1em"> 
+          <table style="font-size: 1em">
             <tr>
               <th style="width: 300px">Files</th>
               <th style="width: 100px">#Data</th>
@@ -267,7 +269,7 @@ feature-img: "assets/img/main.png"
               <td>DramaCap_test.json</td>
               <td>2,329</td>
               <td>Model testing</td>
-            </tr>   
+            </tr>
           </table>
       </p>
       <p class="description">
@@ -278,7 +280,7 @@ feature-img: "assets/img/main.png"
       </p>
         <br />
         <p class = "json-description">
-          Here is an example of DramaCap file: 
+          Here is an example of DramaCap file:
         </p>
         <pre><code class="json">{
     ...
@@ -310,26 +312,26 @@ feature-img: "assets/img/main.png"
         5) Visual Metadata
       </h3>
       <p class = "content-subitem">
-        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh"><span>Another Miss Oh</span></a></i></b>. 
-        As visual metadata, all image frames in the video clips are annotated with main characters information. 
-        In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name. 
-        Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. 
-        Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression. 
+        As the characters are primary components of stories, we provide rich annotations for the main characters in the drama <b><i><a href="https://en.wikipedia.org/wiki/Another_Miss_Oh"><span>Another Miss Oh</span></a></i></b>.
+        As visual metadata, all image frames in the video clips are annotated with main characters information.
+        In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name.
+        Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated.
+        Including <code>none</code> behavior, total 28 behavioral verbs, such as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression.
         Also, to give a consistent view of the main characters, all coreference of the main characters are resolved in scripts of the video clips.
       </p>
       <p>
         We describe more detailed information at our <a href="https://arxiv.org/abs/2005.03356">paper</a>.
       </p>
       <ul class = "content-subitem" style="line-height:1.5em">
-        <li class ="a"> <b>Bounding Box:</b> In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name.  
+        <li class ="a"> <b>Bounding Box:</b> In each image frames, bounding boxes of both a face rectangle and a full-body rectangle for the main characters are annotated with their name.
         In total, 20 main characters are annotated with their unique name.</li>
-        <li class ="a"> <b>Behavior & Emotion</b>, Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated. 
-        Including <code>none</code> behavior,  total  28  behavioral  verbs,  such  as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression.  
+        <li class ="a"> <b>Behavior & Emotion</b>, Along with bounding boxes, behaviors and emotions of the characters shown in the image frames are annotated.
+        Including <code>none</code> behavior,  total  28  behavioral  verbs,  such  as <code>drink</code>, <code>hold</code>, <code>cook</code>, is used for behavior expression.
         Also, we present characters’ emotion with 7 emotional adjectives: <code>Anger</code>, <code>Disgust</code>, <code>Fear</code>, <code>Happiness</code>, <code>Sadness</code>, <code>Surprise</code>, and <code>Neutral</code>. </li>
         <li class ="a"> You can check a list of <code>person_id</code>, <code>behavior</code>, and <code>emotion</code> in <a href="/assets/data/list_of_elements.txt" download="list_of_elements.txt">here</a>.</li>
       </ul>
       <p class = "json-description">
-        Here is an example of json file: 
+        Here is an example of json file:
       </p>
       <pre><code class="json">{
     "frame_id": "AnotherMissOh17_013_0261_IMAGE_0000021778",
@@ -352,7 +354,7 @@ feature-img: "assets/img/main.png"
         },
         "person_id": "Jiya"
         }
-    ]  
+    ]
 }</code></pre>
     </div>
     <br />
@@ -361,10 +363,10 @@ feature-img: "assets/img/main.png"
         6) Coreference Resolved Scripts
       </h3>
       <p class = "content-subitem">
-        For  understanding  video  stories,  especially drama, it is important to understand the dialogue between the characters. Especially, the information such as “<i>Who</i> is talking to <i>whom</i> about <i>who</i> did what?” is significant for understanding whole stories. In DramaQA, we provide these information by resolving the coreferences for main characters in scripts.  
+        For  understanding  video  stories,  especially drama, it is important to understand the dialogue between the characters. Especially, the information such as “<i>Who</i> is talking to <i>whom</i> about <i>who</i> did what?” is significant for understanding whole stories. In DramaQA, we provide these information by resolving the coreferences for main characters in scripts.
       </p>
       <p class = "json-description">
-        Here is an example of json file: 
+        Here is an example of json file:
       </p>
       <pre><code class="json">"AnotherMissOh01_001_0109": {
     "contained_subs": [
