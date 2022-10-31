@@ -33,6 +33,7 @@ feature-img: "assets/img/main.png"
     Dataset Download
   </h1> <br /> <br />
   <p class = "content-item">
+    We are preparing to open the dataset. We will share the dataset after we publish our paper.
     To download DramaQA or DramaCap, please fill out <a id="pdf_link" href="/assets/dramaqa_download_agreement.docx">dataset download agreement file</a> in pdf format with your own signature.
     You will be required to fill out this application <a id="download_link" href="https://docs.google.com/forms/d/e/1FAIpQLSdqQTHp6-AiNQijHhcPAPvFV_6TFer06e6aWG1l_jRhRo2E5w/viewform">form</a> with your agreement file.
     <br/><br/>
